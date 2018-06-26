@@ -1,5 +1,11 @@
 # Python Sneks
-An introductory curriculum for learning Python, built following Instructional Design principles. The materials of the course are meant to be open-source and evaluated, in the hopes of establishing a baseline introductory level course. The target audience is explicitly undergraduate students in a university setting.
+
+An introductory curriculum for learning Python, built following Instructional Design principles. The materials of the course are meant to be open-source and evaluated, in the hopes of establishing a baseline introductory level course. The target audience is explicitly undergraduate students in a university setting who are not computing majors, but are in STEM.
+
+# Navigation
+
+- If you are an instructor interested in teaching the curriculum, you can begin by checking out the Teaching Guide in the GitHub pages for this repository.
+- If you are a curriculum developer interested in extending this curriculum, you can begin browsing the Developer Guide in the GitHub pages for this repository.
 
 ## Getting Started
 
