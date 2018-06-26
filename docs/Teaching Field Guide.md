@@ -96,7 +96,7 @@ The students in this course will be undergraduate non-computing majors, predomin
 </table>
 
 
-**Prior Computing Experience: **Students were surveyed based on their prior computing experience. Many students actually had some prior experience. Some students will have previously taken one of the AP Computer Science courses in high school (probably Java), and introductory programming courses offered by Virginia Tech (probably MATLAB). Although for some students this prior experience will be beneficial, it can sometimes lead to instances of students over-estimating their ability, negatively affecting the efficacy of nearby peers, and, in some cases, incorrect prior knowledge. The prior knowledge gap can be a huge problem in introductory computing courses, making it difficult to target the courses’ difficulty level.
+**Prior Computing Experience: **Students were surveyed based on their prior computing experience. Many students actually had some prior experience. Some students will have previously taken one of the AP Computer Science courses in high school (probably Java), and introductory programming courses offered by Virginia Tech (probably MATLAB). Although for some students this prior experience will be beneficial, it can sometimes lead to instances of students over-estimating their ability, negatively affecting the efficacy of nearby peers, and, in some cases, incorrect prior knowledge. The prior knowledge gap can be a huge problem in introductory computing courses, making it difficult to target the courses' difficulty level.
 
 <table>
   <tr>
@@ -128,7 +128,7 @@ The students in this course will be undergraduate non-computing majors, predomin
 
 **Comfort Level: **Students were surveyed based on their comfort level. To summarize, 89% of the students reported some level of comfort with computers in general (at least 75% at the moderately comfortable level or higher). However, only 44% felt some level of comfort with programming in general (and in fact, 40% felt some level of uncomfortableness).
 
-**Self-efficacy: **As opposed to the CS-1014 "Introduction to Computational Thinking" course, the students in 1064 are expected to have more technical proficiency, and will be expected to learn more material at a deeper level. However, they may have less technical proficiency than students in CS-1114 “Introduction to Software Engineering” (the CS majors course) and will learn less material. Interviews with the previous instructor of the course give descriptions of the students that match experiences with students in other introductory courses – low self-efficacy, lack of prior experience, and difficulty with threshold concepts (e.g., loops, data structures) are common.
+**Self-efficacy: **As opposed to the CS-1014 "Introduction to Computational Thinking" course, the students in 1064 are expected to have more technical proficiency, and will be expected to learn more material at a deeper level. However, they may have less technical proficiency than students in CS-1114 "Introduction to Software Engineering" (the CS majors course) and will learn less material. Interviews with the previous instructor of the course give descriptions of the students that match experiences with students in other introductory courses - low self-efficacy, lack of prior experience, and difficulty with threshold concepts (e.g., loops, data structures) are common.
 
 ## 3 - Course Topics
 
@@ -851,7 +851,7 @@ Training Materials:
 
 * Mandatory Reporting
 
-* "Some parts of TAing you learn by doing; we’ll do our best to prepare you, but you won’t understand the full implications until you have seen what we’re talking about first-hand."
+* "Some parts of TAing you learn by doing; we'll do our best to prepare you, but you won't understand the full implications until you have seen what we're talking about first-hand."
 
 * Next week: Basic Learning Sciences
 
