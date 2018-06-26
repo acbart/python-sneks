@@ -1,3 +1,2 @@
-# Welcome to PythonSneks
+# The PythonSneks Teaching Field Guide
 
-If you are an instructor, you might want to start with the Teaching Field Guide.
