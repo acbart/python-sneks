@@ -4,7 +4,7 @@ _The Course_ contextualized with scientific and engineering problems. Computatio
 
 # Learning Objectives
 
-Having successfully completed the course, students will be able to…
+Having successfully completed the course, students will be able to...
 
 1. Create simple programs that solve problems using Python.
 2. Interpret and debug a Python program using debugging techniques.
@@ -22,5 +22,5 @@ The decision to teach a course centered around the Python programming language i
 
 This course provides students with an intellectual perspective on the core ideas of computation and the methodology central to the practice of computing by: (a) engaging students with computational models in a variety of technical disciplines, (b) exposing the core elements of computation and algorithms that underlie these models, and (c) working with data sets that have real-world characteristics (real-time, complex, and/or large scale). In addition, the social, political, and ethical impacts and implications of an increasingly computing-oriented culture are briefly examined.
 
-This course is proposed at the introductory level because it does not require any college level background (e.g., in programming, mathematics, or statistics), thus creating a learning environment open to all students regardless of prior experience in computing. Furthermore, the conceptual and practical skills gained through this course will significantly enrich the student’s learning experience in various fields of study, underpin the use of computationally-oriented problem solving, and encourage additional study of computational techniques and skills.
+This course is proposed at the introductory level because it does not require any college level background (e.g., in programming, mathematics, or statistics), thus creating a learning environment open to all students regardless of prior experience in computing. Furthermore, the conceptual and practical skills gained through this course will significantly enrich the student's learning experience in various fields of study, underpin the use of computationally-oriented problem solving, and encourage additional study of computational techniques and skills.
 
