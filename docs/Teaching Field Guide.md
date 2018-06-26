@@ -1,11 +1,3 @@
-Introduction to Python
-
-Teaching Field Guide
-
-# Table of Contents
-
-[[TOC]]
-
 # Overview
 
 This chapter begins with an overview of the courses' objectives and audience. Then it reviews the course topics and the associated schedule to give a big picture view. The structure of the course and its learning environment is described, describing the course at a daily and weekly level. The role of the staff (particularly for grading) is described, followed by the available technology (including trade-offs). Finally, the chapter concludes with a discussion of design decisions that were made.
@@ -20,9 +12,9 @@ This course is designed with a broad population of learners in mind, aiming to g
 
 The students in this course will be undergraduate non-computing majors, predominately engineers. The course is designed to scale to a large audience, up to several hundred at a time. It should also work for smaller class sizes, too.
 
-**Year: **The course is not designed with any specific group in mind, and should be suitable for freshmen, sophomore, juniors, and seniors.
+**Year:** The course is not designed with any specific group in mind, and should be suitable for freshmen, sophomore, juniors, and seniors.
 
-**Majors: **The material is heavily skewed towards STEM (particularly engineering) students. Less than 5% of the students from the Fall 2017 semester were in the arts or humanities. Assignments are geared towards STEM majors rather than Arts and Humanities, but is not meant to be discriminatory to those populations.
+**Majors:** The material is heavily skewed towards STEM (particularly engineering) students. Less than 5% of the students from the Fall 2017 semester were in the arts or humanities. Assignments are geared towards STEM majors rather than Arts and Humanities, but is not meant to be discriminatory to those populations.
 
 <table>
   <tr>
@@ -601,7 +593,8 @@ Training Materials:
 
 * Read over: http://www.cs.virginia.edu/luther/2910/S2017/fromTAs.html
 
-Grading Reminders:
+
+Grading Reminders:
 
 * N/A
 
@@ -855,7 +848,8 @@ Training Materials:
 
 * Next week: Basic Learning Sciences
 
-Grading Reminders:
+
+Grading Reminders:
 
 N/A
 
