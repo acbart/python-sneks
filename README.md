@@ -7,19 +7,7 @@ An introductory curriculum for learning Python, built following Instructional De
 - If you are an instructor interested in teaching the curriculum, you can begin by checking out the Teaching Guide in the GitHub pages for this repository.
 - If you are a curriculum developer interested in extending this curriculum, you can begin browsing the Developer Guide in the GitHub pages for this repository.
 
-## Getting Started
-
-The following documents are some of the most helpful for getting organized:
-
-## The Canvas Site
-
-The materials here are destined for a Canvas site. Materials are synchronized using Waltz.
-
-You can visit the Canvas site here: [CANVAS_URL](CANVAS_URL)
-
-## Structure
-
-The repository is organized as follows:
+In general, the repository is organized as follows:
 
 - [docs](docs): Publicly accessible teaching guide and documentation for teachers.
 - [examples](examples): 
@@ -29,3 +17,11 @@ The repository is organized as follows:
 - [documentation](documentation): Formal documents to outline the course design, prepared during the 2017 summer Design and Develop workshop.
 - [materials](materials): Additional guides, reference materials, announcements, and other materials that support the course at large.
 - [tools](tools): Python, JS, and VBS scripts used to manage materials; particularly, to synchronize materials onto Canvas.
+
+
+# The Canvas Site
+
+The materials here are destined for a Canvas site. Materials are synchronized using Waltz.
+
+You can visit the Canvas site here: [CANVAS_URL](CANVAS_URL)
+
