@@ -11,22 +11,20 @@ An introductory curriculum for learning Python, built following Instructional De
 
 The following documents are some of the most helpful for getting organized:
 
-- [Learner and Course Analysis](documentation/BartASU17FacultyInformation.pdf): This Word document outlines important information about the course, the learners, and the instructors' preferred teaching and learning methods.
-- [Assessment Plan](documentation/BartA_LEDCohortAssessmentPlanWorksheetSU17.pdf): This Word document outlines information about the assessments that will be used in this course.
-- [Topics Calendar](documentation/acbart-calendar.pdf): This Word document outlines the entire calendar for the course, and the topics+assignments that are covered each day.
-- [Planning Ideas](planning/planning_ideas.txt): This document is full of in-progress ideas and half-baked thoughts.
-
 ## The Canvas Site
 
-The materials here are destined for a Canvas site. Some materials are synchronized automatically, and some will be uploaded manually.
+The materials here are destined for a Canvas site. Materials are synchronized using Waltz.
 
-You can visit the Canvas site here: [https://vt.instructure.com/courses/48959](https://vt.instructure.com/courses/48959)
+You can visit the Canvas site here: [CANVAS_URL](CANVAS_URL)
 
 ## Structure
 
-The following descriptions should help you navigate this repository.
+The repository is organized as follows:
 
-- [planning](planning): Notes and outlines used to plan out the course design.
+- [docs](docs): Publicly accessible teaching guide and documentation for teachers.
+- [examples](examples): 
+- [lessons](lessons): A matching of the other curricular resources for each intended lesson, whether asychronous or synchronous.
+
 - [lessons](lessons): The lesson plans, scripts, materials, questions, and problems for each lesson.
 - [documentation](documentation): Formal documents to outline the course design, prepared during the 2017 summer Design and Develop workshop.
 - [materials](materials): Additional guides, reference materials, announcements, and other materials that support the course at large.
