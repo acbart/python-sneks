@@ -10,14 +10,12 @@ An introductory curriculum for learning Python, built following Instructional De
 In general, the repository is organized as follows:
 
 - [docs](docs): Publicly accessible teaching guide and documentation for teachers.
-- [examples](examples): 
-- [lessons](lessons): A matching of the other curricular resources for each intended lesson, whether asychronous or synchronous.
+- [presentations](presentations): Prerecorded and in-person presentation materials.
+- [assessables](assessables): Submodule with the assessable items.
+- [evaluations](evaluations): Evaluations of assessables and other curricular resources.
+- [modules](modules): A matching of the other curricular resources for each intended lesson, whether asychronous or synchronous. A curriculum is composed of modules, a module is composed of lessons.
 
-- [lessons](lessons): The lesson plans, scripts, materials, questions, and problems for each lesson.
-- [documentation](documentation): Formal documents to outline the course design, prepared during the 2017 summer Design and Develop workshop.
-- [materials](materials): Additional guides, reference materials, announcements, and other materials that support the course at large.
-- [tools](tools): Python, JS, and VBS scripts used to manage materials; particularly, to synchronize materials onto Canvas.
-
+- [tools](tools): Python, JS, and VBS scripts used to manage materials; particularly, to synchronize materials onto Canvas. Eventually this should all be ported over to Waltz.
 
 # The Canvas Site
 
