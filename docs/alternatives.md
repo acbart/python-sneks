@@ -49,3 +49,42 @@ CT @ VT
 
 CS0 for Ohio
 ------------
+
+Private/Non-academic Courses
+============================
+
+CodeCademy Python
+-----------------
+
+* Link: [https://www.codecademy.com/learn/learn-python](https://www.codecademy.com/learn/learn-python)
+* A popular, free curriculum including lessons and interactive coding assignments.
+
+Interactive Textbooks
+=====================
+
+How to Think like a Computer Scientist
+--------------------------------------
+
+* Link: [http://interactivepython.org/runestone/static/thinkcspy/index.html](http://interactivepython.org/runestone/static/thinkcspy/index.html)
+* Open textbook with interactive problems
+
+Coding Platforms
+================
+
+CodingBat
+---------
+
+* Link: []()
+
+Repositories
+============
+
+EngageCSEdu
+-----------
+
+* Link: 
+
+Ensemble
+--------
+
+* Link: 
