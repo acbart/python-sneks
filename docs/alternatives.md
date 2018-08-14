@@ -22,6 +22,17 @@ CS1001.py
 * Link: [http://tau-cs1001-py.wikidot.com/](http://tau-cs1001-py.wikidot.com/) (Non-english)
 * A considerable amount of open material including lecture slides, video lessons, and programming assignments.
 
+CS 61A: SICP
+------------
+* Link: [https://okpy.github.io/documentation/assignments.html](https://okpy.github.io/documentation/assignments.html)
+* Based on the The Structure and Interpretation of Computer Programs
+* Includes videos and autograded assignments
+
+Havill/Whitman
+--------------
+* Link: [http://cs.whitman.edu/~davisj/cs/167/2016F/mechanics.shtml](http://cs.whitman.edu/~davisj/cs/167/2016F/mechanics.shtml)
+
+
 Single Context Approaches
 =========================
 
@@ -50,6 +61,11 @@ CT @ VT
 CS0 for Ohio
 ------------
 
+Berkely
+-------
+* Link: [http://inferentialthinking.com/](http://inferentialthinking.com/)
+* Data Science for intro students
+
 Private/Non-academic Courses
 ============================
 
@@ -67,6 +83,17 @@ How to Think like a Computer Scientist
 
 * Link: [http://interactivepython.org/runestone/static/thinkcspy/index.html](http://interactivepython.org/runestone/static/thinkcspy/index.html)
 * Open textbook with interactive problems
+
+CS For All
+----------
+
+* Link: [https://www.cs.hmc.edu/csforall/](https://www.cs.hmc.edu/csforall/)
+
+FreePythonBook
+--------------
+
+* Link: [http://webapps.western.edu/faculty/dschuster/freePythonBook/indexFPB.htm](http://webapps.western.edu/faculty/dschuster/freePythonBook/indexFPB.htm)
+* Introduction to python using game dev. They have their own library that sits on top of pygame.
 
 Coding Platforms
 ================
