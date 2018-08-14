@@ -1,10 +1,8 @@
-Pedagogy
-========
+# Pedagogy
 
 This section covers the course topics, schedule, organization, and components of the course.
 
-Topics
-------
+## Topics
 
 By the end of the course, students should be able to:
 
@@ -36,8 +34,7 @@ Students learn these topics, but apply them at various levels. On the one hand, 
 
 The last topic shown in the syllabus is to summarize and participate in computing culture and history. Although not necessarily covered at the same level as other course concepts, it is important for students to learn that computing does not occur in a vacuum. Decisions were made by humans about the design and features of the Python language, and software continues to grow and change based on the motivations of the community. Students need to stop treating computing as an external force to be studied, and instead see it as a community to be joined and affected.
 
-Schedule
---------
+## Schedule
 
 The course is organized into weekly modules. Each module has multiple lessons, each of which has a number of assignments associated with them.
 
@@ -71,23 +68,29 @@ The course is organized into weekly modules. Each module has multiple lessons, e
 
 15. **Conclusion**: Final exam, final surveys, and final words.
 
-Lesson Format
-*************
+## Lesson Format
 
 A typical lesson in this course is composed of 2-3 parts of web-based material:
 
-* Video Presentation: A recorded lecture that covers all the material that students will be assessed on. These videos are meant to be short (around 2-4 minutes in length) and quickly convey the important material. These videos have transcripts, closed captioning, and the PowerPoints that they were generated from all available. Some students may also be familiar enough with the content to not need the videos; students who want to attempt the problems without reference to the videos or transcripts should not be penalized. However, they should be quickly referred back to the videos if they have not already taken advantage of them.
+### Video Presentation
 
-* Canvas Quiz: A combination of multiple choice, true/false, matching, and fill-in-the-blank questions; these quizzes are automatically graded. Students can use as many attempts as they need. The quizzes are typically 5 or so questions. These questions are meant to test students' understanding of the material presented. Each question should have an obvious connection to a learning objective, but may be testing misconceptions related to that objective. 
-
-* Programming Activity: Typically, this is an activity mediated through BlockPy. However, it sometimes has a different form (e.g,. Install some software, use Jupyter Notebooks). These are usually autograded.
+A recorded lecture that covers all the material that students will be assessed on. These videos are meant to be short (around 2-4 minutes in length) and quickly convey the important material. These videos have transcripts, closed captioning, and the PowerPoints that they were generated from all available. Some students may also be familiar enough with the content to not need the videos; students who want to attempt the problems without reference to the videos or transcripts should not be penalized. However, they should be quickly referred back to the videos if they have not already taken advantage of them.
 
 Optional readings are also available for most of the lessons, although it should be noted that students don't seem to take advantage of these. Nobody reads textbooks. In fact, much of the material does not have readings annotated - students either didn't notice or didn't seem to care.
 
-Each module covers multiple days of lecture, depending on the course schedule. Options for this lecture time is described in more detail later on.
+### Canvas Quiz
 
-Activity Groups
-***************
+A combination of multiple choice, true/false, matching, and fill-in-the-blank questions; these quizzes are automatically graded. Students can use as many attempts as they need. The quizzes are typically 5 or so questions. These questions are meant to test students' understanding of the material presented. Each question should have an obvious connection to a learning objective, but may be testing misconceptions related to that objective. 
+
+### Programming Activity
+
+Typically, this is an activity mediated through BlockPy. However, it sometimes has a different form (e.g,. Install some software, use Jupyter Notebooks). These are usually autograded.
+
+## Lecture vs. Lessons
+
+Each module covers multiple days of lecture, depending on the course schedule. Lessons are not 1-1 to lectures, and a given lecture may span multiple or only part of lessons. Options for this lecture time is described in TODO: LECTURE LINK. 
+
+## Activity Groups
 
 There are six types of graded activities in this course:
 
@@ -105,8 +108,7 @@ There are six types of graded activities in this course:
 
 A large portion of the course grade (50%) is dedicated to problems that follow a Mastery-learning model: students can repeatedly attempt the problems until they achieve success. The In-class activities are also meant to reward participation. On the other hand, the Ethics Activities and Exam are more performance-oriented; the latter because it is a summative assessment, and the former because of the high human costs involved in grading. The projects give students ample opportunity to test and develop their solutions, but are still somewhat summative by their nature.
 
-Deadlines
-*********
+## Deadlines
 
 A number of schemes are possible for organizing assignments. A flexible schedule was used in the most recent semester. All assignments for a module open up the friday before the week of that module's classes. Those assignments will lock two weeks later. Assignments are due one week after the module unlocks, but there are no late penalties (the due dates are meant to be guides). Grades for non-automatic assignments will be returned two weeks after the lock date.
 
