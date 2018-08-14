@@ -17,8 +17,8 @@ The material is heavily skewed towards STEM (particularly engineering) students.
 
 <table>
   <tr>
-    <td>Major</td>
-    <td>Students</td>
+    <th>Major</th>
+    <th>Students</th>
   </tr>
   <tr>
     <td>General Engineering</td>
@@ -63,8 +63,8 @@ Students were surveyed on why they are taking the course. They were allowed to c
 
 <table>
   <tr>
-    <td>Course Interest</td>
-    <td>Students</td>
+    <th>Course Interest</th>
+    <th>Students</th>
   </tr>
   <tr>
     <td>To learn how to program</td>
@@ -100,8 +100,8 @@ Students were surveyed based on their prior computing experience. Many students 
 
 <table>
   <tr>
-    <td>Prior Computing Experience</td>
-    <td>Students</td>
+    <th>Prior Computing Experience</th>
+    <th>Students</th>
   </tr>
   <tr>
     <td>Another programming course at this university</td>
