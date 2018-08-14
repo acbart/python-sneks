@@ -67,16 +67,20 @@ Students were surveyed on why they are taking the course. They were allowed to c
     <td>Students</td>
   </tr>
   <tr>
-    <td>To fill a requirement</td>
-    <td>80%</td>
-  </tr>
-  <tr>
     <td>To learn how to program</td>
     <td>81%</td>
   </tr>
   <tr>
+    <td>To fill a requirement</td>
+    <td>80%</td>
+  </tr>
+  <tr>
     <td>To improve my resume/get a job</td>
     <td>57%</td>
+  </tr>
+  <tr>
+    <td>It seems fun</td>
+    <td>43%</td>
   </tr>
   <tr>
     <td>It seems easy</td>
@@ -85,10 +89,6 @@ Students were surveyed on why they are taking the course. They were allowed to c
   <tr>
     <td>To take a class with a friend</td>
     <td>11%</td>
-  </tr>
-  <tr>
-    <td>It seems fun</td>
-    <td>43%</td>
   </tr>
 </table>
 
@@ -108,16 +108,16 @@ Students were surveyed based on their prior computing experience. Many students 
     <td>57%</td>
   </tr>
   <tr>
-    <td>Another programming course at a community college</td>
-    <td>4%</td>
-  </tr>
-  <tr>
     <td>Another programming course in high school</td>
     <td>39%</td>
   </tr>
   <tr>
     <td>An online programming course (e.g., CodeCademy, Coursera)</td>
     <td>20%</td>
+  </tr>
+  <tr>
+    <td>Another programming course at a community college</td>
+    <td>4%</td>
   </tr>
   <tr>
     <td>No Answer</td>
