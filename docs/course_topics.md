@@ -26,7 +26,7 @@ By the end of the course, students should be able to:
 
 There are two paths of topics in this course: data and algorithms. These paths criss-cross over the course of the semester, but their general progression is shown in the figure below:
 
-![image alt text](images/ConceptMap.png)
+![image alt text](images/concept_map.png)
 
 On the *data *side, students build up progressively more complex ways to represent values: first as primitive values, then using various composite types (homogenous lists, heterogenous dictionaries), and finally externalizing data into files. Through it all, they need to understand that Python is oriented around data, rather than variables - values have types, and variables have values, but variables do not have fixed types.
 
@@ -71,7 +71,8 @@ The course is organized into weekly modules. Each module has multiple lessons, e
 
 15. **Conclusion**: Final exam, final surveys, and final words.
 
-### 4.1 - Lesson Format
+Lesson Format
+*************
 
 A typical lesson in this course is composed of 2-3 parts of web-based material:
 
@@ -85,7 +86,8 @@ Optional readings are also available for most of the lessons, although it should
 
 Each module covers multiple days of lecture, depending on the course schedule. Options for this lecture time is described in more detail later on.
 
-### 4.2 - Activity Groups
+Activity Groups
+***************
 
 There are six types of graded activities in this course:
 
@@ -103,7 +105,8 @@ There are six types of graded activities in this course:
 
 A large portion of the course grade (50%) is dedicated to problems that follow a Mastery-learning model: students can repeatedly attempt the problems until they achieve success. The In-class activities are also meant to reward participation. On the other hand, the Ethics Activities and Exam are more performance-oriented; the latter because it is a summative assessment, and the former because of the high human costs involved in grading. The projects give students ample opportunity to test and develop their solutions, but are still somewhat summative by their nature.
 
-### 4.3 - Deadlines
+Deadlines
+*********
 
 A number of schemes are possible for organizing assignments. A flexible schedule was used in the most recent semester. All assignments for a module open up the friday before the week of that module's classes. Those assignments will lock two weeks later. Assignments are due one week after the module unlocks, but there are no late penalties (the due dates are meant to be guides). Grades for non-automatic assignments will be returned two weeks after the lock date.
 
