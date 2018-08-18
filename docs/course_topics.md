@@ -86,9 +86,13 @@ A combination of multiple choice, true/false, matching, and fill-in-the-blank qu
 
 Typically, this is an activity mediated through BlockPy. However, it sometimes has a different form (e.g,. Install some software, use Jupyter Notebooks). These are usually autograded.
 
-## Lecture vs. Lessons
+## Lectures
 
-Each module covers multiple days of lecture, depending on the course schedule. Lessons are not 1-1 to lectures, and a given lecture may span multiple or only part of lessons. Options for this lecture time is described in TODO: LECTURE LINK. 
+Each module covers multiple days of lecture, depending on the course schedule. Lessons are not 1-1 to lectures, and a given lecture may span multiple or only part of lessons. The in-class time for this course is not meant to be spent only lecturing. Instead, it should be a mixture of lecture, peer instruction questions, and time for students to work on problems with access to course staff.
+
+Of course, pure didactic instruction is a useful tool for conveying information and reinforcing big ideas. Slides are available for the instructor that include notes, clicker questions, and ideas for worked examples. Some instructors may feel more or less comfortable with having a lot of lecture - however, the lecture is meant to be light.
+
+In previous semesters, much of class time (half days on Monday/Wednesdays, all day on Friday) have been in-class lab time. The TAs and instructor roam the room and answer student questions. This has proven helpful in engaging students who would not normally come to office hours, despite needing help. This could also be an opportunity for paired programming type activities.
 
 ## Activity Groups
 
@@ -113,3 +117,19 @@ A large portion of the course grade (50%) is dedicated to problems that follow a
 A number of schemes are possible for organizing assignments. A flexible schedule was used in the most recent semester. All assignments for a module open up the friday before the week of that module's classes. Those assignments will lock two weeks later. Assignments are due one week after the module unlocks, but there are no late penalties (the due dates are meant to be guides). Grades for non-automatic assignments will be returned two weeks after the lock date.
 
 This flexible schedule has been popular in the past. However, students who abuse it to wait till the last minute tend to suffer. There is flexibility here for an instructor to adjust due dates as they see fit and try out other schedules to suit their tastes.
+
+## Assessments
+
+To assess students' mastery of the material, there are three activities meant to be summative assessments of their understanding. These are scheduled for the end of the semester, and considerable time and attention are spent preparing students to succeed at them.
+
+A number of TAs suggested that students might perform better in the course if midterms were used. These could incentivize students to pay more attention to the material and actually learn it.
+
+### Final Exam
+
+The final exam has two parts. The first part is a subset of the questions asked in the Canvas Quizzes, administered through the same Canvas feature. The quiz covers the entirety of the course content by administering a different random subset to each student, in such a way as to make sure that almost all questions are asked at least once to at least 50-60 students. Further, each student is receiving a different copy of the exam, which makes it more robust against cheating. The final exam is discussed more in the final chapter.
+
+The second part is a subset of the programming questions delivered electronically, administered through the same Canvas interface. The quiz covers only a subset of the course, with questions chosen to balance difficulty and importance. There are many opportunities for partial credit on this exam.
+
+### Final Project
+
+The final project is meant as an escalation of the other programming projects. It should be specifically designed to not be able to be completed in a single sitting. Ideally, it will require students to apply a majority of the skills they have developed in the course, while still allowing for some freedom of expression. The final project is discussed more in the final chapter.
