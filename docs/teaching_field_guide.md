@@ -6,46 +6,7 @@
 4. [Staff Roles](staff_roles.md)
 5. [Tools](tools.md)
 6. [Design Decisions](design_decisions.md)
-
-# Course Setup
-
-This section breaks down precisely what must be done each semester to get a new instance running.
-
-## 1 - Prepare Canvas
-
-1.1 - [ ] Crosslist any additional sections
-
-1.2 - [ ] Import most recent version of canvas course
-
-1.3 - [ ] Fix LTI configurations (update visibility to be public, fix shared secret and key)
-
-	1.3.1 - [ ] BlockPy
-
-	1.3.2 - [ ] Web-CAT
-
-1.4 - [ ] Setup Piazza (visit the Piazza tab and step through the options)
-
-1.5 - [ ] Update Syllabus with most recent information
-
-1.6 - [ ] Establish Open/Due/Lock Dates
-
-## 2 - Organize Course Staff
-
-2.1 - [ ] Send introductory email
-
-2.2 - [ ] Arrange weekly staff meeting
-
-2.3 - [ ] Arrange office hours
-
-2.4 - [ ] Enroll TAs in Canvas course
-
-2.5 - [ ] Update course staff page
-
-2.6 - [ ] Enroll TAs in Staff Mailing List (e.g., through Google Groups)
-
-## 3 - Final Touches
-
-3.1 - [ ] Publish Canvas course
+7. [Setting up your Course](course_setup.md)
 
 # Weekly Plan
 
