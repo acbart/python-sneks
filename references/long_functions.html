@@ -1,0 +1,67 @@
+<p>Sometimes, functions get long. This makes it harder to read the function and figure out what it does. You are more likely to make a mistake when writing and debugging it. But some functions naturally end up long because of its inherent nature. In this lesson, we talk about some strategies for writing long functions by looking at the <code>process_command</code> function, which naturally comes out to be a long function. You might have many different commands in your game, and you want to do something different depending on what command and player state you have. Handling each of those cases naturally adds complexity.</p>
+<h2>Default Approach</h2>
+<p>Left to your own devices, you might choose to use a big if/elif/else chain to set-up your logic. Given the player's state and command, you update the state.</p>
+<pre># Long, complex code!
+if command == "Enter house":
+    ...
+elif command == "Eat food":
+    ...
+elif command == "Pet dog":
+    ...
+</pre>
+<p>Things start getting really complicated, and you'll probably end up with a really massive function that does many things.</p>
+<pre># Long, nested, complex code!
+if command == "Pet dog":
+    if player['Has bone']:
+        print("The dog liked being pet after you gave it a bone.")
+        player['Has bone'] = False
+    elif player['Is cat']:
+        print("You are a cat right now, and dogs don't like cats.")
+        player['In fight'] = 'dog'
+    else:
+        ...
+</pre>
+<h2>Parsing Commands</h2>
+<p>Sometimes, you can avoid exhaustively setting up each case by being clever. For instance, if you had a rule in your game that the "Enter" command is always followed by a valid location, you could do something like:</p>
+<pre># Handle case intelligently
+if command.startswith("Enter "):
+    player['location'] = command[6:]
+</pre>
+<p>And suddenly you've handled a lot of complicated cases.</p>
+<h2>Function Extraction</h2>
+<p>If your code is becoming more complex because of the body of the if/elif/chain, you could extract that body into helper functions.</p>
+<pre># Extract out a function
+def handle_house(player, command):
+    if command == "Pick up candlestick":
+        player['Inventory'].append('candlestick')
+    ...
+
+def process_command(command, player):
+    ...
+    elif player['location'] == "House":
+        handle_house(player, command)
+    ...
+</pre>
+<p>A function should do one, and preferably only one, thing. If you can't keep your functions short, you can at least keep them simple by extracting out the complex actions.</p>
+<h2>Function Map</h2>
+<p>Building off the idea of extracting out functions, you can use a global dictionary constant to make your <code>process_command</code> even simpler:</p>
+<pre>def enter_house(command, player):
+    player['location'] = 'House'
+def eat_tree(command, player):
+    if player['Is hungry?']:
+        print("Wow, you were so hungry, you actually ate the tree!")
+        player['Is hungry?'] = False
+    else:
+        print("That was a bad idea...")
+        player['Health'] -= 10
+
+COMMAND_MAP = {
+    'Enter house': enter_house,
+    'Eat tree': eat_tree,
+    ...
+}
+
+def process_command(command, player):
+    COMMAND_MAP[command](command, player)
+</pre>
+<p>This may seem crazy, but we've used the function as a value in the dictionary. Later on, we use dictionary access to look up the relevant function using the given command. You must be careful with your parentheses here, but this is an extremely powerful style.</p>
