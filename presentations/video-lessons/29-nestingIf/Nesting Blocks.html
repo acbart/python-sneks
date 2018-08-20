@@ -1,0 +1,71 @@
+<p>
+<strong>Slide 1 - Nesting Blocks:</strong><br>
+Let's 
+learn about 
+Nesting Blocks.
+</p>
+
+<p>
+<strong>Slide 2 - Nesting:</strong><br>
+You can put IF statements inside of IF statements.
+We call this "nesting".
+As you develop more complex programs, you will do a lot of nesting.
+</p>
+
+<p>
+<strong>Slide 3 - Number of Spaces:</strong><br>
+Whitespace rules can be confusing.
+Every time you nest a block inside another block, the body gets indented another 4 spaces.
+Observe the 
+BlockPy
+ blocks on the left, and their resulting whitespace on the right.
+</p>
+
+<p>
+<strong>Slide 4 - IF and Functions:</strong><br>
+You can put IF statements inside of functions.
+In fact, this is both common and useful.
+Remember the whitespace rules when this occurs.
+Each nested block is another 4 spaces in.
+</p>
+
+<p>
+<strong>Slide 5 - What Goes Inside?:</strong><br>
+It can be difficult to know if something belongs inside or outside of a block.
+You must be aware of what you are trying to do with the IF block.
+Remember: statements inside the IF block are executed only if the conditional evaluates to True.
+Think critically!
+</p>
+
+<p>
+<strong>Slide 6 - ELIF block:</strong><br>
+In addition to the IF and ELSE blocks, there is a third type: ELIF.
+The ELIF is exactly equivalent to an ELSE block with an IF inside.
+However, they are sometimes used for convenience.
+</p>
+
+<p>
+<strong>Slide 7 - Two IFs vs ELSE IF:</strong><br>
+The following two pieces of code may look similar, but they are quite different.
+The code on the left has two IF statements, and both will always be evaluated and potentially executed.
+The code on the right has an ELIF statement, and the second will only be evaluated if the first one evaluates to false.
+</p>
+
+<p>
+<strong>Slide 8 - Unnecessary IF:</strong><br>
+Two kinds of mistakes are very common with IF statements.
+The first common mistake is using an IF statement when a conditional expression is fine on its own.
+For example, consider this function definition that returns True if the parameter is greater than 5, or otherwise returns False.
+The conditional expression already evaluates to either True or False, so it was unnecessary to use an If statement.
+Instead, you can directly return the result of the conditional expression, as shown on the right.
+</p>
+
+<p>
+<strong>Slide 9 - Unnecessary Test:</strong><br>
+A second common mistake is to test if a Boolean expression is equal to True.
+Although the expression here, "age > 5 == True", reads like it makes sense in English, it is redundant in Python.
+"age > 5" already evaluates to either True or False.
+If you compare a Boolean value to True, then the result is the same Boolean value.
+Nothing is accomplished, you have simply made your code more complex.
+</p>
+

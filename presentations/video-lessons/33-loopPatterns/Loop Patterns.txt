@@ -1,0 +1,35 @@
+Let's 
+learn about 
+Loop Patterns
+There are so many ways to use For loops.
+In this lesson, we will review a few common patterns.
+These patterns shown here are just starting points.
+Think of them as templates that can be adapted and combined to solve more complex problems.
+We have a list of items, and want to know how many there are.
+A simple algorithm is, starting with an initial value of 0, to add 1 for each element we see to a "count" variable.
+When the loop is finished, the "count" variable will have the length of the list.
+We have a list of numbers, and want to add them all up.
+The plus operator can only take two items at a time, however.
+Therefore, we add each element one at a time to a "sum" variable, which is also initialized to 0.
+As you can see the, the sum pattern is similar to the Count pattern, except instead of adding 1, we are adding the iteration variable.
+The Sum and Count patterns are both more specific examples of the accumulator pattern.
+In general, this pattern allows us to start with an initial value and use any function or operation that takes in two values.
+This pattern can be applied to numbers, but it also works for strings, 
+booleans
+, and even lists.
+This process of accumulation is also sometimes known as "reducing" or "folding" a list.
+What happens when we accumulate a list?
+If we start with an empty list as our initial value, and append each value one at a time, we end up with a copy of the original list.
+As we're appending values, we can also modify them.
+For example, you could double each value from the old list, or convert each temperature from Fahrenheit to Celsius.
+We have a list of numbers, and want to ignore some of them according to a rule.
+By embedding an IF statement inside the loop, we can optionally include or not include elements in our accumulation.
+The Filter pattern is very compatible with the other patterns.
+The last pattern is used to find the highest or lowest element in a list.
+At first, it may appear similar to the Filter pattern, because it uses an IF statement.
+However, you can see that instead of comparing each element to a constant value, the conditional compares each value to the accumulated value.
+Using this pattern, the accumulated value (in this case a maximum) will end up as the highest value in the list.
+Novices always struggle with what goes inside or outside of a loop body.
+Remember, every statement inside the body is executed for each element.
+Only put things inside if they should happen for each element.
+The patterns can help you keep track of where things go, but ultimately you have to think critically to know.

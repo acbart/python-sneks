@@ -1,0 +1,18 @@
+Let's learn about Documenting.
+Programmers write documentation in order to explain what a function does.
+This is useful not only for sharing code with other programmers, but when we come back to code we wrote later.
+To document code, you create comments that are ignored when the code is executed.
+These comments are for the benefit of humans, not the computer.
+Python has two ways of writing comments.
+To make a single-line comment in Python, you should use the hash symbol (also known as "pound" or "octothorpe", written as #).
+Everything after the hash symbol on the same line is completely ignored by your program.
+To write multi-line comments in Python, you actually create a triple-quoted string. 
+When Python evaluates this string, the value is unused, so it is safely ignored by the computer.
+However, unlike the single-line comment, that means that the start of a multi-line comment must respect indentation rules as shown here.
+There are many opinions on when to write comments, and no "correct answer".
+Some people believe you need to document every single line.
+Some people believe you should only document functions and programs as a whole.
+You will need to find your own balance - for example, rather than documenting every line, you might only document lines that are particularly confusing, or document a chunk of code.
+Many people agree that, at a minimum, you should document all your functions.
+Although there are many conventions, a typical function's documentation will be a multi-line string indented as the first line of the body of the function.
+This documentation should explain what 1) the function does, 2) its parameters' types, 3) descriptions of its parameters, 4) its return type, and 5) a description of its returned value.

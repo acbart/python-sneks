@@ -1,0 +1,31 @@
+<p>
+<strong>Slide 1 - Lists and Indexes:</strong><br>
+Let's learn about Lists and Indexes.
+</p>
+
+<p>
+<strong>Slide 2 - Lists and Indexes:</strong><br>
+So far, we have iterated through a list using the for-each syntax to get each value of the list.
+In many languages, indexes are used to access the values of a list.
+The index of the list are the integers, starting from 0 and counting up, that uniquely identify each element.
+</p>
+
+<p>
+<strong>Slide 3 - Value vs. Index:</strong><br>
+The top code shown here is the preferred way to process a list, where we iterate through each value.
+In Python, you can also iterate by using a combination of the range and 
+len
+ functions, as shown below.
+The bottom way is the less convenient index style.
+</p>
+
+<p>
+<strong>Slide 4 - Indexes Are Bad:</strong><br>
+Using indexes to process lists is almost always a bad idea.
+First, we have introduced new operations into the code: we call two functions and do an indexing operation.
+Second, using indexes prevents us from thinking about the individual values directly - consider the semantic difference between "name" and "names[
+i
+]".
+Third, we are doing redundant work: Python should do the work of walking through the list, not us.
+</p>
+

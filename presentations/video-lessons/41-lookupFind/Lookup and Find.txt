@@ -1,0 +1,15 @@
+Let's learn about Lookups and Finding.
+Both lists and dictionaries are collections of data.
+You can use them to store and retrieve data later.
+However, which one you use can have performance implications.
+Say we have a list of strings that represent names.
+If we want to determine whether a particular string is in the list, we must walk through each element.
+If there are 10 strings, this will not take long.
+But what if there are many, many strings, like in the University's directory?
+Finding a string in a list will take longer when there are more elements.
+However, if you use a dictionary to store names (perhaps mapped to their address or grade), then you can look up keys instantly.
+On average, dictionaries' lookup does not take longer no matter how many elements there are.
+This is a major advantage of dictionaries over lists.
+Lists are great when you need to go through many items in a specific order.
+Dictionaries are great when you need to lookup a single item.
+Think carefully about your use case, and choose an appropriate data structure.

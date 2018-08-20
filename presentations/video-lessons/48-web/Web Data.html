@@ -1,0 +1,59 @@
+<p>
+<strong>Slide 1 - Web Data:</strong><br>
+Let's learn about Web Data.
+</p>
+
+<p>
+<strong>Slide 2 - The Internet is Great:</strong><br>
+One of the reasons the internet is great is that it makes it easy to share data.
+This data can be access programmatically and processed in a program.
+Most modern programming languages, like Python, make it easy to access web-based data.
+</p>
+
+<p>
+<strong>Slide 3 - Internet as a Dictionary:</strong><br>
+The internet can be seen as a giant Dictionary being used as a Record.
+You access URLs (which are strings) and get back web pages (which are also strings).
+This simplifies a tremendous number of very complex pieces of hardware and software, but this is the result at the end of the day.
+Look up a URL, get some string data back.
+We'll use a library that makes it just this easy in Python.
+</p>
+
+<p>
+<strong>Slide 4 - Requests:</strong><br>
+There are many ways to retrieve data from the internet.
+The Requests library is one such tool.
+This library is not part of the standard library, but comes with Anaconda.
+To get started with the Requests module, we begin by importing it.
+</p>
+
+<p>
+<strong>Slide 5 - A Basic Request:</strong><br>
+The Requests module has a number of useful functions, but in this lesson we only need one: get.
+The get function consumes a URL as a string, and returns a Response object.
+This response object can be a confusing thing at first, but it is actually very easy to use.
+</p>
+
+<p>
+<strong>Slide 6 - Text:</strong><br>
+To get the webpage as a string of data, you can use the "text" attribute of the Response object.
+Keep in mind that most websites are written in a language called HTML, which can be tricky to parse.
+So for now, we'll access simple text websites.
+</p>
+
+<p>
+<strong>Slide 7 - JSON:</strong><br>
+If the text content we retrieve from the website happens to be in the JSON format, Requests has a simple way to process it using the JSON method.
+Confusingly, JSON is a method call instead of an attribute, so make sure you DO use parentheses with it (unlike the "text" attribute).
+Here, we use a website that returns the current date and time as a JSON object.
+</p>
+
+<p>
+<strong>Slide 8 - The Internet is Hard:</strong><br>
+Connecting to the internet can be problematic.
+Websites go down, URLs change, your internet can get disconnected, and many other issues are possible.
+Usually, you should avoid repeatedly accessing web data if you can help it.
+Instead, you should download a file directly and use that.
+Still, accessing websites programmatically is a frequent tool in many real-world problems.
+</p>
+

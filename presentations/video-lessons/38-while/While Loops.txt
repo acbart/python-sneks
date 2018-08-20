@@ -1,0 +1,32 @@
+Let's learn about While Loops.
+FOR loops allow us to iterate through each element of a list.
+They are the most common form of iteration in Python.
+However, there is another kind of iteration, called While loops.
+Notice how the syntax for a WHILE loop is similar to that of an IF statement.
+We have the word WHILE, followed by a condition, ending with a colon.
+Then we can have any number of statements inside the body.
+Remember that this body, like a FOR loop or an IF statement, is indented with 4 spaces.
+WHILE statements are actually very similar to IF statements.
+However, instead of executing once or none, they will execute repeatedly until the condition is true.
+When a While loop is executed, the program follows a similar looping behavior as a FOR loop.
+Here we can see that behavior in a WHILE loop to count down from 10.
+The program tests the condition, and if it is true, then it moves through each statement in the body.
+Then, it returns to the top and tests the condition again.
+If it is still, true, it repeats the previous loop. Otherwise, it skips to the end of the WHILE body.
+A tricky thing about WHILE loops is that it is easy to loop forever by accident.
+Consider the code below.
+Because the variable "
+count_down
+" is only ever increasing, it will never reach zero and the loop never ends.
+The FOR loop is almost always superior to the WHILE loop, because they terminate after the list is 
+procesed
+; it is almost impossible to loop infinitely.
+Most of the time, you should use a FOR loop instead of a WHILE loop.
+As an example, consider the counting code shown before.
+Instead, that can be efficiently replaced with a FOR loop that calls the "range" function, which consumes a integers and produces a list of integers counting up to that number.
+One of the very few cases for a WHILE loop is useful is dealing with repeated user input.
+For instance, the Read-Evaluate-Print-Loop that powers a command line like 
+IPython
+ uses a While loop.
+The pattern shown here is one way to handle repeated user input.
+This repeatedly asks for words until the string "EXIT" is given, at which point it will exit the loop.

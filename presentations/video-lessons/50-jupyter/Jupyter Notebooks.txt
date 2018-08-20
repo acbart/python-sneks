@@ -1,0 +1,59 @@
+Let's learn about 
+Jupyter
+ Notebooks
+Data Science is a profession that combines Computer Science, Statistics, and many other disciplines to answer questions about the world.
+Data Scientists use data and programming to answer real questions.
+Python is a popular language for Data Science because there are many tools available to make that task easier.
+Jupter
+ Notebooks are one such tool.
+A 
+Jupyter
+ Notebook is a document that can combine text, code, and the output of code all into one place.
+Data Scientists use 
+Jupyter
+ Notebooks to share the results of their analysis in such a way that colleagues can review the results and the process.
+Jupyter
+ is easily installed as part of the Anaconda distribution of Python.
+Either by searching for the "
+Jupyter
+ Notebook" application on your computer, or using the Anaconda Navigator, you can easily launch 
+Jupyter
+.
+Once 
+Jupyter
+ finishes loading, a new browser window will appear.
+This window represents a folder on your computer that will store your 
+Jupyter
+ Notebooks.
+You can choose any existing notebooks, which you may not have yet, by clicking on any files with a "
+ipynb
+" extension.
+You may see other files and folders there, but you can ignore them.
+To create a new Notebook, click the "New" button in the top right, and then choose the "Python [
+conda
+ root]" option from the "Notebooks" heading.
+A new window will open with your freshly created Notebook ready to be edited.
+A 
+Jupyter
+ Notebook is a series of "Cells".
+New cells can be created by clicking the "+" button in the top-left.
+Each cell can contain either Code or Markdown.
+The type of a cell can be controlled by the drop-down menu in the middle of the top toolbar.
+Code cells allow you to enter lines of Python code.
+When you have finished editing the code, you can click the "Run" button in the toolbar.
+The code will then be evaluated, and any output will be placed directly below the cell.
+Markdown is a way of writing text that will add formatting.
+This formatting is similar to what you would find in a document editor like Word or Google Docs.
+For instance, if you put asterixis around a word, it will be italicized.
+If you put a hash symbol at the beginning of a line, it will become a section header.
+For more information about writing Markdown, you can check out the documentation in the link provided.
+Once you have created your Notebook, you can share it with others by 
+downoading
+ it.
+In the top right, click the "File" menu and hover over the "Download as" option.
+Two useful ways of downloading the Notebook are as "Python (.
+py
+)" and "PDF via 
+LaTeX
+".
+The Python file will be runnable code, while the PDF is a document format.

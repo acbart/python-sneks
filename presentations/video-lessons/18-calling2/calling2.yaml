@@ -1,0 +1,19 @@
+title: Calling Functions 2
+video: DEKAWU12AAU
+introduction: In this lesson, you'll learn more about calling functions and methods. In particular, you will learn how to read documentation about built-in functions that you can use. You will also learn how to nest, chain, and combine functions and methods.
+objectives:
+    - Interpret documentation for a function
+    - Use a function based on its documentation
+    - Distinguish between Parameters and Arguments
+    - Nest a function call inside another function call
+    - Chain a method onto another method
+    - Combine functions, methods, and operators into a complex expression
+activities:
+    - "Lesson: Calling Functions 2"
+    - "Quiz: Calling Functions 2"
+    - "Programming: Calling Functions 2"
+inclass:
+    - Give examples of finding documentation "in the wild" (via google and the Python website).
+    - Go over a list of all the built-in functions
+    - Give an interactive example of combining multiple functions.
+summary: Python comes with a huge number of built-in functions and methods. Programmers learn how to use these by referring to documentation. In practice, functions are often called in combination with other functions, methods, and operations.

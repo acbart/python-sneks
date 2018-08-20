@@ -1,0 +1,25 @@
+Let's learn about Classes and Objects
+Reality is complex, and modelling it in the computer is difficult.
+Primitive types are not enough, which is why we used lists and dictionaries to represent more complex data.
+We previously saw how we could use dictionaries as a Record to represent a single complex thing.
+Classes are an even more sophisticated representation, because they can group functions with the data that they use.
+When you have a class, you can make instances of the class, which are called objects.
+The relationship between classes and objects is tricky, but is basically the same as the difference between a Type and a Value.
+You have a type like Integer, and then values like 4, 10, -5, and 22.
+Or you have a type like Boolean, and then just two values, True and False.
+In the same way, you have a class that then has many objects.
+We have been using objects for a while now, without even realizing it.
+When we create a new list or a new dictionary, these are actually objects.
+We create an instance of a list, and then we append elements to it.
+Or we create a new dictionary, and then we add keys and values to it.
+Or we open a file to get a file object, and can then close it later.
+The important recurring idea here is that we create an object, and then we use it.
+However, before we create an object, we create the class.
+Creating a class is actually quite easy, and is similar to creating a function.
+We write the class keyword, followed by the name of the class and a colon.
+Then, we write the body of the class.
+Notice that we capitalize the names of classes and don't use underscores - this is a common Python convention.
+Once a class is created, you can create instances of it using the class name.
+By calling the class name like it was a function, you create an object of that classes' type.
+We typically then assign that object to a new variable.
+One class can be used to create many objects.

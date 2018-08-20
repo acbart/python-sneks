@@ -1,0 +1,14 @@
+Let's learn about Truthiness.
+Unlike some languages, Python does not require that IF statements have 
+boolean
+ expressions in their conditional.
+This may seem surprising, but it is actually an extremely convenient feature named Truthiness.
+The idea is that any expression, whether it is an integer, string, 
+boolean
+, or otherwise, can be evaluated in a conditional.
+Any expression can be evaluated as a conditional according to the rules of Truthiness.
+How it is evaluated depends on its type.
+Let's look at a simple example, where we take some input from a user.
+If the user entered an empty string, then we'll print out a different message.
+When you need to check if a string is not empty, or a number is not 0, truthiness is the way to go.
+Notice how each of the following can become much more concise and clear.

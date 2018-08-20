@@ -1,0 +1,52 @@
+<p>
+<strong>Slide 1 - Scope:</strong><br>
+Let's learn about Scope.
+</p>
+
+<p>
+<strong>Slide 2 - Scope:</strong><br>
+In a program, the scope of a variable indicates how long that variable is available.
+This is also known as the lifetime or visibility of a variable.
+</p>
+
+<p>
+<strong>Slide 3 - Global Scope:</strong><br>
+Variables defined at the top level are known as global variables. 
+Once a variable is defined, it is available on subsequent lines.
+That variable lives until the end of the program.
+</p>
+
+<p>
+<strong>Slide 4 - Local Scope:</strong><br>
+Each function has its own local scope.
+Variables defined as parameters or within a function live until the function ends.
+Therefore, variables defined in one function are not available outside the function.
+This simplifies the reading of any function - you only need to worry about things defined in the function itself.
+</p>
+
+<p>
+<strong>Slide 5 - Returning Values:</strong><br>
+Functions return values, not variables.
+A variable has a value, so when you write a statement like the one shown, you are returning the variable's value, not the variable itself.
+The variable disappears after the function ends, so returning the value is the only way to make it available.
+Any global variables with the same name are actually unrelated to the variable inside the function.
+</p>
+
+<p>
+<strong>Slide 6 - Global Variables Are Bad:</strong><br>
+It is technically possible to read a global variable inside a function.
+However, you should not do so.
+Every time you refer to global variables, your program becomes more complicated and you have to think about multiple levels of scope.
+This may work out okay in smaller programs, but causes huge problems as you start writing longer programs.
+Whenever you feel the urge to use a global variable, stop and reconsider.
+</p>
+
+<p>
+<strong>Slide 7 - Scope Rule of Thumb:</strong><br>
+Here is a simple pair of rules for working with scope:
+Variables inside a local scope should not be used outside that scope.
+Variables outside a local scope should not be used inside that scope.
+Keeping these two rules in mind will avoid many headaches.
+Okay, are Global Variables really bad? Let's discuss further: http://wiki.c2.com/?GlobalVariablesAreBad
+</p>
+

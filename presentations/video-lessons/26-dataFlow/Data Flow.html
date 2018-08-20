@@ -1,0 +1,34 @@
+<p>
+<strong>Slide 1 - Data Flow:</strong><br>
+Let's learn about Data Flow.
+</p>
+
+<p>
+<strong>Slide 2 - Scope and Values:</strong><br>
+Previously, we learned about scope: the idea that variables inside a function cannot be used outside of the function, and variables outside a function should not be used inside the function.
+Further, we learned that functions do not consume or return variables; instead they consume and return values.
+These ideas are critical in understanding how data flows through a program.
+</p>
+
+<p>
+<strong>Slide 3 - Data Flow:</strong><br>
+You can think of a program as a flowing, twisting river.
+Regular execution makes the river flow south, but functions disrupt this flow.
+Along the way, values are carried by the current.
+At times, we give these values names by using variables, but it is the values that flow through the program, not the variables.
+</p>
+
+<p>
+<strong>Slide 4 - Substitution:</strong><br>
+When you call a function, each parameter is assigned the value of a relevant argument. 
+When you return from a function, the function call is substituted for the returned value.
+These are the only tools we should use in Python to move data around a program.
+</p>
+
+<p>
+<strong>Slide 5 - Data between Functions:</strong><br>
+To move data from one function to another, you cannot just look at the two functions.
+You must also look at where the functions were called.
+The returned value of one function should be fed into the next function.
+</p>
+

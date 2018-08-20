@@ -1,0 +1,16 @@
+Let's learn about Functional Programming.
+Functions are an amazing idea - encapsulate some code into a single name that can be called repeatedly.
+We have previously learned how to define functions and then to call them with parentheses.
+The code below, for instance, defines a function named square that calculates the square of a number and then returns it.
+We call this function below on the number 10 to get 100.
+But what would happen if we didn't have those parentheses?
+What if we tried to treat the function as a variable?
+When we try to print out the expression below, the system instead prints out the word "function" and the functions' name.
+It doesn't compute anything involving the square of a number - how could it, if we didn't even give it a number?
+Instead, it is simply printing out the function itself!
+This leads to a very surprising fact: functions are a type of value!
+When we use the define keyword, we're really just creating a box to hold a function value.
+This is just like creating a variable to hold an integer value.
+Now, unlike integers, we cannot add or subtract or multiply functions.
+Usually, we only use the function name to call the function value with some arguments.
+However, we will soon see another use case.

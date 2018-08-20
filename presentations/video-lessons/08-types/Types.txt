@@ -1,0 +1,32 @@
+Let's learn about Types.
+All values in Python have a type.
+The five basic types are: Integer, Float, String, Boolean, and None.
+There are many other types you will learn about.
+Types control what you can and cannot do with things.
+We know that a number is a number because we can add it to another number, or 
+subract
+ it, or multiply it.
+We can add two strings together, but we cannot subtract them - this is one reason why a string and a number are different.
+Integer types are whole numbers.
+They include both negative and positive numbers, so there are a lot of them.
+Integer is often shortened to "
+Int
+" for convenience.
+When numbers have decimals, we call them Float types.
+The period is what distinguishes Floats and Integers.
+Remember - if a number has a period in it, then it is a float!
+Textual data is represented using String values.
+The tricky thing about Strings is that *anything* can be stored as a String.
+The only thing that makes it a string is the quotes.
+A special case is the "empty string", which is a pair of quotes with nothing inside.
+String is often shorted to "
+Str
+" for convenience.
+Surprisingly often in programming, we are faced with "yes or no" values; these are referred to as Boolean values.
+Specifically, we have a `True` and a `False` value.
+Note that the T and F are capitalized, and there are no quotes around the words. 
+Boolean is often shortened to "Bool" for convenience.
+Sometimes, you need to represent the absence of value, which we call None.
+The None type is a special type that has only one value, which is also named None.
+The None type can be hard to wrap your head around, but it doesn't come up too often.
+For now, just remember that it has a capital N, and no quotes.

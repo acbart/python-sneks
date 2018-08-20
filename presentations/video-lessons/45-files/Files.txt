@@ -1,0 +1,25 @@
+Let's learn about Files
+You can think of a File as a string of data.
+If we know the path and filename of the File, we can use Python to get access to it.
+Before you can access a file, you must explicitly open the file using the "open" function.
+This function consumes the path to the file as a string and returns a file object.
+Typically, we store this file object into a variable.
+The primary way to get data from a file is to use the ".read()" method.
+This simply returns the contents of the file as a single string.
+Check out this example, where we open the file, read the file handle, and then print the text.
+Notice how this is a multi-step process: we use the path to open the file, and then we read from that open file.
+Often, we want to process a file line-by-line.
+Because a File is actually a sequence of strings (each separated by a new line), we can process it using a For loop quite easily.
+The example shown will process the file line-by-line, which would be perfect if we wanted to manipulate each line of the file, perhaps to adjust capitalization or convert it to a number.
+When you are done with a file, you should always remember to close it using the "close" method.
+It's like leaving a house: if you open a door, you need to close the door.
+Filesystems are tricky, because everyone has a different setup.
+Often, we misplace files.
+When we try to open a file that does not exist, Python raises an 
+FileNotFoundError
+ and will suggest the file does not exist.
+Typically, you should check that you know the exact filename, that you are using the path, and that you know where your Python source file is relative to the file you are opening.
+Processing books is one possible application for files, but often we want to process a file full of numeric data.
+Here, we see some example code that will process a list of numbers in a file, each of which represents a score.
+We are also using the Sum pattern we learned about before to add each of those scores together.
+Notice how we must strip off the new lines at the end of each line, and then convert that line to a number; when we read data from a file, it comes in as a string.

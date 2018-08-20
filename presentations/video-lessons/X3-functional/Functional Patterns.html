@@ -1,0 +1,71 @@
+<p>
+<strong>Slide 1:</strong><br>
+Let's learn about Functional Patterns.
+</p>
+
+<p>
+<strong>Slide 2:</strong><br>
+Functional Programming is very useful, because it usually expresses solutions in a very direct way.
+This allows us to focus on high-level details rather than low-level implementation concerns.
+</p>
+
+<p>
+<strong>Slide 3:</strong><br>
+When we treat functions as values, we can pass them as arguments to other functions.
+These other functions will then call the function argument.
+This is the key insight for Functional Programming.
+Let's revisit a few patterns with this new ability.
+</p>
+
+<p>
+<strong>Slide 4:</strong><br>
+Our first patterns do not actually use functions as values.
+Previously, to calculate a sum, count, minimum, or maximum, we used for loops.
+Now we can do each with a single function call.
+The sum, 
+len
+, max, and min functions each consume lists and return a single number.
+</p>
+
+<p>
+<strong>Slide 5:</strong><br>
+The map function consumes a function and a list, applies the function to each element of the list, and return a new list.
+The function that it consumes should take a single argument, which will represent a single element of the list.
+This pattern is almost identical to the one we saw when we learned about For loops.
+</p>
+
+<p>
+<strong>Slide 6:</strong><br>
+The filter function consumes a 
+boolean
+ function and a list, applies the function to each element to determine if it should be kept, and returns a new list.
+Like the map function, the function consumed should itself consume a single argument that will represent a single element of the list.
+However, that function needs to return a 
+boolean
+ value.
+</p>
+
+<p>
+<strong>Slide 7:</strong><br>
+A new pattern we have not seen before is sorting.
+Computer Science has dedicated decades of its finest minds to understanding and optimizing sorting.
+However, for our purposes, all we need to know is we can pass in a list and a key function, and get the list back sorted.
+If you do not pass in the key function using a named parameter, the list is sorted as it naturally would: for integers, this means low numbers in front and higher numbers in the back.
+A key function can be used to have Python treat each element differently.
+The example shown here flips positive numbers to negative, making the list get sorted in reverse order.
+Notice that the key function is only used for sorting; it does not change the values in the list like Map does.
+</p>
+
+<p>
+<strong>Slide 8:</strong><br>
+If you try running the examples above in 
+IPython
+, you will see confusing output like the one in the top right.
+This is an example of an Iterator object.
+An Iterator is very similar to a list, but has certain performance benefits.
+For our purposes, you can see the data inside an Iterator by converting it to a list.
+This is only an issue if you are programming outside of 
+BlockPy
+.
+</p>
+

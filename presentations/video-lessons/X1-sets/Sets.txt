@@ -1,0 +1,15 @@
+Let's learn about Sets.
+Sets are a lot like lists, since they are a sequence of elements.
+However, sets do not allow duplicate elements, and the order of the elements does not matter.
+To create a set, the syntax is similar to defining a list or a tuple.
+However, instead of square brackets or parentheses, sets are created with curly braces.
+This means that sets may also look similar to dictionaries.
+In fact, you might think of a Set as a dictionary with only keys and no values.
+Both the elements of a set and the keys of a dictionary must be unique, and the order does not matter.
+Many of the same operations you use on a list work on a set, including the membership operator "in".
+Of course, you cannot look up individual items in a Set, so most of the time all you want to do is test membership.
+In some cases, the methods have different names; for instance, instead of append, you add to a set.
+A very common use case for sets is to remove duplicate elements from a list.
+This is done very easily by using the built-in "set" function, which consumes a sequence and returns a set.
+Since sets do not allow duplicate elements, passing in a list will remove any duplicate values.
+You can then convert the set back to a list by calling the built-in "list" function.

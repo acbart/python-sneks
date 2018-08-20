@@ -1,0 +1,51 @@
+Let's learn more about Defining Functions.
+The code below converts a temperature from Fahrenheit to Celsius.
+This code has some issues, however.
+First, the calculation is called multiple times in the code, which makes it much more likely for a mistake to occur when typing it.
+Second, if a mistake does occur, it will be harder to track down in the offending lines.
+Third, anyone not familiar with the formula might wonder what this code is doing.
+A function will help us with all of these problems.
+We begin with the skeleton of a function.
+In 
+BlockPy
+, the Function block generates this function, ready for editing.
+If you cannot name a function, then you probably don't know what it should do.
+We know that this function will convert a temperature, so let's call it 
+convert_temperature
+.
+This name is short and has a verb.
+Notice how I used underscores to represent spaces, because function names follow the same rule that variables do.
+You need to identify what is the same and what is different about each call.
+Extract out the code that is the same.
+Here, we've extracted out the calculation.
+We could have extracted out the print too, but remember that printing and returning are different.
+Usually, functions don't need to print anything.
+Notice the blank in the code we extracted.
+Since the value we converted was different each time, we need to parameterize it by giving those concrete values a more general name.
+In this case, each time it was a temperature in Fahrenheit, so we'll call this "
+a_fahrenheit
+".
+We put this new parameter in the function's header and then use it in the body.
+The code we've created is meant to go inside the body of the function, but we have nothing to connect it to yet.
+Recall that this function should return the temperature in 
+celsius
+.
+Therefore, we need a return block.
+This gives us the open connection we need to incorporate the formula we extracted earlier.
+Finally, we can now call our function in the code.
+Notice how we connect the original values as arguments for our function call.
+So what actually happens when you call a function?
+Let's see it in action. 
+Notice how the execution jumps BACKWARD when we call a function, and then returns later.
+(You can view this yourself: https://goo.gl/TXXaBT)
+Here, we turned existing code into a function definition and then called the function.
+Another common approach is to do the opposite: write the function call, and then use that to write the function definition.
+Use whichever order is more comfortable for you when solving each problem.
+When writing out a solution, you can use a powerful tool called Functional Decomposition.
+The idea is to break a complex problem into easier parts.
+Consider the task of going to the store.
+You could break this long algorithm into three shorter subtasks, and focus on solving each in turn.
+We have now learned a few keywords: def, return, and pass.
+In previous lessons, we learned a few other keywords: and, or, not, and in.
+Python has a small set of keywords, and you will eventually learn most of them.
+An important detail to remember is that we cannot name variables or functions using keywords, because Python will get confused by what we are trying to say.

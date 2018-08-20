@@ -1,0 +1,77 @@
+<p>
+<strong>Slide 1 - Tuples:</strong><br>
+Let's learn about Tuples
+</p>
+
+<p>
+<strong>Slide 2 - Tuples - A fixed list:</strong><br>
+Tuples are a lot like lists - just a sequence of elements.
+However, they have one big difference: you cannot change a tuple once its made.
+A list is meant for data where you need an unknown or changing number of things.
+A tuple is meant for data where you have a fixed number of things.
+</p>
+
+<p>
+<strong>Slide 3 - Tuple Literal Syntax:</strong><br>
+A literal tuple value is just like a list, except instead of square brackets, we use parentheses.
+Curiously, the parentheses are not technically required, but they are almost always used.
+</p>
+
+<p>
+<strong>Slide 4 - Tuple Elements:</strong><br>
+With a list, you usually want each element to be of the same type, although technically this is not enforced by Python.
+Tuples, however, often end up with many different types.
+In the example shown here, the tuple is composed of a string, an integer, and a 
+boolean
+.
+This also demonstrates how you can use indexing syntax to access an element of a tuple.
+</p>
+
+<p>
+<strong>Slide 5 - Tuple Sizes:</strong><br>
+As previously mentioned, a tuple has a fixed size.
+Typically, a tuple has at least two elements, although you could conceivably create an empty tuple.
+The important thing to remember is that tuples never change size once they have been created.
+</p>
+
+<p>
+<strong>Slide 6 - Multiple Assignment:</strong><br>
+So why are tuples useful?
+The secret is that they can show up when we want to explicitly talk about a specific number of things.
+For example, you might have a database where EVERY phone number has three parts, divided by dashes.
+The following code will split the phone number into three pieces.
+Notice that we have a comma separated list of variables on the left.
+This is known as Multiple Assignment, and it is extremely useful and common in Python.
+Remember, though, only variables and commas can be on the left side of the equal sign.
+</p>
+
+<p>
+<strong>Slide 7 - Multiple Iteration Variables:</strong><br>
+Tuples can also be used for multiple iteration variables.
+We actually saw this previously when we iterated over dictionaries, and the .items() method returned a key and value pair.
+This pair was actually a tuple, so we had two variables to store each value.
+The built-in Zip function can actually accomplish a similar behavior: it consumes two lists and pairs the elements together.
+The name zip comes from the idea of zippering together the two lists.
+</p>
+
+<p>
+<strong>Slide 8 - Dictionaries vs. Tuples:</strong><br>
+Tuples are actually very similar to dictionaries used as records, in their own way.
+Instead of using string keys, they use a numeric index.
+This is a trade-off: the meaning of the tuple indexes are less clear, but they are more concise than dictionary keys.
+</p>
+
+<p>
+<strong>Slide 9 - Tricky Commas:</strong><br>
+Because the comma is what defines a tuple, a common syntax mistake is to accidentally create a tuple.
+Consider the expression shown - because of the accidental comma on the end, it will create a tuple with one string element, instead of just a string.
+</p>
+
+<p>
+<strong>Slide 10 - Tricky Parentheses:</strong><br>
+Another common mistake is to use redundant parentheses to accidentally create tuples.
+This happens very easily in function calls.
+Notice the redundant parentheses here pass in a tuple of four numbers to this function, instead of passing the four numbers directly.
+Parentheses may seem like a harmless addition to your code, but they can change its meaning!
+</p>
+

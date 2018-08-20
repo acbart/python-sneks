@@ -1,0 +1,27 @@
+Let's learn about Arithmetic.
+In some ways, computers are just large machines for doing arithmetic.
+Computers are very, very good at doing math.
+In fact, modern computers can perform billions or even trillions of calculations per second.
+There are six basic mathematical operators in Python that you should be familiar with: Addition, Subtraction, Multiplication, Division, Exponentiation, and Modulo.
+The plus sign (+) and minus sign (-) are used for addition and subtraction.
+One asterisk (*) is used for multiplication.
+Two asterisks (**) are used for exponents (also known as powers).
+The forward slash is used for division.
+When you divide two integers, you will always get a floating point number.
+I'll say that 
+again - 
+whenever you do division, the result will always be a float!
+Keep in mind, you cannot divide by 0!
+You have probably never heard of the Modulo operator, but it's simple: it calculates the remainder.
+Modulo is sometimes called "Clock Arithmetic", because it makes it easy to figure out time.
+If someone said "It is 1600 hours", you could do "16 modulo 12" and find out they meant "4pm".
+However, modulo has many other uses, such as for figuring out if numbers are even or odd.
+When you run a program with operators, Python will do the math and then replace the result.
+You will not be able to see the computer do the math by looking at just the code!
+Notice the difference between the code on the left, and the actual actions that occur on the right.
+When you use operators, there is an order of operations.
+Parentheses, Exponent, Multiplication, Modulo, Division, Addition, Subtraction.
+Whenever there's a tie, the left-most operation happens first.
+Notice that you can always override any ordering by using parentheses.
+You might already be familiar with this order: if not, here is a useful mnemonic:
+Please Excuse My Most Dear Aunt Sally.

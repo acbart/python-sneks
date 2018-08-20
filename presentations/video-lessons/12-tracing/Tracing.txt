@@ -1,0 +1,26 @@
+Let's learn about Tracing.
+To write to a variable, you put its name on the left side of an "assignment statement".
+To read from a variable, you simply use its name.
+Notice that assignment statements use a single equal sign, and the equality operator uses two.
+Variables have a lifetime.
+At some point in the program, they are initialized, and then later on they are used.
+At any given time, you can ask what the value of a variable is, and change it.
+A variable cannot be read until it has been written.
+If you attempt to read an unwritten variable, an error will occur.
+We often want to increase or decrease a variable by a variable.
+For instance, when we're counting the number of things in a list, we need to add one to a variable.
+We could do: x = x + 1
+This really highlights the difference between math and computing.
+In algebra, it would have been impossible to write that statement, because you were solving for x.
+But in computing, you are ASSIGNING to x.
+You are overwriting whatever was there before.
+That's why you should read this statement starting from the right side.
+It literally means, "Take the expression on the right and replace the variable on the left with it"
+It is often useful to track the value of variables over time.
+We call this "tracing" a variable.
+We often put these traces into a Trace Table.
+Although the computer only keeps track of the latest state of the variables, we humans want to think about the entire lifetime of the variables.
+The first time a variable is written to, we say that that variable has been "initialized" or "created".
+Any time after that, writing to the variable is referred to as being "updated" or "changed".
+Besides "reading" and "writing", there are many other words.
+You should get a sense of the different ways we refer to variables.

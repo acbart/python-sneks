@@ -1,0 +1,12 @@
+Let's learn about Executing Programs.
+Once a program is written, it can be executed.
+This means that the computer will read the text of the program line by line, and perform each step.
+We say that a program is "Run" or "Executed".
+Python is two things:
+First, as a programming language it is a set of rules for writing Python programs.
+Second, it is a program that can execute programs written in the Python programming language.
+Technically, you can write programs in a text editor and then run them with Python separately.
+However, most programmers use a Programming Environment that makes it very easy to write programs and then press a single button to run them.
+When you write a Python program, you are really just writing some text.
+That text needs to be valid Python text, following all of it syntax rules.
+But that means its not that different from an essay you might write in English.

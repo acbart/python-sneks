@@ -1,0 +1,31 @@
+Let's learn about Statements and Expressions.
+Programs execute line by line, one step at a time.
+Many times, the programs run super fast, and you won't see this behavior.
+We have some tools that let us slow down and see the execution.
+But either way, programs run one line at a time.
+Think about reading a book or acting out a script, how we move down a page.
+This is just like how the instructions of a program are read.
+The result of this step-by-step instruction is that programs are executed *over time*.
+Although execution happens very, very fast, it does not happen all at once.
+Time is a crucial component in running programs.
+A single line of code is known as a "Statement".
+A program is, quite literally, a sequence of statements.
+There are many kinds of statements, but we only know about a few so far.
+An expression is any kind of combination of literal values, arithmetic operators, Boolean operators, and variables.
+Any value is an expression.
+Any variable is an expression.
+Expressions can be made up of expressions.
+In 
+BlockPy
+, you can see that expression blocks have a rounded left edge.
+Statement blocks have a pointy bit on the bottom and a notch on the top.
+This visually shows you the difference between statements and expressions.
+Statements join vertically, and expressions join horizontally.
+Since programs run from top to bottom, the order of statements is important.
+If you rearranged the sentences of a book at random, they wouldn't make much sense - the same is true for programs.
+We say that the computer "Evaluates" an expression, when it reduces it.
+The "evaluation" doesn't happen until the program is run.
+It is important to learn how to "evaluate" expressions in your head to 
+Following the order within expressions is tricky, because they are not always left to right.
+Consider this mathematical expression, where the addition happens before the multiplication.
+The same thing happens with an assignment; the expression on the right is evaluated BEFORE the assignment occurs on the left.

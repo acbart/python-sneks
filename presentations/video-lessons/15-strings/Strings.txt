@@ -1,0 +1,33 @@
+Let's learn about Strings.
+Strings are how we put text data into a computer.
+Any text data can be a string: names, words, books, web sites.
+Strings are made up of letters, numbers, and symbols.
+We call these things "characters".
+Think of a String like a necklace, where each bead has a character on it.
+We "string together" letters.
+The single or double quotes are knots at the end that tie the letters off.
+Strings are represented with quotes.
+You can use either double quotation marks or single quotation marks.
+However, if you start a String with double, you must end with double.
+If you start with single, you must end with single.
+The reason there are two kinds is to make it easier to create strings like the below
+So how do you have a string with both single and double quotes in it?
+You can use special combinations of characters called "escape characters".
+By putting a back-slash "\" before a character, you create a special character.
+Check out the example below here, where we have escaped the double quote character.
+There are actually many kinds of escape characters.
+Here are two more you may see.
+\n is a new line (like pressing enter)
+\t is a "tab" character, or multiple spaces (like indenting a paragraph)
+It's a little confusing, but you can put a number in quotes.
+However, this means that you have a String and not an Integer.
+The difference becomes very obvious when you try to add things together.
+"1" + "2" is "12", instead of 3.
+Python is very strict about the differences between Numbers and Strings.
+Some people confuse Variables and Strings, but they are very different.
+Remember, variables hold values.
+Strings are just a type of value that represent text.
+Rarely, you have to put a huge amount of text into your program. 
+The best way to do so is to use "triple quoted strings".
+The syntax is simple: you start and end the chunk of text with three quote marks.
+It doesn't matter if they are single or double quotes, as long as it starts and ends the same.
