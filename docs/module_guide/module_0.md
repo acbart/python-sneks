@@ -1,4 +1,4 @@
-## Module 0 - Getting Started
+# Module 0 - Getting Started
 
 A gentle orientation to the basic ideas of a program, plus the format of the course, help-seeking behavior, and how to be an effective learner.
 
@@ -22,27 +22,7 @@ Topics:
 
 * Trying out BlockPy
 
-Materials: 
-
-* week0_day1_Introduction.pptx
-
-* week0_day2_Python.pptx
-
-Due this week:
-
-* N/A
-
-Graded this week:
-
-* N/A
-
-Things to do during class:
-
-* Lecture
-
-Things to do after class: N/A
-
-### Week 0 - Staff Meeting
+## Staff Meeting
 
 Agenda:
 
@@ -80,6 +60,20 @@ Training Materials:
 Grading Reminders:
 
 * N/A
+
+## Lectures
+
+### Day 1
+
+Materials: 
+
+* week0_day1_Introduction.pptx
+
+### Day 2
+
+* week0_day2_Python.pptx
+
+## Lessons
 
 ### #1) Lesson: Introduction
 
