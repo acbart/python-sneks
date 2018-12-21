@@ -32,6 +32,12 @@ Havill/Whitman
 --------------
 * Link: [http://cs.whitman.edu/~davisj/cs/167/2016F/mechanics.shtml](http://cs.whitman.edu/~davisj/cs/167/2016F/mechanics.shtml)
 
+University of Virginia CS1111
+-----------------------------
+
+* Link: [https://cs1110.cs.virginia.edu/](https://cs1110.cs.virginia.edu/)
+* Slides, Exercises, Labs, Programming Assignments
+* Diverging threads model that allows some flexibility with exploration
 
 Single Context Approaches
 =========================
