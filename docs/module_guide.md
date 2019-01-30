@@ -1,5 +1,5 @@
 0. [Getting Started](module_guide/module_0.md)
-1. [Basics and Primitives](module_guide/module_0.md)
+1. [Basics and Primitives](module_guide/module_1.md)
 2. [String and Calling Functions](module_guide/module_0.md)
 3. [Making Functions](module_guide/module_0.md)
 4. [Using Functions](module_guide/module_0.md)
