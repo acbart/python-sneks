@@ -1,0 +1,78 @@
+title: '#14) Quiz: Errors'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 4.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: TracebackLine
+  question_type: short_answer_question
+  question_text: |-
+    According to the following error message, what line of code did the error
+    occur on?
+
+    ```python
+
+    Traceback (most recent call last):
+      File "my_code.py", line 32, in <module>  
+        45 + "NameError"
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+    ```
+  points_possible: 1.0
+- question_name: TracebackType
+  question_type: multiple_choice_question
+  question_text: |-
+    According to the following error message, what type of error occurred?
+
+    ```python
+
+    Traceback (most recent call last):
+      File "my_code.py", line 32, in <module>  
+        45 + "NameError"
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+    ```
+  points_possible: 1.0
+  answers:
+  - TypeError
+  - NameError
+  - SyntaxError
+  - No error occurred
+  - We cannot tell the type of error from the information provided
+- question_name: ErrorHandling
+  question_type: multiple_choice_question
+  question_text: 'When your program has an error, the first thing you should do is:'
+  points_possible: 1.0
+  answers:
+  - Ask for help.
+  - Curl up into a ball and cry.
+  - Check the error message and consider its meaning.
+  - Start debugging your program.
+- question_name: ErrorDescriptions
+  question_type: matching_question
+  question_text: Match each of the following common errors with its description.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - NameError
+    - SyntaxError
+    - TimeError
+    - TypeError
+    rights:
+    - This is not a common type of error.
+    - You have a mistake with your code's grammar or punctuation.
+    - You have referenced a variable that does not exist.
+    - You have used an operator with incorrect types

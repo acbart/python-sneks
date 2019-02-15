@@ -1,0 +1,122 @@
+title: '#48) Quiz: Web Data'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 8.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: StringURL
+  question_type: true_false_question
+  question_text: A URL is easily stored as a string.
+  points_possible: 1.0
+- question_name: GetReturns
+  question_type: true_false_question
+  question_text: |-
+    The `get` function from the `requests` module consumes a string URL and
+    returns a string representing the contents of the website.
+  points_possible: 1.0
+- question_name: ResponseText
+  question_type: true_false_question
+  question_text: |-
+    After the following code is executed to retrieve a Text file,
+
+    ```python
+
+    import requests
+    response = requests.get("www.example.com/data.txt")
+
+    ```
+
+    You can print the text of the website with the following code:
+
+    ```python
+
+    print(response.text)
+
+    ```
+  points_possible: 1.0
+- question_name: ResponseJSON
+  question_type: true_false_question
+  question_text: |-
+    After the following code is executed to retrieve a JSON file,
+
+    ```python
+
+    import requests
+    response = requests.get("www.example.com/data.json")
+
+    ```
+
+    You can print a JSON representation of the website with the following code:
+
+    ```python
+
+    print(response.json)
+
+    ```
+  points_possible: 1.0
+- question_name: SpecificURL
+  question_type: multiple_choice_question
+  question_text: |-
+    Your instructor gives you the following URL to access:
+    `https://jsonplaceholder.typicode.com/posts`. Which of the following is the
+    correct way to access it?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    response = requests.get("https://jsonplaceholder.typicode.com/posts")
+
+    ```
+  - |-
+    ```python
+
+    response = requests.get("jsonplaceholder.typicode.com/posts")
+
+    ```
+  - |-
+    ```python
+
+    response = requests.get(https://jsonplaceholder.typicode.com/posts)
+
+    ```
+  - |-
+    ```python
+
+    response = requests.get(www.jsonplaceholder.typicode.com/posts)
+
+    ```
+  - |-
+    ```python
+
+    response = requests.get("www.jsonplaceholder.typicode.com")
+
+    ```
+- question_name: WebHazards
+  question_type: multiple_answers_question
+  question_text: Which of the following are hazards of using web data?
+  points_possible: 3.0
+  answers:
+  - Losing your internet connection.
+  - The website changing the file without telling you.
+  - The website changing the file's format without telling you.
+  - A slow internet connection.
+  - |-
+    Too many students visiting the same website for an assignment and causing it
+    to crash.
+  - |-
+    Gremlins that live in your computer maliciously changing your code while
+    you're not looking.

@@ -1,0 +1,56 @@
+title: '#4) Quiz: How to Learn'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 8.0
+  allowed_attempts: 3
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: GenderDifference
+  question_type: true_false_question
+  question_text: Men are better than women at programming.
+  points_possible: 1.0
+- question_name: AttitudeDifference
+  question_type: true_false_question
+  question_text: Your attitude has no impact on your ability to learn to program.
+  points_possible: 1.0
+- question_name: GritDifference
+  question_type: true_false_question
+  question_text: If at first you don't succeed, then you should give up.
+  points_possible: 1.0
+- question_name: MasteryCourse
+  question_type: true_false_question
+  question_text: You only get one attempt at most assignments in this course.
+  points_possible: 1.0
+- question_name: EarlyOftenDifference
+  question_type: true_false_question
+  question_text: |-
+    Getting started on an assignment immediately and working in frequent short
+    bursts is a good way to succeed.
+  points_possible: 1.0
+- question_name: GettingHelpDifference
+  question_type: true_false_question
+  question_text: Avoid getting help for as long as possible, so that you don't bother
+    anyone.
+  points_possible: 1.0
+- question_name: StartingEarlyDifference
+  question_type: true_false_question
+  question_text: |-
+    If you're smart, it doesn't matter when you get started on an assignment -
+    you'll probably do about as well as you would if you started earlier.
+  points_possible: 1.0
+- question_name: LearningToProgramIsHard
+  question_type: true_false_question
+  question_text: Learning to program can be hard for some people.
+  points_possible: 1.0

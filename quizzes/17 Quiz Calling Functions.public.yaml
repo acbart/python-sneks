@@ -1,0 +1,82 @@
+title: '#17) Quiz: Calling Functions'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 10.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ValidCall
+  question_type: multiple_answers_question
+  question_text: |-
+    Mark all of the following that are valid function or method calls. Do not
+    worry if a variable exists, only determine whether 1) this is a function or
+    method call, and 2) the syntax is valid.
+  points_possible: 4.0
+  answers:
+  - list.pop()
+  - .open()
+  - fire
+  - build(1, 2, 3)
+  - a = 0
+  - print()
+  - '"help"()'
+  - '"harry potter".title()'
+- question_name: MethodOrFunction
+  question_type: matching_question
+  question_text: Identify whether the following is a method call or a function call.
+  points_possible: 2.0
+  answers:
+    lefts:
+    - '"function".method()'
+    - function.call()
+    - list.append()
+    - method()
+    - print()
+    rights:
+    - Function call
+    - Method call
+- question_name: CallingFunction
+  question_type: short_answer_question
+  question_text: How would you call a function named `openDoor`? Assume it takes no
+    arguments.
+  points_possible: 1.0
+- question_name: StringCallWithOperator
+  question_type: short_answer_question
+  question_text: |-
+    The function `makeCat` below returns the string "Cat". What value will the
+    variable `x` hold after the line is executed?
+
+    ```python
+
+    x = makeCat() + makeCat() + makeCat()
+
+    ```
+  points_possible: 1.0
+- question_name: IntegerCallWithOperators
+  question_type: short_answer_question
+  question_text: |-
+    The function `add5` below returns the number 5 added to the argument. What
+    value will the variable "x" hold after the line is executed?
+
+    ```python
+
+    x = add5(10) * add5(2)
+
+    ```
+  points_possible: 1.0
+- question_name: FunctionDefintion
+  question_type: true_false_question
+  question_text: Functions are reusable chunks of code that have inputs and outputs.
+  points_possible: 1.0

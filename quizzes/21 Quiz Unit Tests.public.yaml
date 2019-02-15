@@ -1,0 +1,84 @@
+title: '#21) Quiz: Unit Tests'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: UnitTestDefinition
+  question_type: multiple_choice_question
+  question_text: 'A unit test is:'
+  points_possible: 1.0
+  answers:
+  - A collection of known inputs and outputs for a function.
+  - |-
+    A conditional that determines whether the units (e.g., inches, gallons) are
+    correct.
+  - A function that returns a Boolean value.
+  - |-
+    A function that consumes a function and returns whether the function is
+    correct.
+- question_name: UnitTestIdentification
+  question_type: multiple_answers_question
+  question_text: |-
+    Given this function, which of the following are correct unit tests?
+
+    ```python
+
+    def simple_formula(x):
+        return 3 * x + 4
+
+    ```
+  points_possible: 1.0
+  answers:
+  - simple_formula(0) â†’ 4
+  - simple_formula(3) â†’ 13
+  - simple_formula(-.5) â†’ 2.5
+  - simple_formula(0) â†’ 0
+  - simple_formula(-1) â†’ 2
+- question_name: UnitTestAdvantages
+  question_type: multiple_answers_question
+  question_text: Which of the following are advantages of unit tests?
+  points_possible: 1.0
+  answers:
+  - They help you find problems early.
+  - They help you facilitate changes down the road.
+  - They make it easier to glue together pieces of code.
+  - They make your code easier to read.
+  - They make your code run faster.
+- question_name: UnitTestBasics
+  question_type: multiple_choice_question
+  question_text: |-
+    When someone says, "My program looks correct, but it says it fails the unit
+    tests."
+  points_possible: 1.0
+  answers:
+  - The program is probably not correct.
+  - The program is probably correct.
+- question_name: UnitTestQuantity
+  question_type: multiple_choice_question
+  question_text: How many unit tests should a program have?
+  points_possible: 1.0
+  answers:
+  - As many as it takes
+  - '1'
+  - '5'
+  - '100'
+  - One for each line of code
+- question_name: UnitTestSuccessRate
+  question_type: true_false_question
+  question_text: Unit tests are a 100% effective way of determining if your program
+    is correct.
+  points_possible: 1.0

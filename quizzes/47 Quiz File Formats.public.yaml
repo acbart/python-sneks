@@ -1,0 +1,155 @@
+title: '#47) Quiz: File Formats'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 9.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: KeywordArgument
+  question_type: multiple_choice_question
+  question_text: Which of the following is the proper syntax for a keyword argument?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    json.dumps(data, indent=2)
+
+    ```
+  - |-
+    ```python
+
+    json.dumps(data, 2)
+
+    ```
+  - |-
+    ```python
+
+    json.dumps(data, indent: 2)
+
+    ```
+  - |-
+    ```python
+
+    json.dumps(data, indent-2)
+
+    ```
+  - |-
+    ```python
+
+    indent = 2
+    json.dumps(data, indent)
+
+    ```
+- question_name: ImportBeforeUse
+  question_type: true_false_question
+  question_text: You must import the `json` module before you can use the `load` function.
+  points_possible: 1.0
+- question_name: EqualLoad
+  question_type: multiple_answers_question
+  question_text: Which of the following two snippets of code are equivalent and correct?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    import json
+    file = open("scores.txt") 
+    json.load(file)
+
+    ```
+  - |-
+    ```python
+
+    from json import load
+    file = open("scores.txt") 
+    load(file)
+
+    ```
+  - |-
+    ```python
+
+    import json as js
+    file = open("scores.txt") 
+    json.load(file)
+
+    ```
+  - |-
+    ```python
+
+    from json import load
+    file = open("scores.txt") 
+    json.load(file)
+
+    ```
+  - |-
+    ```python
+
+    import load
+    file = open("scores.txt") 
+    load(file)
+
+    ```
+- question_name: JsonLoadArgument
+  question_type: true_false_question
+  question_text: |-
+    The `load` method from the `json` module consumes a string representing a
+    filename.
+  points_possible: 1.0
+- question_name: JsonType
+  question_type: multiple_choice_question
+  question_text: |-
+    Given the file `scores.json` with the following contents:
+
+    ```python
+
+    [44, 45, 23, 33]
+
+    ```
+
+    And the following code:
+
+    ```python
+
+    import json
+    scores = json.load(open('scores.json'))
+
+    ```
+
+    What is the type of `scores`?
+  points_possible: 1.0
+  answers:
+  - String
+  - Integer
+  - List of Integer
+  - List of String
+  - File object
+- question_name: JSONTypes
+  question_type: multiple_answers_question
+  question_text: |-
+    The built-in `json` module can load and dump only certain kinds of data by
+    default. According to [this table in the
+    documentation](https://docs.python.org/3.6/library/json.html#json.JSONDecoder),
+    which of the following types can be represented in the JSON format?
+  points_possible: 4.0
+  answers:
+  - Integer
+  - String
+  - Boolean
+  - Lists
+  - Dictionaries
+  - Sets
+  - Tuples
+  - None

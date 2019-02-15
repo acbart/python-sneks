@@ -1,0 +1,90 @@
+title: '#29) Quiz: Nesting Blocks'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 5.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: EquivalentIfs
+  question_type: multiple_answers_question
+  question_text: Select the two snippets of code that are equivalent.
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    if is_on_fire():
+        pass
+    if door_is_open():
+        pass
+    else:
+        pass
+
+    ```
+  - |-
+    ```python
+
+    if is_on_fire():
+        pass
+    elif door_is_open():
+        pass
+    else:
+        pass
+
+    ```
+  - |-
+    ```python
+
+    if is_on_fire():
+        pass
+    else:
+        if door_is_open():
+            pass
+        else:
+            pass
+
+    ```
+  - |-
+    ```python
+
+    if is_on_fire():
+        pass
+    else if door_is_open():
+        pass
+    else:
+        pass
+
+    ```
+- question_name: NestedWhitespace
+  question_type: short_answer_question
+  question_text: |-
+    If an `if` statement is nested inside another `if` statement, how many spaces
+    will the body of the inner `if` statement have?
+  points_possible: 1.0
+- question_name: IfInFunctions
+  question_type: true_false_question
+  question_text: |-
+    You can nest `if` statements inside of other `if` statements, but not
+    functions.
+  points_possible: 1.0
+- question_name: OptionalElseElif
+  question_type: true_false_question
+  question_text: Every `if` statement must be followed by either an `else` or an `elif`.
+  points_possible: 1.0
+- question_name: EqualElif
+  question_type: true_false_question
+  question_text: The `elif` is equivalent to an `else` with an `if` statement nested
+    inside it.
+  points_possible: 1.0

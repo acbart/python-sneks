@@ -1,0 +1,141 @@
+title: '#27) Quiz: If Statements'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: InsideBlock
+  question_type: multiple_choice_question
+  question_text: |-
+    In the following code, the print statement is ____ the IF statement.
+
+    ```python
+
+    if conditional:
+        print("The conditional was true")
+
+    ```
+  points_possible: 1.0
+  answers:
+  - Before
+  - Inside
+  - After
+- question_name: CountingBranchesNoElse
+  question_type: multiple_choice_question
+  question_text: |-
+    How many branches does this code have?
+
+    ```python
+
+    if conditional:
+        print(5)
+    print(2)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+- question_name: CountingBranchesNestedIf
+  question_type: multiple_choice_question
+  question_text: |-
+    How many branches does this code have?
+
+    ```python
+
+    if conditional:
+        if second_conditional:  
+            print(5)  
+        print(1)
+    print(2)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+- question_name: CountingBranchesElse
+  question_type: multiple_choice_question
+  question_text: |-
+    How many branches does this code have?
+
+    ```python
+
+    if conditional:
+        print(5)  
+    else:
+        print(2)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+- question_name: TracingBranching
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Fill out the trace table below by following the execution. If the value is not
+    yet defined, place an "X".
+
+    ```python
+
+    1 | salary = 1000
+    2 | if salary > 100:
+    3 |    taxes = .5
+    4 | else:
+    5 |    taxes = .1
+    6 | salary = taxes * salary
+    7 | if salary > 100:
+    8 |    if salary < 500:
+    9 |        taxes = 0
+    10|    salary = taxes * salary  
+
+    ```
+
+    step | line | salary | taxes  
+    ---|---|---|---  
+    1 | 1 | 1000 | X  
+    2 | 2 | 1000 | [taxes2]  
+    3 | [line3] | 1000 | [taxes3]  
+    4 | 6 | [salary4] | [taxes4]  
+    5 | [line5] | [salary5] | [taxes5]  
+    6 | [line6] | [salary6] | [taxes6]  
+    7 | [line7] | [salary7] | [taxes7]
+  points_possible: 1.0
+- question_name: PossiblyUndefined
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the value of `number_of_users` after this program executes?
+
+    ```python
+
+    if False:
+        number_of_users = 5
+    print(number_of_users))
+
+    ```
+  points_possible: 1.0
+  answers:
+  - No value, because an error occurs since the value has not been defined
+  - 0, because that is the default value for integer variables
+  - None, because that is the default value for all variables
+  - 5, because of the assignment on line 2.

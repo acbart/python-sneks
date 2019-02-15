@@ -1,0 +1,113 @@
+title: '#16) Quiz: String Operations'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 10.5
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: EvaluateStringConditionals
+  question_type: multiple_answers_question
+  question_text: |-
+    Mark each of the following expressions if they evaluate to True. Assume that
+    the following code is executed first:
+
+    ```python
+
+    title = "Harry Potter"
+
+    ```
+  points_possible: 4.5
+  answers:
+  - '"word" in "The last word"'
+  - '"c" in "Do Capital Letters Matter?"'
+  - '"it" in title'
+  - '" " in title'
+  - '"" in title'
+  - '"Alabama" &lt; "Virginia"'
+  - '"Coward" &lt;= "Coward"'
+  - '"Dog" == "Dog"'
+  - title not in "Harry Potter Book 1"
+- question_name: StringIndexingZero
+  question_type: short_answer_question
+  question_text: |-
+    Predict the output of the following code:
+
+    ```python
+
+    name = "Hermione"  
+    print(name[0])
+
+    ```
+  points_possible: 1.0
+- question_name: StringIndexingPositive
+  question_type: short_answer_question
+  question_text: |-
+    Predict the output of the following code:
+
+    ```python
+
+    name = "Hermione"  
+    print(name[4])
+
+    ```
+  points_possible: 1.0
+- question_name: StringIndexingNegative
+  question_type: short_answer_question
+  question_text: |-
+    Predict the output of the following code:
+
+    ```python
+
+    name = "Hermione"  
+    print(name[-2])
+
+    ```
+  points_possible: 1.0
+- question_name: StringSubscriptRight
+  question_type: short_answer_question
+  question_text: |-
+    Predict the output of the following code:
+
+    ```python
+
+    name = "Hermione"  
+    print(name[:2])
+
+    ```
+  points_possible: 1.0
+- question_name: StringSubscriptPositives
+  question_type: short_answer_question
+  question_text: |-
+    Predict the output of the following code:
+
+    ```python
+
+    name = "Hermione"  
+    print(name[4:7])
+
+    ```
+  points_possible: 1.0
+- question_name: StringSubscriptLeftNegative
+  question_type: short_answer_question
+  question_text: |-
+    Predict the output of the following code:
+
+    ```python
+
+    name = "Hermione"  
+    print(name[-3:])
+
+    ```
+  points_possible: 1.0

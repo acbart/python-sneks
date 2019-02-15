@@ -1,0 +1,31 @@
+title: '#25) Quiz: Function Development'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 3.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: GoodValidPythonNames
+  question_type: multiple_answers_question
+  question_text: |-
+    You have been tasked with creating a function that opens a garage door. Which
+    of the following are good, valid names?
+  points_possible: 3.0
+  answers:
+  - ogd, a short abbreviation that saves many letters when typing.
+  - open_garage_door, a concise name that captures the idea
+  - open garage door, a concise name that captures the idea
+  - door, a short name that saves many letters while typing
+  - openThePodBayDoorsHal, a fun reference to a classic sci-fi movie

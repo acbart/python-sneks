@@ -1,0 +1,61 @@
+title: '#11) Quiz: Variables'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 10.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ValidPythonNames
+  question_type: multiple_answers_question
+  question_text: |-
+    Choose which of the following are valid Python variable names. Note that they
+    do not have to be _good_ variable names, just valid.
+  points_possible: 5.0
+  answers:
+  - current-temperature
+  - _54__
+  - pag_counnt
+  - asdffdf
+  - page count
+  - '"books"'
+  - _bad_news
+  - _5_99_555_999
+  - 4th_property
+  - EarthQuake
+- question_name: GoodPythonNames
+  question_type: multiple_answers_question
+  question_text: |-
+    You have a variable that represents your allowance, measured in dollars. Which
+    of the following are _good_ variable names? In this case, "good" means that
+    they are not too long, not too short, and the intent of the variable is
+    unambiguous.
+  points_possible: 3.0
+  answers:
+  - allowance
+  - d
+  - allowance_in_dollars
+  - data
+  - integer
+  - a_variable_that_will_hold_my_allowance_money
+- question_name: VariableSolvingUnknown
+  question_type: true_false_question
+  question_text: A variable is useful because it allows to solve for an unknown value.
+  points_possible: 1.0
+- question_name: ComputersUnderstandVariabelNames
+  question_type: true_false_question
+  question_text: |-
+    Variable names are important because computers understand the meaning of names
+    and change their value accordingly.
+  points_possible: 1.0

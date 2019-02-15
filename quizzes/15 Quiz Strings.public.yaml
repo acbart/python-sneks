@@ -1,0 +1,51 @@
+title: '#15) Quiz: Strings'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.5
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: true
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: true
+questions:
+- question_name: LiteralStringValues
+  question_type: multiple_answers_question
+  question_text: Select any of the following that are string literal values.
+  points_possible: 3.5
+  answers:
+  - '"5"'
+  - my_string
+  - '"my_variable"'
+  - _5
+  - '5'
+  - '"Hello'
+  - "'World\""
+- question_name: StringsHaveNumbers
+  question_type: true_false_question
+  question_text: 'True or False: Strings are composed of only letters and symbols.'
+  points_possible: 1.0
+- question_name: AddingStrings
+  question_type: true_false_question
+  question_text: '"1" + "1" = "2"'
+  points_possible: 1.0
+- question_name: WritingStringLiterals
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    How do you write each of the following as string literals?
+
+    The first letter of the alphabet, lower case: [lettera]  
+    A tab character: [tab]  
+    A new line: [newline]  
+    A double quote: [doublequote]  
+    A single quote: [singlequote]  
+    The empty string: [empty]
+  points_possible: 2.0

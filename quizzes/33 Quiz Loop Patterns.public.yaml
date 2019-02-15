@@ -1,0 +1,125 @@
+title: '#33) Quiz: Loop Patterns'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: SumVariablePrediction
+  question_type: short_answer_question
+  question_text: |-
+    After the third iteration of the loop, what is the value of `sum`?
+
+    ```python
+
+    sum = 0
+    values = [4, 2, 6]
+    for value in values:
+        sum = sum + value
+
+    ```
+  points_possible: 1.0
+- question_name: UnderstandCountUpdate
+  question_type: multiple_choice_question
+  question_text: |-
+    What does line 4 do?
+
+    ```python
+
+    count = 0
+    values = [4,5,6]
+    for value in values:
+        count = count + 1
+
+    ```
+  points_possible: 1.0
+  answers:
+  - |-
+    Takes the current value of `count`, adds 1 to it, and then updates `count`
+    with the new value.
+  - |-
+    Causes an error, because it is algebraically impossible for a number to be one
+    more than itself.
+  - Increases `count` by the `value`.
+  - Adds `1` to the list of `values`.
+- question_name: FilterVsMaxPattern
+  question_type: multiple_choice_question
+  question_text: |-
+    Which pattern does this code most resemble?
+
+    ```python
+
+    lowest = 100
+    grades = [90, 64, 72, 50]
+    for grade in grades:
+        if lowest > grade:
+            lowest = grade
+    print(lowest)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - Min/Max Pattern
+  - Filter
+  - Sum
+  - Accumulator
+- question_name: StatementInsideBody
+  question_type: multiple_choice_question
+  question_text: |-
+    Is the `print` call before, inside, or after the `for` loop?
+
+    ```python
+
+    for name in names:
+        print(name)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - Inside
+  - Before
+  - After
+- question_name: PredictingBooleanAccumulation
+  question_type: short_answer_question
+  question_text: |-
+    What is the value of `any` after the following code is executed?
+
+    ```python
+
+    conditions = [False, False, True, False]
+    any = False
+    for condition in conditions:
+        any = any or condition
+    print(any)
+
+    ```
+  points_possible: 1.0
+- question_name: PredictingStringAccumulation
+  question_type: true_false_question
+  question_text: |-
+    True or false: the following code prints `True`. You can see this code execute
+    [here](https://goo.gl/axAGX7).
+
+    ```python
+
+    names = ["Alice", "Bob", "Carol"]
+    joined_names = ", ".join(names)
+    added_names = ""
+    for name in names:
+        added_names = added_names + name + ", "
+    print(added_names == joined_names)
+
+    ```
+  points_possible: 1.0

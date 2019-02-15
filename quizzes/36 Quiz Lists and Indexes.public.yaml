@@ -1,0 +1,80 @@
+title: '#36) Quiz: Lists and Indexes'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 4.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Best Way to Iterate
+  question_type: multiple_choice_question
+  question_text: |-
+    Which of the following is the best way to print each element of a list in
+    Python?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    for i in range(len(a_list)):
+        print(a_list[i])
+
+    ```
+  - |-
+    ```python
+
+    for element in a_list:
+        print(element)
+
+    ```
+  - |-
+    ```python
+
+    i = 0
+    for element in a_list:
+        print(a_list[i])    
+        i += 1
+
+    ```
+- question_name: Reasons for Avoiding Indexes
+  question_type: multiple_answers_question
+  question_text: Which of the following are reasons to avoid using indexes to process
+    a list?
+  points_possible: 1.0
+  answers:
+  - Index iteration requires extra operations and function calls
+  - Index iteration is a more complex form of iteration to reason about
+  - Index iteration is redundant and unnecessary
+- question_name: Always Avoid Indexing
+  question_type: true_false_question
+  question_text: |-
+    You should ALWAYS avoid using index iteration to process a list. There are no
+    advantages to it.
+  points_possible: 1.0
+- question_name: Enumerate Indexes
+  question_type: short_answer_question
+  question_text: |-
+    The `enumerate` function consumes a list and returns each element paired with
+    its index. When the following code is run, what is printed on the first line?
+
+    ```python
+
+    values=[1,2,3]
+    for i, value in enumerate(values):
+        print(i, value)
+
+    ```
+
+    If you are not sure, consider trying the code out - you don't have to guess!
+  points_possible: 1.0

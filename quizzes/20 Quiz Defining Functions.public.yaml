@@ -1,0 +1,170 @@
+title: '#20) Quiz: Defining Functions'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 16.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: FunctionLabeling
+  question_type: matching_question
+  question_text: |-
+    Identify each part of the function (parameter, return, define, name, colon,
+    body, call):
+
+    ![13-2-quiz-
+
+    function_parts.png](https://vt.instructure.com/files/4444670/download?verifier=jdE75zdV85CnLq9GZ6RqMXjDizyD9JLbP81Vw20q&wrap=1)
+  points_possible: 3.0
+  answers:
+    lefts:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    rights:
+    - Definition keyword
+    - Function body
+    - Function call
+    - Function name
+    - Parameter
+    - Return statement
+- question_name: ParameterScope
+  question_type: short_answer_question
+  question_text: |-
+    What is printed after the code below is executed?
+
+    ```python
+
+    def change_value(a_variable):
+        a_variable = 5
+        return a_variable
+
+    a = 0
+    change_value(a)
+    print(a)
+
+    ```
+  points_possible: 1.0
+- question_name: FunctionHeaderColon
+  question_type: short_answer_question
+  question_text: Type the symbol that goes at the end of the function definition's
+    header.
+  points_possible: 1.0
+- question_name: PassStatement
+  question_type: multiple_choice_question
+  question_text: What does the `pass` statement do?
+  points_possible: 1.0
+  answers:
+  - Passes a value to a function
+  - Absolutely nothing
+  - Passes the result of the function back to where it was called.
+- question_name: AdvantagesOfFunctions
+  question_type: multiple_answers_question
+  question_text: Mark all of the following that ARE advantages of functions.
+  points_possible: 1.0
+  answers:
+  - Make it easy to reuse code
+  - Code in a function executes faster
+  - Easier to debug code in a function because it is isolated
+- question_name: IdentifyFunctionName
+  question_type: short_answer_question
+  question_text: |-
+    Given the function definition below, what is the name of the function?
+
+    ```python
+
+    def get_area(width, height):
+        return width*height
+
+    ```
+  points_possible: 1.0
+- question_name: IdentifyFunctionReturnType
+  question_type: multiple_choice_question
+  question_text: |-
+    What type of thing is returned from the function below?
+
+    ```python
+
+    def is_on_fire():
+        return True
+
+    ```
+  points_possible: 1.0
+  answers:
+  - Boolean
+  - String
+  - Function
+  - None
+- question_name: PrintingSameAsReturning
+  question_type: true_false_question
+  question_text: Printing is the same thing as returning.
+  points_possible: 1.0
+- question_name: IdentifyPrintFunctionReturn
+  question_type: multiple_choice_question
+  question_text: |-
+    What type of thing is returned from the function below?
+
+    ```python
+
+    def get_name():
+        print("Harry Potter")
+
+    ```
+  points_possible: 1.0
+  answers:
+  - Boolean
+  - String
+  - Function
+  - None
+- question_name: FunctionPossibleReturnTypes
+  question_type: true_false_question
+  question_text: Every function must return an integer or string.
+  points_possible: 1.0
+- question_name: FunctionRequiresParameters
+  question_type: true_false_question
+  question_text: |-
+    Every function created with the "def" keyword must have AT LEAST ONE
+    parameter.
+  points_possible: 1.0
+- question_name: FunctionRequiresNames
+  question_type: true_false_question
+  question_text: Every function defined with the "def" keyword MUST have a name.
+  points_possible: 1.0
+- question_name: MeaningOfDefKeyword
+  question_type: true_false_question
+  question_text: The keyword "def" is short for "define".
+  points_possible: 1.0
+- question_name: PrintingReturnsNone
+  question_type: multiple_choice_question
+  question_text: |-
+    When the following code is executed, what will be the value of the variable
+    named "tripled"?
+
+    ```python
+
+    def triple(a_number):
+        print(a_number * 3)
+
+    tripled = triple(2)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '3'
+  - None
+  - '2'
+  - '6'

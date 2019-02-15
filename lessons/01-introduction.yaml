@@ -15,7 +15,7 @@ objectives:
 activities:
     - "Lesson: Introduction"
     - "Quiz: Introduction"
-    - "Programming: Maze Game"
+    - Programming 1- Maze Game
 summary: Programs are created by programmers to give computers instructions. Data comes in, the computer processes it, and then returns the result to the user.
 readings:
     Automate the Boring Stuff: "[Chapter 0](https://automatetheboringstuff.com/chapter0/)"

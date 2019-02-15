@@ -1,0 +1,132 @@
+title: '#38) Quiz: While Loops'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 14.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: LabelWhile
+  question_type: matching_question
+  question_text: |-
+    Identify each part of the while loop shown:
+
+    ![25-while-
+
+    quizGraphics.png](https://canvas.vt.edu/files/4961030/download?verifier=NszNCgwJTor7BzC3ompOb43oPbcWIXnf2j0pkkan&wrap=1)
+  points_possible: 2.5
+  answers:
+    lefts:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    rights:
+    - Body
+    - Colon
+    - Conditional
+    - Indentation
+    - While keyword
+- question_name: WhileVsFor
+  question_type: true_false_question
+  question_text: Syntactically, `while` loops look just like `for` loops.
+  points_possible: 1.0
+- question_name: WhileExecutesOnce
+  question_type: true_false_question
+  question_text: A While loop will always execute at least once.
+  points_possible: 1.0
+- question_name: LoopEndDecrement
+  question_type: true_false_question
+  question_text: |-
+    The program below will NOT loop forever.
+
+    ```python
+
+    count = 10
+    while count >= 0:
+        count = count - 1
+    print(count)
+
+    ```
+  points_possible: 1.0
+- question_name: LoopEndIncrement
+  question_type: true_false_question
+  question_text: |-
+    The program below will NOT loop forever.
+
+    ```python
+
+    count = 0
+    while count > 0:
+        count = count + 1
+    print(count)
+
+    ```
+  points_possible: 1.0
+- question_name: LoopForever
+  question_type: true_false_question
+  question_text: |-
+    The program below will NOT loop forever.
+
+    ```python
+
+    while True:
+        print("Loop again")
+
+    ```
+  points_possible: 1.0
+- question_name: LoopConvenience
+  question_type: true_false_question
+  question_text: |-
+    `while` loops are more common in Python than `for` loops because they are
+    safer.
+  points_possible: 1.0
+- question_name: LoopLength
+  question_type: true_false_question
+  question_text: A `while` loop will execute once for each expression in the conditional.
+  points_possible: 1.0
+- question_name: ControlStructureBodies
+  question_type: multiple_answers_question
+  question_text: Which of the following have a body?
+  points_possible: 3.5
+  answers:
+  - '`while` loop'
+  - List comprehension
+  - '`for` loop'
+  - Function definition
+  - Function call
+  - '`if` statement.'
+  - Dictionary access
+- question_name: InputLimit
+  question_type: multiple_choice_question
+  question_text: |-
+    How many times does the loop body below execute?
+
+    ```python
+
+    command = ""
+    words = []
+    while command != "quit":
+        command = input("Type a word:")
+        words.append(command)
+    print(words)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - None
+  - At least once
+  - At least twice
+  - No more than 10 times

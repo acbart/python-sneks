@@ -1,0 +1,125 @@
+title: '#37) Quiz: List Comprehensions'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 9.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ComprehensionParts
+  question_type: matching_question
+  question_text: |-
+    Identify each of the components of the list comprehension:
+
+    ![20-comprehension-
+
+    quizGraphics.png](https://vt.instructure.com/files/4939113/download?verifier=SReM7u6nPkiaXhJQnZqdbMwW19OnQb3BwzwAQAGo&wrap=1)
+  points_possible: 3.0
+  answers:
+    lefts:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    rights:
+    - Element expression
+    - For keyword
+    - In keyword
+    - Iteration list
+    - Iteration variable
+    - Square brackets
+- question_name: ListComprehensionFacts
+  question_type: multiple_answers_question
+  question_text: 'Mark all that are true:'
+  points_possible: 3.0
+  answers:
+  - List comprehensions can express anything that a `for` loop can.
+  - List comprehensions create lists based on old lists.
+  - If statements can be placed inside of List Comprehensions
+- question_name: ComprehensionLength
+  question_type: multiple_choice_question
+  question_text: |-
+    How many elements will the result of this list comprehension have?
+
+    ```python
+
+    old = [1,2,3]
+    new = [old*2 for i in old]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '2'
+  - '3'
+  - '6'
+- question_name: FilterLength
+  question_type: multiple_choice_question
+  question_text: |-
+    How many elements will the result of this list comprehension have?
+
+    ```python
+
+    old = [1,2,3]
+    new = [old*2 for i in old if i > 1]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '2'
+  - '3'
+  - '5'
+  - '6'
+- question_name: ComprehensionVsLoop
+  question_type: multiple_answers_question
+  question_text: Which of the following code snippets are equivalent?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    squared = [value**2 for value in values]
+
+    ```
+  - |-
+    ```python
+
+    squared = [return value**2 for value in values]
+
+    ```
+  - |-
+    ```python
+
+    squared = [squared.append(value**2) for value in values]
+
+    ```
+  - |-
+    ```python
+
+    squared = []
+    for value in values:
+        squared.append(value**2)
+
+    ```
+  - |-
+    ```python
+
+    squared = []
+    for value in values:
+        value**2
+
+    ```

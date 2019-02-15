@@ -1,0 +1,62 @@
+title: '#13) Quiz: Statements and Expressions'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: SequentialStatements
+  question_type: true_false_question
+  question_text: Normally, statements are executed from top to bottom.
+  points_possible: 1.0
+- question_name: LeftToRightExpressions
+  question_type: true_false_question
+  question_text: Expressions are evaluated from left to right
+  points_possible: 1.0
+- question_name: StepByStepExecution
+  question_type: true_false_question
+  question_text: |-
+    Programs may execute very quickly in computers, but they always happen one
+    step at a time.
+  points_possible: 1.0
+- question_name: ExpressionComponents
+  question_type: multiple_answers_question
+  question_text: Which of the following can be involved in an expression?
+  points_possible: 3.0
+  answers:
+  - Literal values
+  - Arithmetic operators
+  - Other expressions
+  - Conditional operators
+  - Statements
+  - Variables
+- question_name: ExpressionType
+  question_type: matching_question
+  question_text: |-
+    Evaluate each of the following expressions and identify the type of the
+    result.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - '"Hello " + "World"'
+    - (1 + 2) * 4 / 3
+    - (1 + 2) > 4
+    - 1 + 2 + 3 + 4 + 5
+    - 4 > 5 or 5 == 6
+    rights:
+    - Boolean
+    - Float
+    - Integer
+    - String

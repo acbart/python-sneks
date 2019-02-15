@@ -1,0 +1,98 @@
+title: '#18) Quiz: Calling Functions 2'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: InputReturn
+  question_type: true_false_question
+  question_text: The input() function returns a string.
+  points_possible: 1.0
+- question_name: PrintReturn
+  question_type: true_false_question
+  question_text: The print() function returns a string.
+  points_possible: 1.0
+- question_name: StringCountReturn
+  question_type: short_answer_question
+  question_text: |-
+    According to the linked documentation, what _type_ of value does the
+    [string.count()](https://vt.instructure.com/courses/66476/pages/reference-
+
+    strings#count) function return?
+  points_possible: 1.0
+- question_name: StringSplitParameters
+  question_type: short_answer_question
+  question_text: |-
+    According to the linked documentation, how many parameters does the
+    [string.split()](https://vt.instructure.com/courses/66476/pages/reference-
+
+    strings#split) function take?
+  points_possible: 1.0
+- question_name: MethodCallResults
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    According to [the linked
+    documentation](https://vt.instructure.com/courses/66476/pages/reference-
+
+    strings), what is the result of each of the following expression involving a
+    method call?
+
+    ```python
+
+    > "To be Or not to be, that is the question.".count("o")  
+    [count]
+
+    ```
+
+    ```python
+
+    > "You should remember how to use subscripts"[5:10].count("o")  
+    [countsubscripts]
+
+    ```
+
+    ```python
+
+    > "Where's waldo?".find("w")  
+    [findw]  
+
+    > "To be or not to be, that is the question.".upper().count("TO")  
+    [countupper]  
+
+    > "eeeeee".replace("ee", "e").count("e")  
+    [doublee]
+
+    ```
+  points_possible: 1.0
+- question_name: MethodComponents
+  question_type: matching_question
+  question_text: |-
+    Given the method call below, identify each component.
+
+    "Open the pod bay doors, Hal!".replace("Open", "Close")
+  points_possible: 1.0
+  answers:
+    lefts:
+    - '"Close"'
+    - '"Open the pod bay doors, Hal!"'
+    - '"Open"'
+    - (
+    - replace
+    rights:
+    - Argument
+    - Method name
+    - Parentheses
+    - The calling value

@@ -1,0 +1,111 @@
+title: '#8) Quiz: Types'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 15.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: LiteralType
+  question_type: matching_question
+  question_text: Identify the type of each literal value.
+  points_possible: 4.0
+  answers:
+    lefts:
+    - '""'
+    - '"4"'
+    - '"Hello World"'
+    - '"True"'
+    - '0'
+    - '4.3'
+    - '5'
+    - 'False'
+    - None
+    rights:
+    - Boolean
+    - Float
+    - Integer
+    - None
+    - String
+- question_name: PrimitiveTypeDescriptions
+  question_type: matching_question
+  question_text: Match each type to its description.
+  points_possible: 3.0
+  answers:
+    lefts:
+    - Boolean
+    - Float
+    - Integer
+    - None
+    - Python
+    - String
+    rights:
+    - A special value that means nothing
+    - Decimal numbers
+    - Text
+    - This is not a type
+    - True or False
+    - Whole numbers
+- question_name: IntegerLiterals
+  question_type: multiple_answers_question
+  question_text: Which of the following are Integers, in Python?
+  points_possible: 3.0
+  answers:
+  - '0'
+  - '"Five"'
+  - '"7"'
+  - '5.5'
+  - '2.0'
+  - '-100000257'
+- question_name: PrintStringOutput
+  question_type: short_answer_question
+  question_text: |-
+    Write the output of the print statement:
+
+    ```python
+
+    print("5")
+
+    ```
+  points_possible: 1.0
+- question_name: NumberOfValuesPerTypes
+  question_type: matching_question
+  question_text: How many possible values are there for each type?
+  points_possible: 2.0
+  answers:
+    lefts:
+    - Boolean
+    - Float
+    - Integer
+    - None
+    - String
+    rights:
+    - '1'
+    - '2'
+    - More than 100
+- question_name: TypeAbbreviations
+  question_type: matching_question
+  question_text: 'Match each type to its abbreviation in Python:'
+  points_possible: 2.0
+  answers:
+    lefts:
+    - Boolean
+    - Integer
+    - None
+    - String
+    rights:
+    - None
+    - bool
+    - int
+    - str

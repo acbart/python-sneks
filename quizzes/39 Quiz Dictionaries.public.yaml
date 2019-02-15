@@ -1,0 +1,216 @@
+title: '#39) Quiz: Dictionaries'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 20.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: DictionariesParts
+  question_type: matching_question
+  question_text: |-
+    Identify each of the components of the Dictionary literal below:
+
+    ![20-dictionaries-
+
+    quizGraphics.png](https://vt.instructure.com/files/4939440/download?verifier=Dnh3nVBwrcL0SNi4si3iSVk7KMKfypg3w9h1WU0h&wrap=1)
+  points_possible: 4.5
+  answers:
+    lefts:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    rights:
+    - Colon
+    - Comma
+    - Curly Brace
+    - Key
+    - Value
+- question_name: DefinitionSequence
+  question_type: true_false_question
+  question_text: Dictionaries are a sequence of key-value pairs.
+  points_possible: 1.0
+- question_name: EmptyDictionary
+  question_type: true_false_question
+  question_text: Dictionaries will always have at least one key and one value.
+  points_possible: 1.0
+- question_name: DuplicateKeys
+  question_type: true_false_question
+  question_text: Dictionaries are useful because you can have duplicate keys.
+  points_possible: 1.0
+- question_name: StringKeys
+  question_type: true_false_question
+  question_text: Dictionary keys are always strings.
+  points_possible: 1.0
+- question_name: DictionarySynonyms
+  question_type: multiple_answers_question
+  question_text: 'Select each synonym for a Python "dictionary":'
+  points_possible: 2.0
+  answers:
+  - Map
+  - Table
+  - List
+  - Thesaurus
+- question_name: KeyValueTypes
+  question_type: matching_question
+  question_text: |-
+    Given this dictionary...
+
+    ```python
+
+    animal = {"Name": "Klaus", "Age": 17, "Small?": True}
+
+    ```
+  points_possible: 2.0
+  answers:
+    lefts:
+    - What is the type of the key "Name"?
+    - What is the type of the key "Small?"?
+    - What is the type of the value associated with the key "Age"?
+    - What is the type of the value associated with the key "Name"?
+    rights:
+    - Integer
+    - String
+- question_name: LookupSyntax
+  question_type: multiple_choice_question
+  question_text: |-
+    Which of the following demonstrates proper syntax for accessing a dictionary's
+    value?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    a_dictionary{"Key"}
+
+    ```
+  - |-
+    ```python
+
+    ["Key"]a_dictionary
+
+    ```
+  - |-
+    ```python
+
+    a_dictionary["Key"]
+
+    ```
+  - |-
+    ```python
+
+    {"Key"}a_dictionary
+
+    ```
+- question_name: ValidLookups
+  question_type: multiple_answers_question
+  question_text: |-
+    Given the following code,
+
+    ```python
+
+    dict = {"Key": "Value",
+            5: 10,
+            True: "Hello"}
+    key = 5
+
+    ```
+
+    Which of the following are valid expressions?
+  points_possible: 5.0
+  answers:
+  - |-
+    ```python
+
+    dict[5]
+
+    ```
+  - |-
+    ```python
+
+    dict[10]
+
+    ```
+  - |-
+    ```python
+
+    dict[False]
+
+    ```
+  - |-
+    ```python
+
+    dict[True]
+
+    ```
+  - |-
+    ```python
+
+    dict["Value"]
+
+    ```
+  - |-
+    ```python
+
+    dict[Key]
+
+    ```
+  - |-
+    ```python
+
+    dict["Key"]
+
+    ```
+  - |-
+    ```python
+
+    dict[key]
+
+    ```
+  - |-
+    ```python
+
+    dict[key+5]
+
+    ```
+  - |-
+    ```python
+
+    dict["He"+"llo"]
+
+    ```
+- question_name: LookupCalculation
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Given the following dictionary,
+
+    ```python
+
+    scores = { 5: 10,
+               10: 5 }
+
+    ```
+
+    What is the value of the following expressions?
+
+      * ![21-quizGraphics-dictionaries-lookupCalculation-1.png](https://vt.instructure.com/files/4939694/download?verifier=cS68S9cIW7IoHrbZ0TorYPtbKfJSgxasbkkJRzKa&wrap=1): [regular]
+      * ![21-quizGraphics-dictionaries-lookupCalculation-2.png](https://vt.instructure.com/files/4939697/download?verifier=z47hU9cHdrLJwQPtquZdrSssajUzl1OLG2Q0Fw7u&wrap=1): [inner]
+      * ![21-quizGraphics-dictionaries-lookupCalculation-3.png](https://vt.instructure.com/files/4939699/download?verifier=FFBalsGOXCGItPso0MnSV7N3b5sMxZOsB2D6TepD&wrap=1): [outer]
+  points_possible: 1.5

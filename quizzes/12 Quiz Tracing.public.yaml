@@ -1,0 +1,88 @@
+title: '#12) Quiz: Tracing'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 11.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Variables Change Value over Program
+  question_type: true_false_question
+  question_text: |-
+    Variables change their value over time according to the instructions in a
+    program.
+  points_possible: 1.0
+- question_name: Sequential Tracing
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Trace the value of the three variables above by filling out the table below.
+    If a value has not been assigned to a variable, write "X" in the box (without
+    quotation marks).
+
+    ```python
+
+    salary = 10
+    taxes = .1
+    adjusted = salary * taxes
+    salary = 100
+    taxes = 0
+    adjusted = salary - taxes
+
+    ```
+
+    step | salary | taxes | adjusted  
+    ---|---|---|---  
+    1 | 10 | X | X  
+    2 | [salary2] | [taxes2] | [adjusted2]  
+    3 | [salary3] | [taxes3] | [adjusted3]  
+    4 | [salary4] | .1 | [adjusted4]  
+    5 | [salary5] | [taxes5] | [adjusted5]  
+    6 | 100 | [taxes6] | [adjusted6]
+  points_possible: 6.5
+- question_name: ReadWriteVariable
+  question_type: matching_question
+  question_text: |-
+    Label each of the following as either a "Read", a "Write", or a "Read and
+    Write" for the variable "x".
+  points_possible: 2.5
+  answers:
+    lefts:
+    - print(x)
+    - x = 0
+    - x = x + 1
+    - x == 1
+    - y = x + z
+    rights:
+    - Read
+    - Read and Write
+    - Write
+- question_name: VariableUsageSynonyms
+  question_type: matching_question
+  question_text: 'For each word, choose the best synonym:'
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Change
+    - Create
+    - Define
+    - Increment
+    - Load
+    - Set
+    - Store
+    - Use
+    rights:
+    - Initialize
+    - Read
+    - Update
+    - Write

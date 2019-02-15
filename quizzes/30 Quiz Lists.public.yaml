@@ -1,0 +1,103 @@
+title: '#30) Quiz: Lists'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 9.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: EvaluatePrimitiveCompositeType
+  question_type: matching_question
+  question_text: |-
+    Identify each of the following as a Primitive Type, Composite Type, or Not a
+    Type.
+  points_possible: 2.0
+  answers:
+    lefts:
+    - Integer
+    - List
+    - None
+    - 'True'
+    rights:
+    - Composite type
+    - Not a type
+    - Primitive type
+- question_name: EvaluateListType
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the type of the following literal value?
+
+    ```python
+
+    [4.5, 3.2, 7.3]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - List
+  - Float
+  - Int
+  - String
+  - Boolean
+  - None
+- question_name: EvaluateListSubtype
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the subtype of the following literal value?
+
+    ```python
+
+    [4.5, 3.2, 7.3]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - List
+  - Float
+  - Int
+  - String
+  - Boolean
+  - None
+- question_name: ListArrayVector
+  question_type: true_false_question
+  question_text: Lists can also be correctly referred to as "Arrays" or "Vectors".
+  points_possible: 1.0
+- question_name: PossibleListSubtype
+  question_type: multiple_answers_question
+  question_text: Which of the following are possible subtypes for a list?
+  points_possible: 1.0
+  answers:
+  - Float
+  - String
+  - Boolean
+  - List
+- question_name: ListsAndStringsAreSequences
+  question_type: true_false_question
+  question_text: Lists and strings are both sequences of data.
+  points_possible: 1.0
+- question_name: ListLiteralOrStringIndexing
+  question_type: matching_question
+  question_text: Identify each of the following as either "List literal" or "String
+    indexing".
+  points_possible: 2.0
+  answers:
+    lefts:
+    - '""[1]'
+    - '"Hermione"[1]'
+    - '["Hermione"]'
+    - '[1]'
+    - '[]'
+    rights:
+    - List literal
+    - String indexing

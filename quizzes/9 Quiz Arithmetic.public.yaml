@@ -1,0 +1,93 @@
+title: '#9) Quiz: Arithmetic'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ArithmeticOperatorPrecedence
+  question_type: matching_question
+  question_text: |-
+    Put these operators in order of their precedence (what order they are
+    evaluated):
+  points_possible: 2.0
+  answers:
+    lefts:
+    - 'First:'
+    - Fourth
+    - Second
+    - Third
+    rights:
+    - Addition, Subtraction
+    - Exponents
+    - Multiplication, Modulo, and Division
+    - Parentheses
+- question_name: Question
+  question_type: short_answer_question
+  question_text: |-
+    Predict the result of this expression:
+
+    ```python
+
+    4 + 5 * 2
+
+    ```
+  points_possible: 1.0
+- question_name: IntegerDivisionConversion
+  question_type: short_answer_question
+  question_text: |-
+    Predict the result of this expression:
+
+    ```python
+
+    10 / 5 - 1
+
+    ```
+  points_possible: 1.0
+- question_name: ModuloOperator
+  question_type: short_answer_question
+  question_text: |-
+    Predict the result of this expression:
+
+    ```python
+
+    (10+8) % 12
+
+    ```
+  points_possible: 1.0
+- question_name: AdditionOperatorArity
+  question_type: multiple_choice_question
+  question_text: How many things can be added at once with the "+" operator?
+  points_possible: 1.0
+  answers:
+  - None, computers can't add.
+  - Two things.
+  - Any number of things.
+- question_name: StringPlusInt
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the result if you ask Python to perform the following computation?
+
+    ```python
+
+    "2"+2
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '"22"'
+  - '4'
+  - '"4"'
+  - You cannot add these together.

@@ -1,0 +1,83 @@
+title: '#41) Quiz: Lookup and Find'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 3.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Lookup and Find Analogy
+  question_type: matching_question
+  question_text: |-
+    You need to find a book in the library. Match the data structure's operation
+    to the analogous approach:
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Checking each book's name in order
+    - Using the index to instantly go to the right aisle
+    rights:
+    - Find in a list
+    - Look up in a dictionary
+- question_name: For Each on a Dictionary
+  question_type: true_false_question
+  question_text: |-
+    Summing all the elements of a dictionary is faster than summing all the
+    elements of a list because you can lookup items instantly.
+  points_possible: 1.0
+- question_name: Question
+  question_type: multiple_choice_question
+  question_text: |-
+    Assume that a dictionary variable has been initialized with the inventory of a
+    supermarket (with the rest of the items typed out):
+
+    ```python
+
+    inventory = {"Apples": 50, "Bananas": 35, "Cauliflower": 0, ..., "Zucchini": 72}
+
+    ```
+
+    The following algorithms all attempt to perform the same task of checking how
+    many "Zucchini" will be in stock. Which of the correct algorithms do you
+    expect to be the fastest?
+  points_possible: 1.0
+  answers:
+  - |-
+    ```python
+
+    for item in inventory:
+        if item == "Zucchini":
+            print(inventory[item])
+
+    ```
+  - |-
+    ```python
+
+    for item, quantity in inventory:
+        if item == "Zucchini":
+            print(quantity)
+
+    ```
+  - |-
+    ```python
+
+    print(inventory["Zucchini"])
+
+    ```
+  - |-
+    ```python
+
+    print(inventory == "Zucchini")
+
+    ```

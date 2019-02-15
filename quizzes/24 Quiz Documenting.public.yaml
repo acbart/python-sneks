@@ -1,0 +1,77 @@
+title: '#24) Quiz: Documenting'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: DocumentationSingleLineSymbol
+  question_type: short_answer_question
+  question_text: 'Enter the symbol (not its name) used for single-line comments in
+    Python:'
+  points_possible: 1.0
+- question_name: DocumentationMultiTripleQuotes
+  question_type: true_false_question
+  question_text: Multi-line comments in Python are actually just triple-quoted strings.
+  points_possible: 1.0
+- question_name: DocumentationSingleLineIgnored
+  question_type: true_false_question
+  question_text: Single-line comments are ignored by Python, and so are only for human
+    benefit.
+  points_possible: 1.0
+- question_name: DocumentationAlwaysComment
+  question_type: true_false_question
+  question_text: You should always document every line of a program.
+  points_possible: 1.0
+- question_name: DocumentationIntepret
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Interpret the documentation below to fill in the blanks:
+
+    ```python
+
+    def make_time(hour, minute, second):
+        '''
+        Creates a string representation of the given hour, minute, and second.
+        Note that this takes into account Daylight Savings Time.
+
+        Args:
+            hour (int): The number of hours past midnight (military time).
+            minute (int): The number of minutes past the hour.
+            second (float): The number of seconds past the minute, which can be a
+                            decimal number (indicating milliseconds).
+        Returns:
+            str: A string representation of the time ("hh:mm:ss.sss") including
+                 milliseconds.
+        '''
+
+    ```
+
+      1. This function takes [paramCount] parameters.
+      2. The second parameter is named [secondParameter].
+      3. The third parameter's type is [thirdType].
+      4. The function's return type is [returnType].
+  points_possible: 2.0
+- question_name: DocumentationReasons
+  question_type: multiple_answers_question
+  question_text: Which of the following are reasons for commenting code?
+  points_possible: 1.0
+  answers:
+  - To support code sharing
+  - To make it easier to understand our own code, later.
+  - To test if a function has the right inputs for some given outputs
+  - |-
+    To keep a record of code that you want to eliminate, in case you need it
+    later.

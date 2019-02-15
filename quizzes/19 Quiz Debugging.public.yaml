@@ -1,0 +1,51 @@
+title: '#19) Quiz: Debugging'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 2.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: OrderDebuggingStrategies
+  question_type: matching_question
+  question_text: Put the following steps into the correct order.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Fifth
+    - First
+    - Fourth
+    - Second
+    - Sixth
+    - Third
+    rights:
+    - Celebrate.
+    - Develop a hypothesis as to why the code failed.
+    - Observe a failure in your code.
+    - Repeat the previous two steps until the code is fixed.
+    - Test the prediction by experimenting with the code and making observations.
+    - Turn this hypothesis into a prediction.
+- question_name: DescribeDebuggingStrategies
+  question_type: matching_question
+  question_text: Match each debugging strategy to its description.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Rubber Duck Debugging
+    - The Scientific Method
+    - Wolf Fencing
+    rights:
+    - Develop a hypothesis that you can use to test predictions about your code.
+    - Meticulously review each line of code out loud.
+    - Repeatedly divide your code in half using print statements to track the fault.

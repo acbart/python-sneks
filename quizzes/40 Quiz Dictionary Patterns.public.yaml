@@ -1,0 +1,93 @@
+title: '#40) Quiz: Dictionary Patterns'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 8.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: KeySubtype
+  question_type: matching_question
+  question_text: For each pattern, identify the subtype of the dictionaries' keys.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Counting Pattern
+    - Lookup Pattern
+    - Record Pattern
+    rights:
+    - Any type
+    - String
+- question_name: ValueSubtype
+  question_type: matching_question
+  question_text: For each pattern, identify the subtype of the dictionaries' values.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Counting Pattern
+    - Lookup Pattern
+    - Record Pattern
+    rights:
+    - Any type
+    - Integer
+- question_name: RecordPatternUsefulness
+  question_type: true_false_question
+  question_text: The Record Pattern is useful for representing complex real-world
+    things.
+  points_possible: 1.0
+- question_name: CountingCategories
+  question_type: true_false_question
+  question_text: |-
+    The Dictionary Counting Pattern is only useful if you know exactly what
+    categories of things you have in advance.
+  points_possible: 1.0
+- question_name: CountingInitialization
+  question_type: multiple_choice_question
+  question_text: |-
+    What does the accumulator variable in the dictionary counting pattern
+    initialize to?
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '1'
+  - Empty List
+  - Empty Dictionary
+  - Empty String
+- question_name: VariableKeys
+  question_type: true_false_question
+  question_text: Variables cannot be used as the keys of a dictionary
+  points_possible: 1.0
+- question_name: DynamicKeys
+  question_type: true_false_question
+  question_text: Keys cannot be added to a dictionary after the dictionary has been
+    created.
+  points_possible: 1.0
+- question_name: DictionaryUpdate
+  question_type: multiple_choice_question
+  question_text: |-
+    What will be printed after this code is run?
+
+    ```python
+
+    points = {"Virginia Tech": 5}
+    points["Virginia Tech"] = 3
+    print(points["Virginia Tech"])
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '[5, 3]'
+  - '[3, 5]'
+  - '3'
+  - '5'

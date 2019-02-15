@@ -1,0 +1,67 @@
+title: '#2) Quiz: Languages'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Discovered
+  question_type: true_false_question
+  question_text: |-
+    Humans discovered programming languages in the 1940s and have been decoding
+    them ever since
+  points_possible: 1.0
+- question_name: Rules
+  question_type: true_false_question
+  question_text: Programming languages, like regular languages, have rules.
+  points_possible: 1.0
+- question_name: Instructions
+  question_type: true_false_question
+  question_text: Programming languages are good for writing instructions.
+  points_possible: 1.0
+- question_name: Good Language
+  question_type: multiple_answers_question
+  question_text: Which of the following are reasons why Python is a good language
+    to learn?
+  points_possible: 1.0
+  answers:
+  - It is one of the most popular programming languages in the world.
+  - It is an easy language to learn.
+  - It is a brand new language.
+  - |-
+    There are many powerful libraries for Python that make it useful for many
+    kinds of problems.
+  - It is heavily funded by the United States government, making it very reliable.
+- question_name: Uses
+  question_type: multiple_answers_question
+  question_text: What are some common uses of Python?
+  points_possible: 1.0
+  answers:
+  - Making web servers
+  - Scientific computing
+  - Processing data
+- question_name: Errors
+  question_type: matching_question
+  question_text: Match the error with the sentence.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Green is with the monkey's ears and toes.
+    - Oxygen cold wheat.
+    - This Open. Verbed -- ? Outside ... grapes!
+    - Wishes hop incorrectly over the coffee cup.
+    rights:
+    - Semantic Error
+    - Syntax Error

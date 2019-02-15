@@ -1,0 +1,71 @@
+title: '#5) Quiz: Getting Help'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 8.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: GoodEmailTitles
+  question_type: multiple_answers_question
+  question_text: Mark each of the following email titles if they are GOOD titles.
+  points_possible: 3.0
+  answers:
+  - '"HELP ME!!!!!!!!!"'
+  - '"How do I initialize a variable?"'
+  - '"Course Confusion"'
+  - '"Why do I get an error?"'
+  - '"What is a NameError and how do I get rid of it?"'
+  - '"i got an eror hlp plz"'
+  - "\"#3.2 doesn't make any sense\""
+- question_name: ErrorMessagesInEmails
+  question_type: true_false_question
+  question_text: |-
+    You should not put error messages into help seeking emails because it can
+    clutter up the email.
+  points_possible: 1.0
+- question_name: ExpertsNeedHelp
+  question_type: true_false_question
+  question_text: |-
+    One of the differences between a novice and an expert is that experts don't
+    need help.
+  points_possible: 1.0
+- question_name: SendingCode
+  question_type: multiple_answers_question
+  question_text: Which of the following examples is an appropriate way to send code?
+  points_possible: 3.0
+  answers:
+  - |-
+    Hello instructor, I have a problem in the following code:
+    [https://pastebin.com/DjcgHkYk
+
+    Links to an external site.](https://pastebin.com/DjcgHkYk)
+  - Hello instructor, my code has a problem in it.
+  - |-
+    Hello instructor, this code has a problem in it: print(my_age) my_age = 0
+    my_age = my_age + 5
+  - |-
+    Hello instructor, this code has a problem in it:
+
+    ```python
+
+    print(my_age)
+    my_age = 0
+    my_age = my_age + 5
+
+    ```
+  - |-
+    Hello instructor, my code has a problem in it. I have attached the code as a
+    Python file for you to look at: [[download link to python fileLinks to an
+    external site.](https://pastebin.com/raw/ibMJ7L3j){: .external}]

@@ -1,0 +1,148 @@
+title: '#42) Quiz: Nested Structures'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 17.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: PythonTypes
+  question_type: matching_question
+  question_text: |-
+    Label each of the following as a "Primitive type", "Composite type", or "Not a
+    type":
+  points_possible: 6.0
+  answers:
+    lefts:
+    - Boolean
+    - Dictionary
+    - Float
+    - For
+    - Integer
+    - Key
+    - List
+    - Literal
+    - None
+    - Return
+    - String
+    - Value
+    rights:
+    - Composite type
+    - Not a type
+    - Primitive type
+- question_name: ListsOfDictionaries
+  question_type: true_false_question
+  question_text: Lists can be composed of Dictionaries.
+  points_possible: 1.0
+- question_name: DictionariesOfLists
+  question_type: true_false_question
+  question_text: Dictionaries cannot be composed of Lists.
+  points_possible: 1.0
+- question_name: StringsOfLists
+  question_type: true_false_question
+  question_text: Strings can be composed of Lists.
+  points_possible: 1.0
+- question_name: ListOfList
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the type of the following expression?
+
+    [[0]]
+  points_possible: 1.0
+  answers:
+  - List of List of Integers
+  - List of Integers
+  - Integer
+  - Not a valid expression
+- question_name: LengthOfLOD
+  question_type: multiple_choice_question
+  question_text: |-
+    How many elements are in the following list?
+
+    ```python
+
+    animals = [{"Name": "Klaus", "Age": 17, "Type": "Dog"},
+               {"Name": "Tigger", "Age": 12, "Type": "Cat"},
+               {"Name": "Wrex", "Age": 2, "Type": "Hamster"}]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '3'
+  - '9'
+  - '18'
+- question_name: ComplexExpressions
+  question_type: matching_question
+  question_text: |-
+    Given the following code:
+
+    ```python
+
+    movies = [
+        {"Name": "Jurassic Park", "Length": 127, 
+         "Cast": ["Goldblum", "Neill", "Dern"]},
+        {"Name": "Castle in the Sky", "Length": 140,
+         "Cast": ["Paquin", "Beek", "Leachman"]},
+        {"Name": "It", "Length": 135,
+         "Cast": ["Curry", "Green", "Brandis"]}]
+
+    ```
+
+    What is the value of the following expressions?
+  points_possible: 5.0
+  answers:
+    lefts:
+    - movies[-1]["Length"]
+    - movies[0]["Name"]
+    - movies[0][127]
+    - movies[127]["Name"]
+    - movies[1]["Cast"][2]
+    - movies[1][1]
+    - movies[2]["Cast"]["Curry"]
+    - movies[2]["Cast"][0]
+    - movies[2]["Curry"]
+    - movies[2]["Name"]
+    rights:
+    - '"Curry"'
+    - '"It"'
+    - '"Jurassic Park"'
+    - '"Leachman"'
+    - '135'
+    - Raises an error
+- question_name: KeyInFor
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Fill in the blanks of the following code in order to print out each movie
+    title followed by the names of its cast members:
+
+    ```python
+
+    movies = [
+        {"Name": "Jurassic Park", "Length": 127, 
+         "Cast": ["Goldblum", "Neill", "Dern"]},
+        {"Name": "Castle in the Sky", "Length": 140,
+         "Cast": ["Paquin", "Beek", "Leachman"]},
+        {"Name": "It", "Length": 135,
+         "Cast": ["Curry", "Green", "Brandis"]}]
+    for movie in movies:
+        print(movie["___1___"])
+        for member in movie["___2___"]:
+            print(member)
+
+    ```
+
+      1. [name]
+      2. [cast]
+  points_possible: 1.0

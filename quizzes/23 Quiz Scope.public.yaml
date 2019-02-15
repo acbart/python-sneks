@@ -1,0 +1,134 @@
+title: '#23) Quiz: Scope'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 10.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ScopeLifetime
+  question_type: true_false_question
+  question_text: The scope of a variable is how long the variable is "alive".
+  points_possible: 1.0
+- question_name: ScopeQuantity
+  question_type: multiple_choice_question
+  question_text: |-
+    How many scopes are there in this program?
+
+    ```python
+
+    def print_result(value):
+        print("The result is", value)
+    def massage_number(a_number):
+        return a_number * 5 + 3
+    start = 10
+    print_result(massage_number(start))
+
+    ```
+  points_possible: 1.0
+  answers:
+  - 1 global scopes, 2 local scope
+  - 1 local scope, 2 global scopes
+  - 2 global scopes
+  - 6 global scopes
+  - 4 local scopes, 2 global scopes
+  - 4 local scopes, 1 global scope
+- question_name: ScopeRulesOfThumb
+  question_type: multiple_answers_question
+  question_text: 'Mark each of the following that are good rules of thumb:'
+  points_possible: 1.0
+  answers:
+  - Variables inside a local scope should not be used outside that local scope.
+  - Variables outside a local scope should not be used inside that local scope.
+  - Variables inside a local scope should only be used outside that local scope.
+  - Variables outside a local scope should only be used inside that local scope.
+- question_name: ScopeIdentify
+  question_type: matching_question
+  question_text: |-
+    Identify each variable as local to the function `calculate_price` or global:
+
+    ```python
+
+    coupon = 2.99
+    def calculate_price(cost):
+        tax = 1.1
+        price = cost * tax - coupon
+        return price
+    original_cost = 7.99
+    new_price = calculate_price(original_cost)
+
+    ```
+  points_possible: 3.0
+  answers:
+    lefts:
+    - cost
+    - coupon
+    - new_price
+    - original_cost
+    - price
+    - tax
+    rights:
+    - global
+    - local
+- question_name: ScopeReturnVariable
+  question_type: true_false_question
+  question_text: |-
+    Return can be used to return a variable so that variable is available outside
+    a local scope.
+  points_possible: 1.0
+- question_name: ScopeCountUsage
+  question_type: short_answer_question
+  question_text: |-
+    Consider this program:
+
+    ```python
+
+    1 | x = 5
+    2 | def do_math(x):
+    3 |     return (x ** x + x)
+    4 | do_math(x)
+
+    ```
+
+    How many times is the variable `x` defined on line 1 used (i.e. either read or
+    written) in this program (including on line 1)?
+  points_possible: 1.0
+- question_name: ScopeMutation
+  question_type: short_answer_question
+  question_text: |-
+    Given the following code:
+
+    ```python
+
+    y = 0
+    def increase(y):
+        y = y + 1
+        return y
+    increase(y)
+    increase(y)
+    print(y)
+
+    ```
+
+    What will be printed?
+  points_possible: 1.0
+- question_name: ScopeBadGlobals
+  question_type: multiple_choice_question
+  question_text: Why are global variables bad?
+  points_possible: 1.0
+  answers:
+  - They make it harder to think about the program.
+  - They "leak" memory so that data can escape the program.
+  - Global variables are not bad.
+  - They make the program slower.

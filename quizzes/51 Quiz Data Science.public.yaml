@@ -1,0 +1,48 @@
+title: '#51) Quiz: Data Science'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 5.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: DataScienceDefinition
+  question_type: true_false_question
+  question_text: Data Science involves extracting meaning from data.
+  points_possible: 1.0
+- question_name: NonlinearWorkflow
+  question_type: true_false_question
+  question_text: Data Science is a straight-forward process with no iterative design.
+  points_possible: 1.0
+- question_name: DataScienceVsComputerScienceDefinitions
+  question_type: true_false_question
+  question_text: Data Science is another name for Computer Science.
+  points_possible: 1.0
+- question_name: WorkflowOrder
+  question_type: matching_question
+  question_text: 'Put these steps in order of a typical Data Science workflow:'
+  points_possible: 2.0
+  answers:
+    lefts:
+    - 1st
+    - 2nd
+    - 3rd
+    - 4th
+    - 5th
+    rights:
+    - Analyzing Data
+    - Cleaning Data
+    - Creating a Report
+    - Finding Data
+    - Presenting a Report

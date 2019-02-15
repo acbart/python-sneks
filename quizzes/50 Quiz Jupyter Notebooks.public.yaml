@@ -1,0 +1,57 @@
+title: '#50) Quiz: Jupyter Notebooks'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: MarkdownPython
+  question_type: true_false_question
+  question_text: Markdown is a type of Python code.
+  points_possible: 1.0
+- question_name: JupyterComposition
+  question_type: true_false_question
+  question_text: |-
+    A Jupyter Notebook is composed of Markdown, Code, and the results of running
+    that Code.
+  points_possible: 1.0
+- question_name: JupytersUse
+  question_type: true_false_question
+  question_text: Jupter Notebooks are strictly a tool for educational purposes.
+  points_possible: 1.0
+- question_name: JupyterPackaging
+  question_type: true_false_question
+  question_text: Jupyter Notebooks are a basic part of a Python installation.
+  points_possible: 1.0
+- question_name: MarkdownFormat
+  question_type: multiple_choice_question
+  question_text: Which of the following creates a section header in Markdown?
+  points_possible: 1.0
+  answers:
+  - '# Introduction'
+  - '* Introduction'
+  - Introduction
+  - You cannot create section headers in Markdown.
+- question_name: SharingJupyter
+  question_type: true_false_question
+  question_text: |-
+    When you are done creating a Jupyter Notebook, you can share it as Python
+    code, a HTML, and several other useful formats.
+  points_possible: 1.0
+- question_name: JupyterFormat
+  question_type: true_false_question
+  question_text: Jupyter Notebooks is a useful file format for sharing data, like
+    JSON or CSV.
+  points_possible: 1.0

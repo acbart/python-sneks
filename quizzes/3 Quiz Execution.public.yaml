@@ -1,0 +1,43 @@
+title: '#3) Quiz: Execution'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Python Facts
+  question_type: multiple_answers_question
+  question_text: Which of the following are TRUE statements about Python?
+  points_possible: 4.0
+  answers:
+  - Python is a programming language
+  - Python is a program used to execute programs.
+  - Python is an operating system.
+  - Python programs are really just text files.
+- question_name: RunningSynonyms
+  question_type: multiple_answers_question
+  question_text: Which of the following are equivalent to the phrase "Ran a program"?
+  points_possible: 2.0
+  answers:
+  - Executed a program
+  - Killed a program
+  - Performed a program
+  - Wrote a program
+- question_name: LineByLineExecution
+  question_type: true_false_question
+  question_text: |-
+    When a program is being executed, each line of the program is executed at the
+    same time.
+  points_possible: 1.0

@@ -1,0 +1,68 @@
+title: '#1) Quiz: Introduction'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 10.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Define Programming
+  question_type: multiple_answers_question
+  question_text: Which of the following are TRUE?
+  points_possible: 6.0
+  answers:
+  - The order of instructions do not matter when programming
+  - |-
+    Computers are useful because they can usually figure out what we want them to
+    do, even if we are unclear.
+  - Programming is how programmers make programs.
+  - Only licensed Computer Scientists are allowed to program professionally.
+  - Programming is a small, well-defined field.
+  - Nowadays, even cars run software.
+- question_name: Program Phases
+  question_type: multiple_dropdowns_question
+  question_text: |-
+    Put these three phases of programs into order:
+
+    1) [first]
+
+    2) [second]
+
+    3) [third]
+  points_possible: 1.0
+  answers:
+    first:
+    - Output
+    - Processing
+    - Input
+    second:
+    - Processing
+    - Output
+    - Input
+    third:
+    - Input
+    - Processing
+    - Output
+- question_name: Synonyms
+  question_type: multiple_answers_question
+  question_text: 'Select all of the following that are common synonyms for the term
+    "program":'
+  points_possible: 3.0
+  answers:
+  - Code
+  - Software
+  - Application
+  - Codes
+  - Computer
+  - Scripts

@@ -1,0 +1,71 @@
+title: '#45) Quiz: Files'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 5.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: OpenClose
+  question_type: true_false_question
+  question_text: After opening a file, you should always close a file.
+  points_possible: 1.0
+- question_name: ForFile
+  question_type: true_false_question
+  question_text: A `for` loop will process a file sentence-by-sentence.
+  points_possible: 1.0
+- question_name: OpenFile
+  question_type: true_false_question
+  question_text: |-
+    The `open` function consumes a string representing a path and returns a string
+    of the file's data.
+  points_possible: 1.0
+- question_name: TypeReading
+  question_type: multiple_choice_question
+  question_text: |-
+    Given the file named `grades.txt` with the following contents:
+
+    ```python
+
+    90, 85, 100
+
+    ```
+
+    And the following python code:
+
+    ```python
+
+    grade_file = open("grades.txt")
+    grade_data = grade_file.read()
+
+    ```
+
+    What will be the type of `grade_data`?
+  points_possible: 1.0
+  answers:
+  - List of String
+  - List of Integer
+  - Integer
+  - String
+  - Dictionary of Integers and Strings
+  - File object
+- question_name: FileNotFoundError
+  question_type: multiple_answers_question
+  question_text: Which of the following are causes of a `FileNotFoundError`?
+  points_possible: 1.0
+  answers:
+  - A file was downloaded to the wrong folder.
+  - The coder mispelled the name of the file when calling `open`.
+  - The coder wrote `opne` instead of `open`.
+  - The coder did not give any arguments to the `open` function.

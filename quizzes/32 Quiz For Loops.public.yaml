@@ -1,0 +1,109 @@
+title: '#32) Quiz: For Loops'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 21.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Loop Components
+  question_type: matching_question
+  question_text: |-
+    Identify each of the components of the `for` loop:  
+    ![18-1-quiz-loop-
+
+    parts.png](https://vt.instructure.com/files/4813421/download?verifier=1kJNW07c5mDNKuEblSaAWICyLQZG9hdQym0cHzBy&wrap=1)
+  points_possible: 3.0
+  answers:
+    lefts:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    rights:
+    - Body
+    - For keyword
+    - In keyword
+    - Iteration Variable
+    - List Variable
+- question_name: Colon Usage
+  question_type: short_answer_question
+  question_text: Type the character used at the end of the first line of a `for` loop.
+  points_possible: 1.0
+- question_name: Iteration Variable Type
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the type of the Iteration Variable in this code?
+
+    ```python
+
+    groceries = ["Apples", "Cookies", "Steaks"]
+    for grocery in groceries:
+        print(grocery)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - List
+  - String
+  - Integer
+  - None
+- question_name: Loop Facts
+  question_type: multiple_answers_question
+  question_text: 'Mark each of the following statements about `for` loops that are
+    true:'
+  points_possible: 5.0
+  answers:
+  - |-
+    The body of a `for` loop will have one statement for each element of the
+    iteration list.
+  - '`for` Loops and Functions are basically the same thing'
+  - |-
+    The Iteration Variable will take on each value of the List Variable, one at a
+    time.
+  - |-
+    `for` Loops always execute the body four times, which is where they get their
+    name.
+  - |-
+    Like an `if` statement and a Function Call, the `for` Loop might cause the
+    execution to not follow the order of lines.
+- question_name: Loop Tracing
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Trace the values of this code. If a variable is not yet defined, put an "X"
+    (without quotes).
+
+    ```python
+
+    grades = [10, 20]
+    total = 0
+    for grade in grades:
+        adjusted = grade + 10
+        total = total + adjusted
+
+    ```
+
+    step | line | grades | grade | adjusted | total  
+    ---|---|---|---|---|---  
+    1 | 1 | [10,20] | X | X | X  
+    2 | 2 | [10,20] | [grade2] | X | [total2]  
+    3 | 3 | [10,20] | [grade3] | X | [total3]  
+    4 | 4 | [10,20] | [grade4] | 20 | [total4]  
+    5 | [line5] | [10,20] | [grade5] | [adjusted5] | [total5]  
+    6 | [line6] | [grades6] | [grade6] | [adjusted6] | [total6]  
+    7 | [line7] | [10,20] | [grade7] | [adjusted7] | [total7]  
+    8 | [line8] | [10,20] | [grade8] | [adjusted8] | 50
+  points_possible: 11.0

@@ -1,0 +1,57 @@
+title: '#7) Quiz: Values'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 7.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: Purpose of Value
+  question_type: true_false_question
+  question_text: The purpose of a value is to represent data from the real world.
+  points_possible: 1.0
+- question_name: OnlyPrintLiterals
+  question_type: true_false_question
+  question_text: The "print" instruction can only print literal values.
+  points_possible: 1.0
+- question_name: LiteralValueDefinition
+  question_type: true_false_question
+  question_text: Literal values are specific values written in the source code.
+  points_possible: 1.0
+- question_name: ValueRepresentation
+  question_type: multiple_choice_question
+  question_text: |-
+    What does the following value specifically represent?
+
+    ```python
+
+    24
+
+    ```
+  points_possible: 1.0
+  answers:
+  - The number of hours in a day
+  - We have no way of knowing without more information.
+  - The number of cookies I ate last night
+  - A popular TV show
+- question_name: WhatCanValuesRepresent
+  question_type: multiple_answers_question
+  question_text: Which of the following could be represented with a value?
+  points_possible: 3.0
+  answers:
+  - A person's height
+  - The text of Moby Dick
+  - The number of meals you've eaten this week
+  - A text description of someone's emotional response to a poem
+  - An audio recording of a song

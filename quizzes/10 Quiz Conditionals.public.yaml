@@ -1,0 +1,54 @@
+title: '#10) Quiz: Conditionals'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 8.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: EvaluateConditional
+  question_type: matching_question
+  question_text: Identify whether each of these are True or False.
+  points_possible: 6.0
+  answers:
+    lefts:
+    - 1 < 2 and 5 < 7
+    - 10 == "10"
+    - 10 == 10.0
+    - 3 < "5"
+    - 3 < 5
+    - 5 < 4 or 3 == 3
+    - 5 == 5.5
+    - 7 != 7
+    - 'False'
+    - True or (True and False)
+    - not False
+    - not True and False
+    rights:
+    - Causes an error
+    - 'False'
+    - 'True'
+- question_name: ConditionalOperatorArity
+  question_type: matching_question
+  question_text: How many values can each of these operators take?
+  points_possible: 2.0
+  answers:
+    lefts:
+    - '!='
+    - <
+    - and
+    - not
+    rights:
+    - 1 value
+    - 2 values

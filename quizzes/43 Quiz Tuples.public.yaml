@@ -1,0 +1,105 @@
+title: '#43) Quiz: Tuples'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 11.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: AppendTuple
+  question_type: true_false_question
+  question_text: You can use the append method to add elements to tuples.
+  points_possible: 1.0
+- question_name: TupleParentheses
+  question_type: true_false_question
+  question_text: Parentheses are necessary in creating a tuple.
+  points_possible: 1.0
+- question_name: ImmutableTuples
+  question_type: true_false_question
+  question_text: Tuples are immutable - they cannot be changed after being created.
+  points_possible: 1.0
+- question_name: TuplesVsDictionaries
+  question_type: true_false_question
+  question_text: Tuples are composed of key/value pairs.
+  points_possible: 1.0
+- question_name: ZippingTuples
+  question_type: true_false_question
+  question_text: The zip function converts a list to a tuple.
+  points_possible: 1.0
+- question_name: MultipleAssignment
+  question_type: multiple_answers_question
+  question_text: Which of the following expressions creates two new variables?
+  points_possible: 3.0
+  answers:
+  - |-
+    ```python
+
+    "first", "second" = 5, 3
+
+    ```
+  - |-
+    ```python
+
+    first, second = (1, 2)
+
+    ```
+  - |-
+    ```python
+
+    pair = 1, 2
+
+    ```
+  - |-
+    ```python
+
+    first = second
+
+    ```
+  - |-
+    ```python
+
+    first = 5
+    second = first
+
+    ```
+  - |-
+    ```python
+
+    for first, second in [("First", 1), ("Second", 2)]:
+        print(first, second)
+
+    ```
+- question_name: LookupTypes
+  question_type: matching_question
+  question_text: |-
+    Given the following code, what is the type of each of the expressions
+
+    ```python
+
+    animal = ("Klaus", 17, True)
+
+    ```
+  points_possible: 3.0
+  answers:
+    lefts:
+    - animal
+    - animal["Klaus"]
+    - animal["Name"]
+    - animal[0]
+    - animal[17]
+    - animal[Bool]
+    rights:
+    - Raises an error
+    - String
+    - Tuple

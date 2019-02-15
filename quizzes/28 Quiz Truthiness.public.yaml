@@ -1,0 +1,206 @@
+title: '#28) Quiz: Truthiness'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 12.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ET-ZeroString
+  question_type: true_false_question
+  question_text: '`"0"`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-Or1
+  question_type: true_false_question
+  question_text: '`1 > 5 or 3`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: EvaluateTruthinessExplanation
+  question_type: text_only_question
+  question_text: |-
+    Select each of the following if the expression evaluates to True, according to
+    the rules of Truthiness in Python. The questions might change each time you
+    take the quiz.
+  points_possible: 0
+- question_name: ET-SpaceString
+  question_type: true_false_question
+  question_text: '`" "`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-ZeroFloat
+  question_type: true_false_question
+  question_text: '`0.0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-FilledString
+  question_type: true_false_question
+  question_text: '`"Corgis are cute"`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-EmptyString
+  question_type: true_false_question
+  question_text: '`""`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-NegativeFloat
+  question_type: true_false_question
+  question_text: '`-5.0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-NegativeZero
+  question_type: true_false_question
+  question_text: '`-0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-SmallFloat
+  question_type: true_false_question
+  question_text: '`0.01`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-NegativeInt
+  question_type: true_false_question
+  question_text: '`-12332`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-LargeInt
+  question_type: true_false_question
+  question_text: '`134342`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-MediumInt
+  question_type: true_false_question
+  question_text: '`144`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-SmallInt
+  question_type: true_false_question
+  question_text: '`1`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-ZeroInt
+  question_type: true_false_question
+  question_text: '`0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-EmptyStringSingle
+  question_type: true_false_question
+  question_text: "`''`"
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-FalseString
+  question_type: true_false_question
+  question_text: '`"False"`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-QuoteString
+  question_type: true_false_question
+  question_text: "`'\"'`"
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-TrueString
+  question_type: true_false_question
+  question_text: '`"True"`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-CompareString
+  question_type: true_false_question
+  question_text: '`"1 > 5"`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-MathInt
+  question_type: true_false_question
+  question_text: '`8-4*2`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-MathPlus
+  question_type: true_false_question
+  question_text: '`1+0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-MathDivision
+  question_type: true_false_question
+  question_text: '`1/2`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-False
+  question_type: true_false_question
+  question_text: '`False`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-None
+  question_type: true_false_question
+  question_text: '`None`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-SubscriptEmpty
+  question_type: true_false_question
+  question_text: '`"Hermione"[4:4]`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-SubscriptFull
+  question_type: true_false_question
+  question_text: '`"Harry"[1:-1]`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-IndexCharacter
+  question_type: true_false_question
+  question_text: '`"Harry"[0]`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-EmptyMethod
+  question_type: true_false_question
+  question_text: '`"".upper()`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-MethodItself
+  question_type: true_false_question
+  question_text: '`"".upper`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-FullMethod
+  question_type: true_false_question
+  question_text: '`"HI".lower()`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-1Or0
+  question_type: true_false_question
+  question_text: '`1 or 0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-1And0
+  question_type: true_false_question
+  question_text: '`1 and 0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-AndIsNotAddition
+  question_type: true_false_question
+  question_text: '`-5 and 5`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-AndTrue
+  question_type: true_false_question
+  question_text: '`-1 < 4 and 0`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-AndFalse
+  question_type: true_false_question
+  question_text: '`5 < 4 and 3`'
+  quiz_group_id: 55558
+  points_possible: 1.0
+- question_name: ET-AndStrings
+  question_type: true_false_question
+  question_text: '`"Hi" and "Low" and ""`'
+  quiz_group_id: 55558
+  points_possible: 1.0

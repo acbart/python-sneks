@@ -1,0 +1,119 @@
+title: '#22) Quiz: Return and Print'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 10.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: PrintReturnSame
+  question_type: true_false_question
+  question_text: Printing and returning are basically the same thing
+  points_possible: 1.0
+- question_name: PrintXorReturn
+  question_type: true_false_question
+  question_text: A function can either print or return, but not both.
+  points_possible: 1.0
+- question_name: SendingDataIdea
+  question_type: matching_question
+  question_text: 'Match each to the best definition available:'
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Call
+    - Pass
+    - Print
+    - Return
+    rights:
+    - Do nothing
+    - Send data from a function
+    - Send data to a function
+    - Send data to the console
+- question_name: PrintOneWay
+  question_type: multiple_choice_question
+  question_text: After data is sent to the console, how do we get it back later in
+    the program?
+  points_possible: 1.0
+  answers:
+  - You can't, it's a one-way trip.
+  - Using the `input` function
+  - Using the `unprint` statement
+- question_name: PrintType
+  question_type: multiple_choice_question
+  question_text: |-
+    What type of value does this function return?
+
+    ```python
+
+    def average_values(num1, num2, num3, num4):
+        print((num1+num2+num3+num4)/4)
+
+    ```
+  points_possible: 1.0
+  answers:
+  - An integer
+  - A float
+  - A string
+  - None
+- question_name: ReturnPrintKind
+  question_type: matching_question
+  question_text: 'Match each to the kind of code construct:'
+  points_possible: 1.0
+  answers:
+    lefts:
+    - input
+    - pass
+    - print
+    - return
+    rights:
+    - Function
+    - keyword
+- question_name: PrintDoesWhat
+  question_type: multiple_answers_question
+  question_text: '`print` does which of the following?'
+  points_possible: 1.0
+  answers:
+  - Returns a string
+  - Writes output to the console
+  - Retrieves input from the user
+  - Consumes arguments
+- question_name: InputDoesWhat
+  question_type: multiple_answers_question
+  question_text: '`input` does which of the following?'
+  points_possible: 1.0
+  answers:
+  - Returns a string
+  - Writes output to the console
+  - Retrieves input from the user
+  - Consumes arguments
+- question_name: TracingFunctions
+  question_type: fill_in_multiple_blanks_question
+  question_text: |-
+    Read the following code, and then fill in the blanks below.
+
+    ```python
+
+    1| def f(x):
+    2|     x = x + 1
+    3|     return x
+    4| val = 0  
+    5| y = f(val)
+    6| print(y)
+
+    ```
+
+      * What line is executed first? [first]
+      * What line is executed second? [second]
+      * After line 3 is executed, what will be the next line executed? [last]
+  points_possible: 2.0

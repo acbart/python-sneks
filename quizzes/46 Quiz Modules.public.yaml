@@ -1,0 +1,70 @@
+title: '#46) Quiz: Modules'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 4.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ImportFunction
+  question_type: true_false_question
+  question_text: |-
+    `import` is a function that takes in the name of a module and loads the
+    functions, variables, and other definitions.
+  points_possible: 1.0
+- question_name: MathModuleContents
+  question_type: multiple_answers_question
+  question_text: |-
+    Review the [documentation](https://docs.python.org/3/library/math.html) for
+    the built-in `math` module. Which of the following are functions available
+    from it?
+  points_possible: 1.0
+  answers:
+  - sqrt
+  - log
+  - log4
+  - log10
+  - exponent
+  - add
+- question_name: ExplainImport
+  question_type: multiple_choice_question
+  question_text: |-
+    Which of the following is the best description of this line of code?
+
+    ```python
+
+    from math import sqrt as square_root
+
+    ```
+  points_possible: 1.0
+  answers:
+  - Loads the sqrt function in the math module but renames it square_root
+  - Loads the math function from the sqrt module but renames it sqrt
+  - Loads the square_root function from the math module but renames it sqrt
+  - Loads the sqrt and square_root functions from the math module
+- question_name: ModulePackageVariablesDefinitions
+  question_type: matching_question
+  question_text: |-
+    A _ 1 _ contains _ 2 _, which in turn can provide functions, _ 3 _, and more
+    after being imported
+  points_possible: 1.0
+  answers:
+    lefts:
+    - '1'
+    - '2'
+    - '3'
+    rights:
+    - module
+    - package
+    - variables

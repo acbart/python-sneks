@@ -1,0 +1,97 @@
+title: '#49) Quiz: Plotting'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: GraphQuestions
+  question_type: matching_question
+  question_text: Match the type of graph with the kind of question it is most suited
+    to.
+  points_possible: 1.0
+  answers:
+    lefts:
+    - Histogram
+    - Line plot
+    - Scatter Plot
+    rights:
+    - The distribution of a list of numbers
+    - The relationship between two lists of numbers
+    - The trend in a list of numbers
+- question_name: ShowingGraphs
+  question_type: true_false_question
+  question_text: To make a plot appear, the `show` function is necessary.
+  points_possible: 1.0
+- question_name: MergingGraphs
+  question_type: multiple_choice_question
+  question_text: |-
+    How many graphs will the following code create?
+
+    ```python
+
+    import matplotlib.pyplot as plt
+    plt.hist([1,2,3])
+    plt.hist([1,2,3])
+    plt.show()
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+- question_name: ImportingMatPlotLib
+  question_type: multiple_choice_question
+  question_text: How many times do you need to import MatPlotLib?
+  points_possible: 1.0
+  answers:
+  - None, because it is built-in to Python.
+  - Once, at the start of the program.
+  - Once, at the end of the program.
+  - Once for each time that you are plotting, before you plot.
+- question_name: HistogramsBarGraphs
+  question_type: true_false_question
+  question_text: Bar graphs and Histograms are the same thing.
+  points_possible: 1.0
+- question_name: InterpretingHistograms
+  question_type: multiple_choice_question
+  question_text: |-
+    The following code
+
+    ```python
+
+    import matplotlib.pyplot as plt
+    import json
+    grades = json.load(open("student_grades.json"))
+    plt.hist(grades)
+    plt.show()
+
+    ```
+
+    Was used to generate this Histogram.
+
+    ![29-plotting-quizGraphics-
+
+    plot.png](https://vt.instructure.com/files/5193818/download?verifier=jltuRbdsaiwYYnzCxBrjXkkUc7egZOOgR2OaGrJH&wrap=1)
+
+    What is the correct interpretation of the graph?
+  points_possible: 1.0
+  answers:
+  - Most students got a 100.
+  - Most students got a 0.
+  - Most students got between 50 and 60.
+  - Grades were very evenly distributed.

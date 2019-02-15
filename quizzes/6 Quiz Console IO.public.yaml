@@ -1,0 +1,54 @@
+title: '#6) Quiz: Console IO'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 6.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: PrintDefinition
+  question_type: true_false_question
+  question_text: Print is an instruction to the computer to retrieve input from the
+    user.
+  points_possible: 1.0
+- question_name: ConsoleDefinition
+  question_type: true_false_question
+  question_text: The console is like a chat box that you can type instructions into.
+  points_possible: 1.0
+- question_name: InputVsOutput
+  question_type: matching_question
+  question_text: Classify each of these as either "Input" or "Output".
+  points_possible: 3.0
+  answers:
+    lefts:
+    - A monitor displaying information
+    - A printer making a report
+    - A robot moving its arm
+    - Data being loaded from a file
+    - Moving the mouse
+    - Typing on the keyboard
+    rights:
+    - Input
+    - Output
+- question_name: PrintOutput
+  question_type: short_answer_question
+  question_text: |-
+    Write exactly what will be printed by running the following command:
+
+    ```python
+
+    print("Hello World!")
+
+    ```
+  points_possible: 1.0

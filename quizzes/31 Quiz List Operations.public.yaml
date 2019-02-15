@@ -1,0 +1,102 @@
+title: '#31) Quiz: List Operations'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 5.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: true
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: ListIndexing
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the value stored in "my_var" after the following strange code is
+    executed?
+
+    ```python
+
+    my_var = [1,2,3][1]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '[1, 2, 3]'
+  - '[1]'
+  - '[2]'
+  - '1'
+  - '2'
+  - An error occurs
+- question_name: InvalidListComparison
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the value stored in "my_var" after the following code is executed?
+
+    ```python
+
+    my_var = [1,2,3] < 5
+
+    ```
+  points_possible: 1.0
+  answers:
+  - 'True'
+  - 'False'
+  - An error occurs
+- question_name: ListMembership
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the value stored in "my_var" after the following code is executed?
+
+    ```python
+
+    my_var = 5 in [1,3,5]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - 'True'
+  - 'False'
+  - An error occurs.
+- question_name: InvalidListAddition
+  question_type: multiple_choice_question
+  question_text: |-
+    What is the value stored in "my_var" after the following code is executed?
+
+    ```python
+
+    my_var = [1,2,3] + 4
+
+    ```
+  points_possible: 1.0
+  answers:
+  - '[1, 2, 3, 4]'
+  - '[1, 2, 3]'
+  - '10'
+  - An error occurs
+- question_name: ListAppend
+  question_type: multiple_choice_question
+  question_text: |-
+    Which of the following demonstrates how to add something to the following list
+    variable?
+
+    ```python
+
+    temperatures = [44, 36, 72]
+
+    ```
+  points_possible: 1.0
+  answers:
+  - append(temperatures, 42)
+  - append(42) to temperatures
+  - temperatures.append(42)
+  - temperatures = temperatures + 42
+  - temperatures = 42

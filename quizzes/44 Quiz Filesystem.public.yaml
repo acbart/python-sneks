@@ -1,0 +1,106 @@
+title: '#44) Quiz: Filesystem'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 8.0
+  allowed_attempts: -1
+  scoring_policy: keep_highest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: CdUp
+  question_type: short_answer_question
+  question_text: Write the command for moving up a directory.
+  points_possible: 1.0
+- question_name: CdFolder
+  question_type: short_answer_question
+  question_text: |-
+    Write the command for moving to a folder named `"homework"` that is in the
+    current directory.
+  points_possible: 1.0
+- question_name: Pwd
+  question_type: short_answer_question
+  question_text: Write the command for printing the current directory.
+  points_possible: 1.0
+- question_name: Ls
+  question_type: short_answer_question
+  question_text: Write the command for listing files in the current directory.
+  points_possible: 1.0
+- question_name: FindLocations
+  question_type: multiple_dropdowns_question
+  question_text: |-
+    Given the following map of a filesystem...
+
+    ```python
+
+    /root/
+        anaconda/
+            readme.rst
+            python.exe
+            qt.conf
+        classes/
+            cs1064/
+                adventure_game.py
+                assignment2.txt
+                ethics_submission.pdf
+            dog1223/
+                readings.pdf
+                project1.docx
+                DCIM-1221.jpg
+        data/
+            survey_results.csv
+            state_names.json
+            f15_student_logs.txt
+
+    ```
+
+    Answer the following:
+
+      * What is the full path to the folder "data/"? [data-full]
+      * What is the full path to the file "DCIM-1221.jpg"? [dcim-full]
+      * If you are currently in directory `data/`, which of the following is NOT a path to the `readings.pdf` file? [readings-relative]
+      * If you are currently in directory `cs1064/`, which of the following is NOT a path to the `survey_results.csv` file? [survey-relative]
+  points_possible: 2.0
+  answers:
+    dcim-full:
+    - DCIM-1221.jpg
+    - /root/anaconda/classes/dog1223/DCIM-1221.jpg
+    - dog1223/DCIM-1221.jpg
+    data-full:
+    - /root/data/
+    - data/
+    - survey_results.csv, state_names.json, f15_student_logs.txt
+    readings-relative:
+    - ../classes/dog1223/readings.pdf
+    - /root/classes/dog1223/readings.pdf
+    - dog1223/readings.pdf
+    survey-relative:
+    - ../data/survey_results.csv
+    - /root/data/survey_results.csv
+    - '.../../data/survey_results.csv'
+- question_name: WhyForward
+  question_type: multiple_answers_question
+  question_text: Why should you tend to use forward slashes in Python?
+  points_possible: 1.0
+  answers:
+  - |-
+    Back slashes in string literals represent escape characters, which can mess up
+    the path.
+  - Back slashes are backwards, which means that only backwards people use them.
+  - Forward slashes look prettier to everyone.
+  - Forward slashes tend to work in both Mac and Windows.
+- question_name: TerminalCommands
+  question_type: true_false_question
+  question_text: |-
+    The `pwd` command works in every Python environment, including ones like
+    Spyder and BlockPy.
+  points_possible: 1.0

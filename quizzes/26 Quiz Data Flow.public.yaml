@@ -1,0 +1,135 @@
+title: '#26) Quiz: Data Flow'
+description: ''
+settings:
+  quiz_type: assignment
+  points_possible: 9.0
+  allowed_attempts: -1
+  scoring_policy: keep_latest
+  secrecy:
+    one_question_at_a_time: false
+    shuffle_answers: false
+    time_limit:
+    cant_go_back: false
+    show_correct_answers: false
+    show_correct_answers_last_attempt: false
+    show_correct_answers_at:
+    hide_correct_answers_at:
+    hide_results:
+    one_time_results: false
+questions:
+- question_name: FlowReturn
+  question_type: true_false_question
+  question_text: You can use the `return` statement to return a variable from a function.
+  points_possible: 1.0
+- question_name: FlowParameters
+  question_type: true_false_question
+  question_text: |-
+    Values enter functions as arguments when the function is called, and then the
+    arguments' values are assigned to parameters when the function's body begins
+    executing.
+  points_possible: 1.0
+- question_name: FlowPrint
+  question_type: true_false_question
+  question_text: The `print` function is necessary to call a function.
+  points_possible: 1.0
+- question_name: FlowShare
+  question_type: true_false_question
+  question_text: |-
+    The two functions below share a variable named `score`:
+
+    ```python
+
+    def increase(score):
+        return score+1
+    def decrease(score):
+        return score-1
+
+    ```
+  points_possible: 1.0
+- question_name: FlowBetween
+  question_type: multiple_answers_question
+  question_text: |-
+    Given the program below,
+
+    ```python
+
+    name = input("What is your name?")
+    def fix_capitalization(name):
+        return name.title().strip()
+    def print_message(name):
+        print("Hello", name, "how are you?")
+
+    ```
+
+    Which of the following lines of code will have the data flow correctly through
+    both functions in order to print the message with the fixed capitalization?
+  points_possible: 3.0
+  answers:
+  - |-
+    ```python
+
+    fix_capitalization(name)
+    print_message(name)
+
+    ```
+  - |-
+    ```python
+
+    print_message(fix_capitalization(name))
+
+    ```
+  - |-
+    ```python
+
+    fix_capitalization()
+    print_message()
+
+    ```
+  - |-
+    ```python
+
+    print(fix_capitalization(name))
+    print(print_message(name))
+
+    ```
+  - |-
+    ```python
+
+    name = fix_capitalization(name)
+    print_message(name)
+
+    ```
+  - None are necessary, because the variables share the same name.
+- question_name: FlowSubstitution
+  question_type: matching_question
+  question_text: |-
+    Given the program below:
+
+    ```python
+
+    def x(a):
+        return 6+a
+    def y(a):
+        return a*2
+    def z(a):
+        return a-1
+    **print(x(y(z(3))))**
+
+    ```
+
+    Match each blank to the value that will be substituted as the last line is
+    executed:
+  points_possible: 2.0
+  answers:
+    lefts:
+    - ___
+    - print(___)
+    - print(x(___))
+    - print(x(y(___)))
+    - print(x(y(z(___))))
+    rights:
+    - '10'
+    - '2'
+    - '3'
+    - '4'
+    - None
