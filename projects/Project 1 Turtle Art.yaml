@@ -1,0 +1,115 @@
+name: 'Project 1: Turtle Art'
+settings:
+  points_possible: 10.0
+  grading_type: pass_fail
+  submission:
+    extensions:
+    - py
+    - png
+    submission_types:
+    - online_upload
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  **To complete this activity**, you must submit the following 2 files (described below):
+
+    1. Screenshot of your completed work of art
+    2. The .py file (Python source code) of the program that generates the art (_not a screenshot of your code_)
+
+  ![Imagine a Turtle with a
+  Pen](https://vt.instructure.com/courses/66476/files/6093784/download?verifier=CBaEB3M33Rg2K5UvbFFufjw7AFZfzjBlyOGLIp3a&wrap=1)
+
+  [Turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics) were invented
+  in the late 1960s as an easy interface for drawing via a computer. Imagine a
+  turtle walking around with a pen, being directed about what to draw. Wikipedia
+  describes the idea with more detail:
+
+  > The turtle has three attributes: a location, an orientation (or direction),
+  and a pen.  
+  > The pen, too, has attributes: color, width, and on/off state.  
+  > The turtle moves with commands that are relative to its own position, such
+  as "move forward 10 spaces" and "turn left 90 degrees".  
+  > The pen carried by the turtle can also be controlled, by enabling it,
+  setting its color, or setting its width.
+
+  Your goal is to create a picture using Python's built-in Turtle Graphics
+  module.
+
+  ### Writing the Code
+
+  To get started, download this template code: [cs1064-s18-turtles-
+  version1.zip](https://vt.instructure.com/courses/66476/files/6094332/download?verifier=SIN6vJDuN6hEzviIxZEczQfYPGGpEewCh3OA1svb&wrap=1
+  "cs1064-s18-turtles-version1.zip" ){: .instructure_file_link
+  .instructure_scribd_file}
+
+  This code is divided into four sections:
+
+    1. Documentation: You will need to replace the the blanks here with a brief description of your drawing and your name.
+    2. Set-up: Some code is given here that initializes the Turtle environment. Do not edit this code.
+    3. Drawing: This is where your code will go that actually draws the picture.
+    4. Wrap-up: Some code is given here that shuts down the Turtle environment. Do not edit this code.
+
+  You only need to worry about editing sections 1 and 3.
+
+  ### Using Turtles
+
+  The [Turtle module](https://vt.instructure.com/courses/66476/pages/reference-
+  turtles "Reference - Turtles" ) has a series of methods for controlling the
+  on-screen turtle. You call these methods sequentially:
+
+  ```python
+
+  turtle.pen('green')
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+
+  ```
+
+  When you run this program, a new window will appear, and the turtle will
+  execute your commands one by one. If you made an error in the code (preventing
+  you from closing the window), you can fix your program and run it again.
+
+  ![Example Turtle
+  Window](https://vt.instructure.com/courses/66476/files/6093925/download?verifier=p3l636px9BrS3iKZg0enduiIAV4MBujNszPXHtco&wrap=1)
+
+  The Turtle module has many built-in commands. Check [Turtle
+  Reference](https://vt.instructure.com/courses/66476/pages/reference-turtles
+  "Reference - Turtles" ) for a list of all the commands we think you might want
+  to use when completing this project.
+
+  You are allowed to use advanced Python features (e.g., for loops, functions),
+  but you will not receive extra credit for doing so. As with any other
+  assignment, using code taken from the internet is explicitly not allowed - all
+  code should be demonstrative of your own ability and understanding.
+
+  ### What to draw?
+
+  All submitted pictures must have a square frame drawn around them, drawn in a
+  black pen. Your code will be checked to confirm that you drew this border
+  using the Turtle module.
+
+  Inside that frame, you must create a work of art. You will not be evaluated on
+  the quality of your artwork. There is no hard minimum amount of time or lines
+  of code, but if you're not putting _at least_ 10-15 minutes into it, it's
+  probably not acceptable. And no claiming blank canvases are art! Write some
+  code and make something that you want a loved one to print out and put on
+  their fridge.
+
+  Here are some ideas, but feel free to be creative and original:
+
+    * The Hokie Bird
+    * An adorable Corgi
+    * A self-portrait
+    * The new VT logo
+    * The old VT logo
+    * An even cuter Corgi
+
+  ### Submission
+
+  Submit your Python file and a screenshot of the generated image. If you fail
+  to include the screenshot of the image AND the Python source code file (a .py
+  file) then you will receive zero points. This assignment is as much about
+  following instructions as it is being creative. Remember that your image must
+  have a drawn black border.

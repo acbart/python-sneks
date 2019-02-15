@@ -1,0 +1,206 @@
+name: 'Project 4: Text Adventure'
+settings:
+  points_possible: 21.0
+  grading_type: points
+  submission:
+    extensions:
+    - py
+    - png
+    - jpeg
+    - jpg
+    - bmp
+    - gif
+    submission_types:
+    - external_tool
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  **To complete this activity**, you must submit the following (described below):
+
+    1. A submission of the `adventure.py` file on (link at the bottom of this page)
+    2. The Game Location Diagram and Player State Table uploaded here: [Project 4: Text Adventure Diagrams](https://vt.instructure.com/courses/66476/assignments/405930 "Project 4: Text Adventure Diagrams" )
+
+  [Text-based adventure games](https://en.wikipedia.org/wiki/Text-based_game)
+  were very popular in the 1980s, because they were easy to create and run on
+  personal computers. In these games, players entered commands in a console in
+  order to explore exciting, imaginary worlds. For this project, you will make
+  your own Text-based Adventure Game. Although there are some minimal
+  requirements, you will have great flexibility in making your own game.
+
+  Your learning goals are as follows:
+
+    * Use data structures to model complex state.
+    * Modify data in a dictionary in a mutable way.
+    * Write while loops to process human input.
+    * Be creative with computing.
+
+  ### Getting Started
+
+  First, you should play some Text-based Adventure Games:
+
+    * [Spooky House](https://vt.instructure.com/courses/66476/pages/example-spooky-house "Example: Spooky House" ) is a simplistic game where you explore a creepy house.
+    * [Finding Adventure](https://vt.instructure.com/courses/66476/pages/example-finding-adventure "Example: Finding Adventure" ) is a more complex game where you are looking for something you forgot.
+    * [Zork](http://www.web-adventures.org/cgi-bin/webfrotz?s=ZorkDungeon) is a professional, classic game where you explore the ruins of an ancient empire.
+
+  Second, think critically about the kind of game you want to make. Keep the
+  focus small and manageable. You are free to redesign your game later, but
+  planning up-front will make it easier to develop.
+
+  Third, you should create a diagram mocking out your player's state and game's
+  locations, and upload it to this other assignment: [Project 4: Text Adventure
+  Diagrams](https://vt.instructure.com/courses/66476/assignments/405930 "Project
+  4: Text Adventure Diagrams" )
+
+  Fourth, download this starting code and resources: [s18-cs1064-p4_text-
+  adventure-v8.zip](https://vt.instructure.com/courses/66476/files/6661353/download?verifier=bvonbyektvvkCGpbnS5tnRSQfAMyxnuxZvcA5ZuT&wrap=1
+  "s18-cs1064-p4_text-adventure-v8.zip" ){: .instructure_file_link
+  .instructure_scribd_file}
+
+  ### Player State
+
+  A critical concept in this project is the Player's State. The game works in a
+  `while` loop that repeatedly changes the current player's state, depending on
+  the commands they choose. You will model the player's state using a Dictionary
+  with at least 4 fields.
+
+  The Player State Dictionary has two required fields:
+
+    * `'game status'`, which will always be one of the following string values: `'playing'`, `'quit'`, `'won'`, or `'lost'`
+    * `'location'`, which will always have a string value indicating the player's current position.
+
+  The 2+ other fields are up to you, but some general ideas are:
+
+    * Inventory, a list of strings or dictionaries representing collected items
+    * Score, an integer field representing your progress in the game
+    * Health, an integer field representing how much damage you can take
+    * Event flags, boolean fields for indicating whether a particular event has occurred
+
+  You are encouraged to build a rich abstraction unique to your game.
+
+  ### Completing the Project
+
+  This project is worth a total of 25 points, which come from three categories:
+
+    * 8 points come from writing 8 functions that pass the unit tests on Web-CAT.
+    * 3 points come from meeting the project's functional requirements on Web-CAT.
+    * 9 points come from TA review of the code's style and organization.
+    * 5 points come from TA review of the game's creative elements.
+
+  #### The Functions (8 points)
+
+  You need to implement a total of 8 functions to make your game, and define two
+  variables..
+
+  ![Text Adventure Flow
+  Diagram](https://vt.instructure.com/courses/66476/files/6551364/download?verifier=aWnobrPvinixo17b6qjAc77PR7TlqakusUX1AdKq&wrap=1)
+
+  The diagram above shows the control flow of the code. Square boxes are
+  functions that you will need to define, and their color indicates whether they
+  read, make, update, or have no interactions with the main Player State
+  Dictionary.
+
+    1. `main`: This function is given to you. Read over its implementation very carefully to fully understand how all the game components work together.
+    2. `print_introduction`: This function consumes nothing, takes no user input, and returns nothing. Instead, it is responsible for printing an introductory message to introduce your game. There are no requirements on what it can print, except that you must print something.
+    3. `get_initial_state`: This function consumes nothing, takes no user input, and prints nothing. Instead, it must return a dictionary representing the initial state of the player. Remember that one of the field's of this dictionary must be `'game status'`, and its value should initially be `'playing'`.
+    4. `print_current_state`: This function consumes the current player's state dictionary and prints out information about it. It takes no user input and returns nothing. The only required thing to print is the player's current `'location'`. It doesn't matter what you print alongside it, as long as the field's value gets printed. After that, you should print out some other supplementary text to describe your player's current state. There is no maximum amount of text, but you must print out something relevant to the player's state. For instance, if your game had a 'poisoned?' mechanic, you might print out, _"You are poisoned! You need to find an antidote or you will collapse."_ Or if you had an inventory mechanic, you might print out each item of the inventory.
+    5. `get_options`: This function consumes the current player's state dictionary and returns a list of strings representing commands available to the user right now (e.g., places to move to, commands to execute, things available to be collected). It should take no user input and prints nothing. You might organize this using if/else statements, dictionaries, or helper functions. For example, you could check the player's location and offer them other locations to move to. You should never return an empty list from this function.
+    6. `print_options`: This function consumes the list of strings (commands) returned by the result of `get_options` and prints each one on its own line. You are free to indent each command and add decorative text (e.g., bullets) as you see fit. The function takes no user input and returns nothing.
+    7. `get_user_input`: This function consumes the list of strings (commands) returned by the result of `get_options` and let's the user input which command they want to choose. The function must repeatedly loop internally until the user types in one of the valid commands OR the user types `"quit"`. The function should then return the user's inputted command. Notice that this function takes user input, takes an argument, returns a value, and can print if you want it to (you are free to print whatever you'd like). Also note that the function has its own loop separate from the main game loop (it should be similar to code you've written for the lesson on While loops!).
+    8. `process_command`: Given a command (string) and a player' state (dictionary), modify the dictionary so that the player's state is changed. Notice that this function does not return anything, but instead mutates the given dictionary. You are free to make it print, if that is relevant to your game, but it is not required. At the minimum, this function should change the `'game status'` field to `'quit'` if the player quits, and should also have some way of changing the `'game status'` to `'win'` or `'lose'`. Most likely, this is where you would have the character update their location based on their command, among many other possible updates.
+    9. `print_game_ending`: This function consumes the current player's state dictionary and prints out a different message depending on whether they won, lost, or quit the game. You are free to customize this message however you see fit (perhaps having different kinds of victory conditions), but you must print out a different message for the three possible outcomes. You must always print out something, no matter what game state is passed in. This function returns nothing and takes no user input.
+
+  Developing a game can be tricky. We recommend that you write and try out each
+  function independently (e.g., by writing your own test cases). However, you
+  could instead comment out parts of the main function that you haven't reached
+  yet. A third option is to write in an "Agile" style, always having a
+  "minimally working game" that you slowly and incrementally build.
+
+  #### Functional Requirements (3 points)
+
+  There should be AT LEAST three ways for your game to end: winning, losing, or
+  quitting. You will need to codify the exact steps needed to win or lose the
+  game, such that a computer inputting those commands could win the game. Your
+  game must be deterministic - anyone who inputs those commands should get the
+  same outcome.
+
+  You will need to define two variables:
+
+    1. `WIN_PATH`: A list of strings representing commands that will be given to your game, in order to reliably achieve victory.
+    2. `LOSE_PATH`: A list of strings representing commands that will be given to your game, in order to reliably lose the game.
+
+  Web-CAT will try out your game to achieve the three different outcomes
+  (quitting, losing, and winning).
+
+  #### Code Organization (9 points)
+
+  More than previous assignments, this project requires you to focus on good
+  code organization. You should pay close attention to the [Style
+  Guide](https://vt.instructure.com/courses/66476/pages/style-guide). Think
+  carefully about each of the following:
+
+    1. Good variable names
+    2. Documenting functions
+    3. Helper functions to break up long functions (You might want to refer to [Strategies for Dealing with a Long Function](https://vt.instructure.com/courses/66476/pages/strategies-for-dealing-with-a-long-function "Strategies for Dealing with a Long Function" ))
+    4. Helper functions to avoid redundant code
+    5. Avoiding extreme nesting
+    6. Avoiding long lines
+    7. Using consistent style
+    8. Cleaning up messy code
+    9. Removing unused imports
+
+  #### Creativity (5 points)
+
+  You are encouraged to be creative when designing your game. You are free to
+  focus on narrative, interesting gameplay mechanics, and including things like
+  Ascii art. Of course, you should ensure you meet the minimal programming and
+  functional requirements first. Although it would be quite possible to complete
+  this assignment in twenty additional lines of code, you should see this as an
+  opportunity to develop a larger-scale program and to express yourself.
+
+  1 point for this category come from a TA evaluation that a minimal amount of
+  effort was put into making the project. Much like the Turtle Project, this is
+  a loose evaluation. If you finish the project in 10 minutes, you probably did
+  not do enough. Try to make something that you wouldn't be afraid to show a
+  loved one. If you demonstrate some creative effort in good faith, you will
+  most likely earn these points.
+
+  One clear way to lose this point is to create unused or unmodified fields in
+  the player state, resulting in less than the minimal number of fields (4
+  total).
+
+    * Unused: A field is mentioned in the player state, but is not ever read in the game.
+    * Unmodified: A field is mentioned in the player state, but is not ever changed during the game.
+
+  4 points for this category come from a TA evaluation of the Player State and
+  Game Location's diagrams you made when starting the project. Although it does
+  not have to 100% reflect your final version, it should be very close to what
+  you create. See the other assignment for more details on these diagrams:
+  [Project 4: Text Adventure
+  Diagrams](https://vt.instructure.com/courses/66476/assignments/405930 "Project
+  4: Text Adventure Diagrams" )
+
+  ### Submitting your program
+
+  When you feel that your program is ready, you will submit it on Web-CAT. This
+  is the final authority on whether you have passed the unit tests. However,
+  remember to use the local unit test file to determine where your program has
+  failed.
+
+    * Submit on Web-CAT at the bottom of this page
+    * Link to submit diagrams: [Project 4: Text Adventure Diagrams](https://vt.instructure.com/courses/66476/assignments/405930 "Project 4: Text Adventure Diagrams" )
+
+  ### Exiting Your Code
+
+  The major danger of a While loop is getting caught in an infinite loop. If you
+  ever get caught in an infinite loop, you can usually escape by pressing
+  `CTRL+C`. This is a very common way to escape programs. You can also press the
+  red X on the console tab. You can also restart the console by typing `CTRL+.`
+  (note the period).
+
+  ### External Code
+
+  This project should reflect your own work. You are not allowed to use any
+  third-party tools or libraries to create your game. You may not copy code or
+  use code written by someone else. You are allowed to use built-in Python
+  libraries such as `time` and `random`.

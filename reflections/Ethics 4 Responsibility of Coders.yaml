@@ -1,0 +1,55 @@
+name: 'Ethics 4: Responsibility of Coders'
+settings:
+  points_possible: 5.0
+  grading_type: points
+  submission:
+    extensions:
+    - png
+    - jpeg
+    - jpg
+    - bmp
+    - tif
+    - gif
+    - pdf
+    - jif
+    submission_types:
+    - online_text_entry
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  Consider this ethical scenario involving computing, based on a [true story
+  (Links to an external site.)Links to an external
+  site.](http://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/){:
+  .external}:
+
+  _Your team finished a major software project last month, and you are on
+  vacation enjoying some well-deserved time off. The new software powers a
+  medical machine that should save many lives. However, you are horrified to
+  read today's news, which reveals that dozens of deaths have been directly
+  caused by the new machines. Experts suggest that the machine's mistakes might
+  be because of a glitch in the software that your team wrote, and the families
+  of the deceased are going to be suing you and the other members of your team.
+  Do you believe they should be entitled to do so?_
+
+  Respond to this scenario by 1) summarizing the situation, 2) taking a clear
+  stance, 3) writing a coherent argument supporting your stance, 4) referencing
+  a relevant ethical theory or guideline, and 5) writing with understandable
+  spelling, grammar, and punctuation. Refer to the [Ethics Activity
+  Guide](https://vt.instructure.com/courses/66476/pages/ethics-activity-guide
+  "Ethics Activity Guide" ) and the attached rubric for more information and
+  examples.
+
+  Your posts should be between 150 and 300 words. Conciseness is important in
+  communicating with colleagues. Instructors will reject posts that fall outside
+  of this range. Use URLs (which do not contribute to the limit) to provide
+  external information and examples; do not plagiarize!
+
+  You should use established ethical theories and guidelines; do not invent your
+  own theory. Refer to the following sites for examples of ethical theories and
+  guidelines:
+
+    * [Ethical Theories (Links to an external site.)Links to an external site.](https://www.jmu.edu/mc/Docs/131101%208KQ%20Handout%20Revision.pdf){: .external}
+    * [Ethical Guidelines (Links to an external site.)Links to an external site.](http://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct){: .external}
+
+  __

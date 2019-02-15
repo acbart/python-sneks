@@ -1,0 +1,196 @@
+name: 'Project 5: Data Science'
+settings:
+  points_possible: 25.0
+  grading_type: points
+  submission:
+    extensions:
+    - pdf
+    - py
+    - html
+    - htm
+    - ipynb
+    submission_types:
+    - online_upload
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  For this project, you will be conducting your own data science analysis of a
+  dataset of your choosing. You are empowered to find a dataset that interests
+  you. The final product of your analysis will be a Jupyter Notebook with some
+  explanations and the results of your computation alongside the code.
+
+  This project is meant to be shorter and simpler than the previous project.
+  However, it is also meant to be more open-ended. Consider it an opportunity to
+  answer a question you find personally meaningful. This project assesses the
+  following learning objectives:
+
+    * Explore a question that can be answered through a Data Science investigation
+    * Access data stored externally to the program, such as in a file or on a remote server
+    * Traverse a complex, nested data structure
+    * Generate and interpret a plot using the MatPlotLib module
+    * Explain the impact of a Data Science analysis on relevant stakeholders
+
+  Here is a simple example of the completed report for this project: [State
+  Crime
+  Analysis.html](https://vt.instructure.com/courses/66476/files/6814544/download?verifier=Gf3DJup6mN04CiLqwg157405cny0mgPPBTszVOdr&wrap=1
+  "State Crime Analysis.html" ){: .instructure_file_link
+  .instructure_scribd_file}
+
+  ### Finding a Dataset
+
+  You should find a JSON file to conduct your analysis on. There are many public
+  repositories of JSON data, such as the [CORGIS
+  collection](https://think.cs.vt.edu/corgis/json/), which has a large number of
+  JSON files from a variety of sources. Using a Google search, you can find many
+  JSON files on the web that will be suitable for analyzing in Python. You can
+  even [convert a CSV](http://www.csvjson.com/csv2json) file or another data
+  type to JSON (although you are on your own for using such tools). Any JSON
+  dataset is suitable for your analysis. You could analyze historical data about
+  diseases, battle logs from a video game, weather records in your home state,
+  or whatever you please.
+
+  Although there is great flexibility in the shape and nature of your data, you
+  must ensure that there is sufficient numeric data in the dataset to conduct
+  your analysis. Specifically, you will need to end up producing 30 data points
+  in a Histogram. Additionally, the minimum filesize of the JSON file is at
+  least 50KB and the maximum file size is 20MB. You are free to trim down a
+  dataset yourself, if you are very attached to a particular one.
+
+  Regardless of what dataset you choose, you need to clearly identify where the
+  data come from and make an objective argument for the importance of the data.
+  It is not enough to just say that you find it personally interesting - you
+  must provide a justification that a neutral third party will find believable.
+  Any kind of analysis can be justified: consider arguments from different
+  perspectives such as economic factors, expert testimonials, etc.
+
+  Once you have chosen your dataset, please complete this quiz (you are free to
+  change your dataset anytime during the project, but please remember to update
+  your answer to this quiz): [Project 5: Chose
+  Dataset](https://vt.instructure.com/courses/66476/quizzes/103222 "Project 5:
+  Chose Dataset" )
+
+  ### Loading the Dataset
+
+  You will need to load the dataset within your Jupyter notebook. Although you
+  must load from a JSON file, you are free to use any valid Python module to do
+  so, including the JSON module or the Requests module. Once the data is loaded,
+  you can perform any preprocessing or cleaning that is necessary to use the
+  data in the subsequent steps. You are free to perform that processing in those
+  steps, if you prefer.
+
+  ### Histogram Analysis
+
+  First, you are required to generate and explain a Histogram of some numeric
+  data (with at least 30 data points). Although this could mean processing a
+  list of numbers found directly in the data, you are also free to do analysis
+  of the data that leads to numeric data. For example, you could analyze text
+  data to compute some numbers and find their distribution. The only requirement
+  is that the histogram you produce must have at least 30 data points
+  represented.
+
+  After you have generated and shown the Histogram, you must interpret its
+  meaning. What does the distribution say about the nature of the data?
+
+  ### Secondary Analysis
+
+  Second, you must then do a further analysis that interests you, such as one of
+  the following:
+
+    * A line plot showing trends
+    * A scatter plot comparing related values
+    * A [bar graph ](https://pythonspot.com/matplotlib-bar-chart/)showing values across categories
+    * A stacked [box plot](https://matplotlib.org/examples/pylab_examples/boxplot_demo.html) comparing distributions
+    * Descriptive statistics such as mean, median, sums, thresholds
+    * [Inferential statistics](https://docs.scipy.org/doc/scipy/reference/stats.html) such ANOVA or regression
+    * Basic machine learning such as a [K-Means clustering](https://glowingpython.blogspot.com/2012/04/k-means-clustering-with-scipy.html)
+    * More advanced [regression](https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9) or [classication](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn) types of analyses
+    * Geographical plots using [Cartopy](http://scitools.org.uk/cartopy/docs/latest/index.html#getting-started-with-cartopy)
+
+  Some of the above could be done without any special libraries, but some may
+  require the use of the Scipy, Scikit-learn, Matplotlib modules (or other
+  interesting data science tools). It is up to you to decide how much extra
+  analysis you want to do, but you should make sure that your analysis is a
+  reasonable choice for the data. For example, it would be inappropriate to make
+  a line plot for data that does not represent a trend, or to find the mean of a
+  list of user IDs.
+
+  Be sure to clearly explain what kind of secondary analysis you did, and
+  interpert the results.
+
+  ### Stakeholders
+
+  You will need to identify two stakeholders who would be interested in your
+  analyses. These stakeholders should be distinctive from each other. For
+  example, for weather data, a non-distinctive pair of stakeholders would be
+  "Weathermen" and "Forecasters". A much better distinctive pair would be
+  "Farmers planning their watering schedule" and "Scientists studying climate
+  change". Try to think of general classes of people in different parts of
+  society.
+
+  For each stakeholder, you should clearly explain what the stakeholders should
+  learn from your analysis. This could be in the form of recommendations, or a
+  description of how the results are relevant.
+
+  In the earthquakes example, several stakeholders were outlined who would care
+  about the results, and a conflict was given between them. For this assignment,
+  you are not required to identify any conflicts, but feel free to do so.
+
+  ### Report
+
+  You should combine your code and the results of running that code into a
+  Jupyter Notebook, as we saw in the previous lesson. Feel free to use the
+  example Jupyter Notebook from lesson #50
+  ([My+First+Jupyter+Notebook-1.pdf](https://vt.instructure.com/courses/66476/files/5919882/download?verifier=AkR3BTgeWOdY3qD6MiweOuDJj4W3sx696xCljol6&wrap=1
+  "My+First+Jupyter+Notebook-1.pdf" ){: .instructure_file_link
+  .instructure_scribd_file}) or example Data Science project ([State Crime
+  Analysis.html](https://vt.instructure.com/courses/66476/files/6814544/download?verifier=Gf3DJup6mN04CiLqwg157405cny0mgPPBTszVOdr&wrap=1
+  "State Crime Analysis.html" ){: .instructure_file_link}) as a model for your
+  own analysis. In general, here is a recommended outline:
+
+    1. Title
+    2. Your name
+    3. Explain your dataset and its origin
+    4. Load your dataset using the JSON or Requests module, then clean and preprocess your dataset in preparation for visualization
+    5. Create a histogram of your data and interpret its results
+    6. Conduct a secondary analysis of your data and interpret the results
+    7. Identify two distinctive stakeholders and contextualize your results for the stakeholders.
+    8. The honor code
+
+  ### Grading
+
+  You will be graded on the following components:
+
+    * 5 points for clearly identifying the source of the dataset and objectively explaining the importance of the data
+    * 5 points for loading (and potentially processing) the dataset with good code organization
+    * 5 points for a properly labelled histogram with at least 30 data points and a clear interpretation of your Histogram
+    * 5 points for an additional statistical, visual, or other Data Science analysis and a clear explanation of the results of your secondary analysis
+    * 5 points for clearly identifying 2 stakeholders and what they should learn from the results
+
+  Refer to the rubric at the bottom of the page for more in-depth explanations
+  of the exact criteria used to grade you. Notice that each element can receive
+  one of the following marks:
+
+    * Full marks (5 points) for meeting all the established criteria
+    * Adequate (4 points) for meeting all but one established criteria
+    * Inadequate (3 points) for meeting at least one criteria
+    * Missing (0 points) for not meeting any of the criteria
+
+  ### Submission
+
+  You **must** submit two files:
+
+    1. The Jupyter Notebook (.**ipynb**) file source code of the notebook.
+    2. The HTML (.**html**) file of your Jupyter Notebook
+
+  You **must** include your name and the following honor code in your report:
+  _“I have neither given nor received unauthorized assistance on this
+  assignment.”_
+
+  You **must** fill out this survey to clearly indicate what dataset you chose:
+  [Project 5: Chose
+  Dataset](https://vt.instructure.com/courses/66476/quizzes/103222 "Project 5:
+  Chose Dataset" )
+
+  Failure to follow the above submission requirements will result in a rejection
+  of your submission and an automatic zero.

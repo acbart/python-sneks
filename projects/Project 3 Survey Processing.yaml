@@ -1,0 +1,166 @@
+name: 'Project 3: Survey Processing'
+settings:
+  points_possible: 20.0
+  grading_type: points
+  submission:
+    extensions:
+    - py
+    - doc
+    - docx
+    - txt
+    - md
+    - rst
+    - pdf
+    submission_types:
+    - none
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  **To complete this activity**, you must submit the following (described below):
+
+    1. A submission of the `stats.py` file on [Web-Cat](https://web-cat.cs.vt.edu/Web-CAT/WebObjects/Web-CAT.woa/wo/12.0.0.0.29.1.1.11.2.1.0.3.1.0.1.0.1) with the survey question, results, functions, and the output of running your code.
+
+  You are a member of an advanced race of aliens, sent to Earth to learn more
+  about humans. Your grand leader has demanded that you formulate an important
+  question to ask 10 humans. Once the data has been collected, you will write a
+  series of functions to analyze the data using common statistical formula.
+
+  Your learning goals are as follows:
+
+    * Write functions that consume and/or produce lists
+    * Write functions that incorporate if statements to guard against bad arguments
+    * Practice responding to unit tests
+    * Translate mathematical formula into code
+    * Gain further knowledge about the puny humans and their curious habits
+
+  ## Survey
+
+  To begin, download this starting code and resources:
+  [s18-cs1064-p3_survey_stats-v1.zip](https://vt.instructure.com/courses/66476/files/6386275/download?verifier=WoDYwG418bEu5Haj8EEZUdvWhJRgPqYiLCvUrlBw&wrap=1
+  "s18-cs1064-p3_survey_stats-v1.zip" ){: .instructure_file_link
+  .instructure_scribd_file}
+
+  You need to create a survey question. You have great freedom to think of a
+  question, but it should be creative and unique. Think outside of the box,
+  because your grand alien leader will reward the most interesting survey
+  question with 1 point of extra credit.
+
+  The only technical requirement for the question should result in a non-nominal
+  number. The term non-nominal is used to avoid questions where the numbers are
+  being used as labels, and they have no order or numerical significance.
+
+  For example, here are some GOOD questions:
+
+    * How many corgis do you wish you owned?
+    * How many pages are in your favorite book?
+    * What is the ideal number of people to have at a party?
+    * How many colors do you hate?
+    * How wide is your favorite blanket?
+
+  Here are some BAD questions, because they are nominal:
+
+    * What is your gender? 0 is male, 1 is female, 2 is other.
+    * What is your hair color? 0 is blonde, 1 is black, 2 is brown, 3 is other.
+    * Where do you live? 0 is Blacksburg, 1 is not Blacksburg.
+    * What is your favorite number?
+
+  When you have formulated your survey question, assign it to the variable named
+  `SURVEY_QUESTIONS` in your code as a string literal value.
+
+  Next, you will need to ask at least 10 people your question. Obviously, there
+  is no strict way to enforce this process, but remember you that you are
+  signing an honor pledge to actually complete this assignment. When you have
+  your responses, encode them as a list literal of integers or floats in a
+  variable named `SURVEY_RESULTS`.
+
+  ## Statistics
+
+  To analyze your survey results, you will write a set of 8 functions. When
+  defining these functions, you cannot use any built-in list handling functions
+  (e.g., `len`, `sum`) or external modules (e.g., `statistics`, `numpy`).
+  However, you are encouraged to use the following functions: `round`, `int`,
+  `sorted`.
+
+  Here are the 8 functions you need to define:
+
+    1. `count`: Consumes a list of numbers and returns an integer representing the length of the list.
+    2. `summate`: Consumes a list of numbers and returns an integer representing the total sum of all the numbers in the list.
+    3. `mean`: Consumes a list of numbers and returns a float value representing the mean of the list. The formula for the mean of a list is 
+  ```python
+      mean = sum / count
+  ```
+
+  Think strategically about how you can use functions you have already written
+  to simplify this function's definition. If the list is empty, then return the
+  special value `None`. You should use the `round` function to round the result
+  to two decimal places.
+
+    4. `maximum`: Consumes a list of numbers and returns the highest number from the list. If the list is empty, then return the special value `None`.
+    5. `minimum`: Consumes a list of numbers and returns the lowest number from the list. If the list is empty, then return the special value `None`.
+    6. `median`: Consumes a list of numbers and returns the median number from the list. If the list is empty, then return the special value `None`. To calculate the median, you will need to find the middle index of the list after it has been sorted (you can easily sort a list using the built-in `sorted` function): 
+  ```python
+      middle index = length/2
+  ```
+
+  As a further headache, remember that you can only use integers to index a
+  list, not floats - therefore, you will also need the `int` built-in function.
+  This is actually a simplified version of the real median formula. You do not
+  need to worry about finding the average in the even case, simply apply the
+  formula above regardless of whether there are an even or odd number of
+  elements.
+
+    7. `square`: Consumes a list of numbers and returns a new list of numbers where each element has been squared.
+    8. `standard_deviation`: Consumes a list of numbers and returns a float representing their standard deviation. If the list has fewer than 2 elements, you should return the special value `None`. The following formula should be used to calculate the standard deviation: 
+  ```python
+      stdev = (((sum of the values squared) - (sum of the values * sum of the values)/(count of the values))/(count of the values - 1)) ** .5
+  ```
+
+  This formula is described more deeply
+  [here](https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance#Na%C3%AFve_algorithm).
+  Take advantage of functions you have already written to simplify this
+  function's definition. You should use the `round` function to round the result
+  to two decimal places.
+
+  Refer to the sample_results.txt file (using your Programmer Friendly Text
+  Editor) to see the exact values that should be returned for each function.
+
+  ## Testing Your Program
+
+  At the bottom of the provided starting file, you can see an `if` statement
+  that is executed when your program is run. As you define functions, uncomment
+  the corresponding function call. Note that you are not graded for anything in
+  this section, it is simply there to help you understand how these functions
+  are used. When your program is complete, copy the output generated by this
+  section into your program as a comment, and include a brief, one-sentence
+  explanation of how these results will help us crush the puny humans*.
+
+  You are graded based on passing the unit tests (run the provided
+  `test_my_solution.py` program). Only the unit tests can determine if you earn
+  points. You should run the unit tests early and often as you develop.
+  Inability to follow instructions and use the unit tests is not an excuse.
+  **You must match the expected results exactly.**
+
+  ### Submitting your program
+
+  When you feel that your program is ready, you will submit it on Web-CAT. This
+  is the final authority on whether you have passed the unit tests. However,
+  remember to use the local unit test file to determine where your program has
+  failed.
+
+    * Link to submit on Web-CAT: <https://web-cat.cs.vt.edu/Web-CAT/WebObjects/Web-CAT.woa/wo/12.0.0.0.29.1.1.11.2.1.0.3.1.0.1.0.1>
+
+  ### Grading
+
+  Passing the unit tests is worth 75% of the assignment grade.
+
+  20% of the grade is based on Style and Code Organization. Refer to the Style
+  Guide for suggestions on best practices of making your code clean and tidy:
+  [Style Guide](https://vt.instructure.com/courses/66476/pages/style-guide
+  "Style Guide" )
+
+  Finally, the TAs award 5% (1 point) more for correctly including the output
+  from running your code as a comment at the bottom of your program.
+
+  _*You do not actually need to explain how the results can be used to crush
+  humanity, but do include the output of running your code as a comment._

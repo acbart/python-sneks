@@ -1,0 +1,48 @@
+name: 'Ethics 1: Is the Net Neutral?'
+settings:
+  points_possible: 5.0
+  grading_type: points
+  submission:
+    extensions:
+    - png
+    - jpeg
+    - jpg
+    - bmp
+    - tif
+    - gif
+    - pdf
+    - jif
+    submission_types:
+    - online_text_entry
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  Consider this ethical scenario involving computing:
+
+  _Your internet provider, Verizicast Cable, has recently announced a new
+  pricing plan to make them more competitive in your area. From now on, users
+  who frequently access video-heavy websites like Netflix and Youtube will be
+  charged higher rates than users who typically access non-video heavy websites
+  (e.g., Wikipedia, Twitter). Do you believe that this new pricing model is
+  ethical?_
+
+  Respond to this scenario by 1) summarizing the situation, 2) taking a clear
+  stance, 3) writing a coherent argument supporting your stance, 4) referencing
+  a relevant ethical theory or guideline, and 5) writing with understandable
+  spelling, grammar, and punctuation. Refer to the [Ethics Activity
+  Guide](https://vt.instructure.com/courses/66476/pages/ethics-activity-guide
+  "Ethics Activity Guide" ) and the attached rubric for more information and
+  examples.
+
+  Your posts should be between 150 and 300 words. Conciseness is important in
+  communicating with colleagues. Instructors will reject posts that fall outside
+  of this range. Use URLs (which do not contribute to the limit) to provide
+  external information and examples; do not plagiarize!
+
+  You should use established ethical theories and guidelines; do not invent your
+  own theory. Refer to the following sites for examples of ethical theories and
+  guidelines:
+
+    * [Ethical Theories](https://www.jmu.edu/mc/Docs/131101%208KQ%20Handout%20Revision.pdf)
+    * [Ethical Guidelines](http://www.acm.org/about-acm/acm-code-of-ethics-and-professional-conduct)

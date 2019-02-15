@@ -1,0 +1,104 @@
+name: 'Project 2: Magical Banking'
+settings:
+  points_possible: 20.0
+  grading_type: points
+  submission:
+    submission_types:
+    - none
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  **To complete this activity**, you must submit the following (described below):
+
+    1. A submission of the `banking.py` file on [Web-Cat](https://web-cat.cs.vt.edu/Web-CAT/WebObjects/Web-CAT.woa?page=MostRecent&sid=2712854)
+
+  ![Grindlehook the grumpy goblin
+  coder](https://vt.instructure.com/courses/66476/files/6207067/download?verifier=NN6aYRUsE7ivXyVPYXgDpt8CPdJYdOgxQSzxJPw3&wrap=1)
+
+  > _"So what if my code is messy? It works just fine!" Grindlehook grumbles at
+  you. "Sure, it can only be called once before it breaks, but you just need to
+  be careful with how you use it. Focus on making your own code work!"_
+
+  Like most goblins, your senior colleague Grindlehook is not a very good
+  programmer. Unfortunately, he has worked for the Goblin Bank for many
+  centuries, and he has a nasty temper. As the new hire, it's your job to
+  integrate Grindlehook's code into the new **Goblin Magical Loan System
+  (GMLS)**, which will approve loans to wizards starting new businesses. The
+  only catch is that you cannot change Grindlehook's code, even though it's
+  critical to the system.
+
+  The GMLS gets a user's name and their desired loan amount, does some magical
+  calculations based on the alignment of the stars, and indicates whether the
+  loan is available. All of this is done through the most powerful interface
+  known to wizards: the console.
+
+  Your learning goals are as follows:
+
+    * Read and respond to real unit tests
+    * Move data through a large program with multiple functions
+    * Differentiate between printing, returning, inputted data, and parameters
+    * Work with a "black-box" function (only knowing its inputs and outputs)
+
+  ### Program Structure
+
+  To begin, download this starting code and resources:
+  [s18-cs1064-p2_magical_banking-v4.zip](https://vt.instructure.com/courses/66476/files/6288336/download?verifier=uiUxhJgDGpLh17CSTzRLKBDkTzrGNeMIUq4QLRMh&wrap=1
+  "s18-cs1064-p2_magical_banking-v4.zip" ){: .instructure_file_link
+  .instructure_scribd_file}
+
+  To build this new system, you will need to implement a total of 8 functions.
+  Observe the flow of data in the program below. Recall that variables cannot
+  move between functions, and instead think about what values must move.
+
+  ![Magical Banking Flow
+  Diagram](https://vt.instructure.com/courses/66476/files/6140597/download?verifier=7BEHmEXGKn7ZQn7Tyrl1cwKXf8f7Rgj2QFlumCVp&wrap=1)
+
+  Here is an explanation of each function:
+
+    1. `main`: This is the most important function, because it is responsible for calling your other functions in the right order. There are two strategies for writing it: A) build it up incrementally as you write the other functions, or B) write this function only after you have implemented all the other functions.
+    2. `print_introduction`: This prints a brief message that greets the user. It consumes nothing and returns nothing.
+    3. `input_name`: This prompts the user to type in their name and prints some messages (including the user's name). It consumes nothing, but returns the user's name as a string.
+    4. `calculate_rating`: This is Grindlehook's function. Do not worry about how this function works, simply know that when its called, it returns the customer's rating as an integer. You will only be able to call it once per program's execution (afterwards it stops returning the right value). You cannot simply hardcode its value into your system, because it is different for each user. And, of course, you can't fix it because Grindlehook will get angry at you. Sadly, you will encounter Grindlehook's in many jobs, and learning to work around them is a valuable life skill.
+    5. `print_rating`: This prints the user's calculated rating (the result of calling `calculate_rating`). It consumes an integer (representing the rating) and returns nothing.
+    6. `input_loan_amount`: This prompts the user to type in their desired loan amount and prints some messages. It consumes nothing, but returns the loan amount as an integer. Remember, the `input` function returns a string, so you will need to convert the result using the built-in `int` function.
+    7. `print_loan_availability`: This function consumes a rating and a loan amount, and prints whether or not a loan is available to the user by calling the `test_loan` function. It does not return anything.
+    8. `test_loan`: This function consumes a rating and a loan amount, and returns whether or not a loan is available to the user by using the following formula: `rating2 * 100 >= loan amount`. Note that this function returns a boolean, and does not print anything.
+    9. `print_conclusion`: This prints a brief message that thanks the user. It consumes nothing and returns nothing.
+
+  Refer to the `sample_output.txt` file (using your Programmer Friendly Text
+  Editor) to see the exact messages that should be displayed for each function.
+
+  ### Testing your program
+
+  You are graded based on passing the unit tests (run the provided
+  `test_my_solution.py` program). Simply eyeballing the output is insufficient.
+  Only the unit tests can determine if you earn points. You should run the unit
+  tests early and often as you develop. Inability to follow instructions and use
+  the unit tests is not an excuse. **You must match the expected output exactly.
+  **Refer to the `sample_output.txt` file for the exact text to print in each
+  part.
+
+  Often, your program will fail to pass the unit tests. Sometimes, they will
+  give you an Output Diff. If you are having trouble understanding the Output
+  Diff, refer to this tutorial: [Reading Unit Test's Output
+  Diff](https://vt.instructure.com/courses/66476/pages/reading-unit-tests-
+  output-diff "Reading Unit Test's Output Diff" )
+
+  ### Submitting your program
+
+  When you feel that your program is ready, you will submit it on Web-CAT. This
+  is the final authority on whether you have passed the unit tests. However,
+  remember to use the local unit test file to determine where your program has
+  failed.
+
+    * Link to submit on Web-CAT: [https://web-cat.cs.vt.edu/Web-CAT/WebObjects/Web-CAT.woa?page=MostRecent&amp;sid=2712854](https://web-cat.cs.vt.edu/Web-CAT/WebObjects/Web-CAT.woa?page=MostRecent&sid=2712854)
+
+  ### Grading
+
+  Passing the unit tests is worth 75% of the assignment grade.
+
+  The remaining 25% of the grade is based on Style and Code Organization. Refer
+  to the Style Guide for suggestions on best practices of making your code clean
+  and tidy: [Style Guide](https://vt.instructure.com/courses/66476/pages/style-
+  guide "Style Guide" )

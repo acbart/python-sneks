@@ -1,0 +1,125 @@
+name: 'Project 4: Text Adventure Diagrams'
+settings:
+  points_possible: 4.0
+  grading_type: points
+  submission:
+    extensions:
+    - pdf
+    submission_types:
+    - online_upload
+  secrecy:
+    anonymize_students: false
+    anonymous_grading: false
+description: |-
+  You should always plan before starting a large project. Therefore, before you
+  write a line of code, you should create two diagrams:
+
+    1. The Game Location Diagram
+    2. The Player State Table.
+
+  These diagrams should be updated as you adjust and finalize your game.
+  Although they do not have to be 100% accurate to your final game, they should
+  be very close.
+
+  ### Examples
+
+  We have provided diagrams for two example games:
+
+  **Spooky House** is a short game about exploring a house - it only has 3 fields in the player state, so would not meet the minimal project requirements:
+
+    * Game Location Diagram: [SpookyHouse_LocationDiagram.pdf](https://vt.instructure.com/courses/66476/files/6552124/download?verifier=QHJLUEvXkBH6aNinXxl2teFfTG4Ub4sjvHG5YWPt&wrap=1 "SpookyHouse_LocationDiagram.pdf" ){: .instructure_file_link .instructure_scribd_file}
+    * Player State Table: [SpookyHouse_PlayerState.pdf](https://vt.instructure.com/courses/66476/files/6552125/download?verifier=FkVt8Xu78UAw3HDPyMNW5MFFlWG0ViGapapoba2a&wrap=1 "SpookyHouse_PlayerState.pdf" ){: .instructure_file_link .instructure_scribd_file}
+
+  **Finding Adventure** is a more complex game about finding something you forgot - it has 5 fields in the player state, so would meet the minimal requirements:
+
+    * Game Location Diagram: [FindingAdventure_LocationDiagram.pdf](https://vt.instructure.com/courses/66476/files/6552126/download?verifier=fVniDsu6ED5STyEve0p6S0lS8veDZ6nsdeDuiofD&wrap=1 "FindingAdventure_LocationDiagram.pdf" ){: .instructure_file_link .instructure_scribd_file}
+    * Player State Table: [FindingAdventure_PlayerState.pdf](https://vt.instructure.com/courses/66476/files/6552129/download?verifier=lJZcIt6W8WzAT8xntp6QqcUCq6TIGu1YvHhe7j90&wrap=1 "FindingAdventure_PlayerState.pdf" ){: .instructure_file_link .instructure_scribd_file}
+
+  ### Location Diagram
+
+  Also known as a State Transition diagram, this is a common tool in the game
+  industry to convey the overall flow of a game. In particular, you will use
+  this diagram to highlight the locations within the game and the commands
+  available within them. In the diagram, you must clearly label your starting
+  point, the locations in your game, the commands that are available, and the
+  victory and lose states.
+
+  We recommend the following conventions:
+
+    * Green circles for the "Start", "Lose", and "Win" states
+    * Blue rectangles for the locations
+    * Solid arrow lines for the commands, annotated with the command itself
+    * Yellow hexagon for different outcomes of a command depending on player state
+    * An annotation starting with an asterisk (*) if a command changes the player state
+
+  These are just conventions, and you are free to develop your own style; if you
+  do break from convention, you should include a legend to explain your
+  symbols/colors/etc. However, you will be graded on the readability and clarity
+  of your diagram, so be conscientious. Use of color and significant shapes are
+  strongly recommended.
+
+  Somewhere with your diagram, you should also identify the "Win path" and "Lose
+  path": the sequence of commands that will make you win and lose the game,
+  respectively. This could be a simple list next to the diagram, or you could
+  annotate the diagram with special lines.
+
+  ### Player State Table
+
+  A key aspect of your game is the Player State that is passed around inside the
+  main game loop. This state is a representation of the game world at any given
+  time. Internally, this state is structured as a Dictionary mapping fields
+  (strings) to values. Two of these keys will be the same for everyone's game
+  (as shown in the table below), but you will also have at leat two of your own
+  uniquely chosen keys (so at least four keys total).
+
+  The Player State Table should have at least four columns detailing:
+
+    * The name of the field or key
+    * The type of the field's value (e.g., string, integer, boolean, list)
+    * The initial value of the field
+    * A description of the field, explaining its purpose in the game
+
+  Every game must include two fields ("game status" and "location"), so, at a
+  minimum, your table will have the following:
+
+  Key | Type | Initial Value | Description  
+  ---|---|---|---  
+  game status | string | "playing" |
+
+  Whether the game is in progress ("playing") or has ended ("won", "lost",
+  "quit")  
+    
+  location | string | "Yard" |
+
+  Where the player is in the world  
+    
+  You are free to add extra columns and have as many rows as you need to make
+  your game. Keep in mind that the more player state, the more complexity your
+  game is likely to have.
+
+  ### How to create the diagrams
+
+  You have freedom in making your diagram:
+
+    * Powerpoint: We made our diagrams in PowerPoint, and found it quite easy. This also made it easy to make revisions later and export to PDF.
+    * Paper and Pencil: Your final submission must be on unlined paper, and you need to provide a readable scanned version. You might consider making a rough draft and a final draft, so that your submission is readable.
+    * [LucidChart](https://www.lucidchart.com/): Online software for making graphics. Although they have a paid version, you should be able to try it out for free.
+    * [Google Drawings](https://docs.google.com/drawings/): Free software integrated into Google Apps that let's you construct diagrams.
+    * Other diagramming software: There are any other options out there for making tables and diagrams, so feel free to find one that works for you.
+
+  ### Submission
+
+  You are free to combine your documents into one PDF, or upload them as
+  separate files. However, you are responsible for creating a PDF file.
+
+  ### Grading
+
+  Your final work will need to meet the following requirements in order to
+  receive full points:
+
+    * Both diagrams must be readable (e.g., not blurry or too small writing)
+    * Both diagrams must accurately reflect the final game produced
+    * The Game Location Diagram must make the locations, commands, and start/victory/lose states clear
+    * The Win and Lose paths must be clearly articulated in the diagram
+    * The Player State Table must have the required columns and at least 4 rows
+    * The Player State Tables' cells must have the proper values and information, and a clear description is given of each field in the game state

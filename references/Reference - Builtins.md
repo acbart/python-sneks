@@ -1,31 +1,37 @@
 ## The Helpful Functions
-dir()
-type()
-help()
+
+dir()  
+type()  
+help()  
 vars()
 
 ## The Conversion Functions
-int()
-str()
-bool()
-float()
+
+int()  
+str()  
+bool()  
+float()  
 dict(), list(), tuple(), set()
 
 ## The Math Functions
-abs()
+
+abs()  
 round()
 
 ## The Boolean Functions
-any()
+
+any()  
 all()
 
 ## Iterables
-range()
-zip(), enumerate()
-map(), filter(), reversed(), sorted()
+
+range()  
+zip(), enumerate()  
+map(), filter(), reversed(), sorted()  
 len(), max(), min(), sum()
 
 ## I/O
-input()
-print()
+
+input()  
+print()  
 open()
