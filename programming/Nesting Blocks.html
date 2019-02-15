@@ -1,0 +1,39 @@
+<h2>#1 - Drinking</h2>
+<div>
+<p>Create a function named <code>can_drink</code> that takes in <code>age</code> and <code>has_license</code>. Then, use your logic from question #27.2 as the function's body. Change the function's body to <span style="font-style: italic;">return </span>strings (not print!). Call the function with your own information (again, or make it up) and print the result of calling it.</p><p></p><p>Here is the logic from #27.2:</p><pre>if you are 21 or older<br>    if you are less than 1000 years old<br>        if you have a license<br>            then return "Can drink"<br>        otherwise<br>            then return "Doesn't have a license"<br>    otherwise<br>        then return "Too old"<br>otherwise<br>    the return "Too young"<br></pre><p></p>
+</div>
+<h2>#2 - Possibly</h2>
+<div>
+The code below is broken. Run the code an observe the error. Fix the code so that the the function <code>calculate_income</code> will correctly decrease the salary by 10% if it is greater than $5,000 per year and otherwise return the salary adjusted.
+</div>
+<pre><code>
+# Starting Code:
+def calculate_income(salary):
+    if salary > 5000:
+        tax = .9
+    return salary * tax
+print(calculate_income(1000))
+print(calculate_income(10000))
+</code></pre>
+<h2>#3 - Animal</h2>
+<div>
+Create a function named <code>rate_animal</code> that will rate the value of animals on a numeric scale (1-4, where 1 is best and 4 is worst). Your function should consume a string named <code>an_animal</code> and return an integer from 1-4 for each of four possible inputs: <code>"dog"</code>, <code>"cat"</code>, <code>"capybara"</code>, and <code>"danger noodle"</code>. Each animal should have its own value. If the string given is not a valid animal from the list, return <code>-1</code>. Call and print the function once with your favored animal.&nbsp;
+</div>
+<h2>#4 - Stay</h2>
+<div>
+Create a function named <code>add_positives</code> that consumes two numbers and returns their sum. However, if either number is less than zero, you should instead return <code>0</code>. Call the function twice.
+</div>
+<h2>#5 - Redundant</h2>
+<div>
+The code below uses an unnecessary <code>if/else</code> statement. <i>Refactor</i> the code (modify it without changing its behavior) so that it no longer uses an <code>if/else</code> statement.
+</div>
+<pre><code>
+# Starting Code:
+def am_i_on_fire(temperature):
+    if (temperature > 109) == True:
+        return True
+    else:
+        return False
+print(am_i_on_fire(100))
+print(am_i_on_fire(110))
+</code></pre>

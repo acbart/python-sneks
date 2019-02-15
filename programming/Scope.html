@@ -1,0 +1,42 @@
+<h2>#1 - Outside</h2>
+<div>
+The function <code>calculate_perimeter</code> is meant to return the length of the outline of a rectangle by consuming its <code>width</code>&nbsp;and <code>height</code>. The code below is meant to call the function for a rectangle with the dimensions 4x3 and then print the result. However, it doesn't seem to work. Fix the function to obey scoping rules.
+</div>
+<pre><code>
+# Starting Code:
+def calculate_perimeter(width, height):
+    perimeter = width *2 + height * 2
+calculate_perimeter(4, 3)
+print(perimeter)
+</code></pre>
+<h2>#2 - Weekend</h2>
+<div>
+The function <code>is_weekend</code> is supposed to consume nothing and return a Boolean indicating whether the current day of the week is a weekend, according to user input. However, it does not work correctly. Fix this function by applying the rules of scope.
+</div>
+<pre><code>
+# Starting Code:
+day_of_week = input("What day of the week is today?")
+def is_weekend():
+    is_saturday = (day_of_week.lower() == "saturday")
+    is_sunday = (day_of_week.lower() == "sunday")
+    return is_saturday or is_sunday
+print(is_weekend())
+
+</code></pre>
+<h2>#3 - Calling</h2>
+<div>
+The function <code>combine_message</code> below will consume three messages and combine them into one. It is supposed to use the <code>improve_message</code> to also improve the messages before returning them. Fix the body of the <code>combine_message</code> function so that it correctly calls the <code>improve_message</code> function.
+</div>
+<pre><code>
+# Starting Code:
+def improve_message(a_string):
+    return a_string.replace('dog', 'doggo')
+
+def combine_messages(first, second, third):
+    return first + '\n' + second + '\n' + third
+
+first = 'That dog is cute.'
+second = "I want to pet the dog."
+third = "I will ask the dog's owner."
+print(combine_messages(first, second, third))
+</code></pre>

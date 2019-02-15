@@ -1,0 +1,32 @@
+<h2>#1 - Genre</h2>
+<div>
+The code below is meant to count the number of times each genre appears in the list below. However, the code has some critical errors. Fix the code so that it correctly counts genres and prints the result.
+</div>
+<pre><code>
+# Starting Code:
+books_genres = ["Horror", "Sci-Fi", "Horror", "Comedy",
+                "Comedy", "Horror", "Horror", "Comedy"]
+genre_counts = {}
+for genre in books_genres:
+    if genre in genre_counts:
+        genre_counts["genre"] = genre_counts["genre"] + 1
+    else:
+        genre_counts["genre"] = 1
+print(genre_counts)
+</code></pre>
+<h2>#2 - Word</h2>
+<div>
+<p>Create a function <code>count_words</code> that consumes a string of comma-separated words and returns the number of occurrences of each word as a dictionary. Use the Dictionary Counting pattern and the <code>split</code> method. Make sure you try calling your function to test it out!</p><p><strong>Need some help?</strong> There is a <a href="https://think.cs.vt.edu/worked_examples/load?filename=pet_count.html&amp;assignment_id=263" target="_blank">Worked Example</a> available to help you on this problem!</p>
+</div>
+<h2>#3 - Definitions</h2>
+<div>
+<p>Convert the table below into a Lookup dictionary. Then give an example of using one of the keys to look up and print a value.</p><table class="table table-bordered table-striped table-condensed" style="background-color: white"><tbody><tr><td>Doe</td><td>A female deer.</td></tr><tr><td>Ray</td><td>A drop of golden sun.</td></tr><tr><td>Me</td><td>A name I call myself.</td></tr><tr><td>Far</td><td>A long way to run.</td></tr><tr><td>Sew</td><td>A needle pulling thread.</td></tr></tbody></table><p><br></p>
+</div>
+<h2>#4 - Lookup</h2>
+<div>
+<p>Convert the table below into a function named <code>lookup_temperature</code> that converts temperatures to strings. Do not use the Lookup Pattern - in fact, do not use a dictionary at all. This problem is meant to illustrate the limitations of the Lookup Pattern. Make sure to call this function to test it out.</p><table class="table table-bordered table-striped table-condensed" style="background-color: white"><tbody><tr><td>Temperature &lt; 32</td><td>Freezing</td></tr><tr><td>32 &lt;= Temperature &lt; 50</td><td>Cold</td></tr><tr><td>50 &lt;= Temperature &lt; 70</td><td>Warm</td></tr><tr><td>70 &lt;= Temperature</td><td>Hot</td></tr></tbody></table>
+</div>
+<h2>#5 - Mapping</h2>
+<div>
+Create a lookup table below that maps your courses (represented by the department code and course number, like "CS1064") to the percentage of your course-related time that they consume. For example, the key <code>"CS1064"</code> might map to <code>.25</code>. The values of the dictionary should add up to 1. You will not be graded based on the amount of time you dedicate to this class. Use dictionary lookup to print the value associated with the key <code>"CS1064"</code>.
+</div>

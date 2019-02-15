@@ -1,0 +1,24 @@
+<h2>#1 - Basic</h2>
+<div>
+Create a list of ten numbers. These numbers can be high, low, the same, or different - it's up to you to choose the numbers. Represent this data as a list of numbers in your program, store it in a variable, and then create a Histogram to visualize their distribution. Title this Histogram as <code>"Distribution of Numbers"</code>. Make sure you understand how to interpret the histogram (and do not confuse it with <a href="http://mathcentral.uregina.ca/qq/database/qq.09.99/raeluck1.html" target="_blank">a bar chart</a>). Consider trying out different values to see how it affects the Histogram's shape.
+</div>
+<h2>#2 - Salary</h2>
+<div>
+<p>The company you created (which makes funny dog pictures) is having a meeting to discuss employee salaries. The attached file (<code>"employees.json"</code>) has salary data for your employees as a list of dictionaries. Create a visualization that shows the distribution of the <code>"Salary"</code> field. Remember that to do this, you will need to <code>open</code> the JSON file, <code>load</code> the data, convert the list of dictionaries to a list of numbers, and then plot those numbers. Make sure you give meaningful labels to the axes and a title.</p><p>You may notice that the x-values are so big, they spill into each other. If you would like, you may divide each salary by 1000 (Make sure that your x-axis label reflects that the salaries are then in thousands).</p>
+</div>
+<h2>#3 - Plotting</h2>
+<div>
+<p>The built-in <code>range</code> function consumes an integer and returns a list of numbers from 0 up until that integer. This can be used to plot mathematical expressions. Use a list comprehension and the <code>range</code> expression below to create a line plot that models the parabolic equation:</p><pre>y = 10x -x<sup>2</sup></pre><p>You do not need to label the graph.</p>
+</div>
+<pre><code>
+# Starting Code:
+range(11)
+</code></pre>
+<h2>#4 - Weather</h2>
+<div>
+In a previous question, you retrieved the current temperature from an external website using the Request module. However, that site also makes the entire temperature forecast available.<code>"http://forecast.weather.gov/MapClick.php?lat=37.2327&amp;lon=-80.4284&amp;unit=0&amp;lg=english&amp;FcstType=json"</code><p>Use this URL and the <code>requests</code> module to access the JSON data behind the URL. This JSON data is organized as a dictionary of dictionaries of lists. The current forecasted temperatures can be found by accessing the <code>"data"</code> key, then the <code>"temperature"</code> key. Note that they store these values as strings, so you will need to convert them with the <code>int</code> built-in function. Store the integer temperatures in a variable, plot that variable as a line plot, and give meaningful labels to the axes and a title.</p><p>Note that the graph shown will be the cached version of the data. You can run this code on your own computer to see the latest weather forecast and plan your week accordingly.</p>
+</div>
+<h2>#5 - Correlating</h2>
+<div>
+The employees of your company (which still makes funny dog pictures) are upset because they believe that their salaries are not reflecting their work. The attached file (<code>"employees.json"</code>) has salary data for your employees as a list of dictionaries. Create a visualization that shows the <span style="font-weight: bold;">relationship </span>between <code>"Salary"</code> and <code>"Dog Pictures Made"</code>. Remember that to do this, you will need to open the JSON file, convert the list of dictionaries to two lists of numbers, and then plot those numbers. Make sure you give meaningful labels to the axes and a title. Afterwards, reflect on whether you think the employees are being paid in accordance with their productivity.
+</div>

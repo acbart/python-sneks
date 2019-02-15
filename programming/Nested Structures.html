@@ -1,0 +1,127 @@
+<h2>#1 - Nested</h2>
+<div>
+<p>Given the following dictionary representing this course, print out the first instructor and the title of the Day 2 assignment using dictionary lookups and list indexing. Make sure to print out each of these on separate lines.<br></p>
+</div>
+<pre><code>
+# Starting Code:
+course = {
+    "Instructors": ["Klaus", "Wrex"],
+    "ID": {
+        "Department": "CS",
+        "Number": 1064
+    },
+    "Name": "Introduction to Python",
+    "Assignments": {
+        "Day 1": {
+            "Points": 10,
+            "Title": "Introduction"
+        },
+        "Day 2":{
+            "Points": 5,
+            "Title": "Installing Python"
+        },
+    }
+}
+</code></pre>
+<h2>#2 - List</h2>
+<div>
+Print out the name of the movie in each of the list of dictionaries using a <code>for</code> loop.
+</div>
+<pre><code>
+# Starting Code:
+movies = [
+    {"Name": "Beauty and the Beast", "Run Time": 92, "IMDB": .8}, 
+    {"Name": "Hercules", "Run Time": 93, "IMDB": .72},
+    {"Name": "Up", "Run Time": 96, "IMDB": .83}
+    ]
+</code></pre>
+<h2>#3 - Summing</h2>
+<div>
+Use the Loop Summing Pattern to calculate the total score of all the games in this list of dictionaries.
+</div>
+<pre><code>
+# Starting Code:
+games = [
+    {"Name": "UD", "Score": 27, "Away?": False},
+    {"Name": "Clemson", "Score": 14, "Away?": True},
+    {"Name": "Pitt", "Score": 32, "Away?": True},
+]
+</code></pre>
+<h2>#4 - Summing</h2>
+<div>
+Use the Loop Summing Pattern to calculate the total amount of rainfall.
+</div>
+<pre><code>
+# Starting Code:
+forecast = [
+    {"Day": "Friday", "Location": "Blacksburg",
+     "Weather": {"Rainfall": 2, "Temperature": 60, "Windy?": False}},
+    {"Day": "Saturday", "Location": "Blacksburg",
+     "Weather": {"Rainfall": 4, "Temperature": 65, "Windy?": True}},
+    {"Day": "Sunday", "Location": "Blacksburg",
+     "Weather": {"Rainfall": 1, "Temperature": 72, "Windy?": True}},
+]
+</code></pre>
+<h2>#5 - Winsome</h2>
+<div>
+Use the Summing and Filter Patterns to calculate the total amount of rainfall on windy days.
+</div>
+<pre><code>
+# Starting Code:
+forecast = [
+    {"Day": "Friday", "Location": "Blacksburg",
+     "Weather": {"Rainfall": 2, "Temperature": 60, "Windy?": False}},
+    {"Day": "Saturday", "Location": "Blacksburg",
+     "Weather": {"Rainfall": 4, "Temperature": 65, "Windy?": True}},
+    {"Day": "Sunday", "Location": "Blacksburg",
+     "Weather": {"Rainfall": 1, "Temperature": 72, "Windy?": True}},
+]
+</code></pre>
+<h2>#6 - Nested</h2>
+<div>
+The list of lists below is meant to represent the money raised by a charity over multiple days. The inner lists represent each donation, and the outer list represents each day. Use a <code>for</code> loop to calculate the sum of all the numbers in this list of list of numbers, to print the total amount of money raised.
+</div>
+<pre><code>
+# Starting Code:
+hourly_donations_per_day = [
+    [44, 33, 56, 27, 33, 25],
+    [12, 15, 22, 19, 21],
+    [36, 34, 32, 37, 28, 11, 35],
+    [20, 19, 29],
+    [22, 27, 21, 15, 26, 15]
+    ]
+</code></pre>
+<h2>#7 - Sum</h2>
+<div>
+<p>The following function <code>sum_dictionary</code>&nbsp;is meant to consume a dictionary of lists and return a dictionary of numbers representing the sum of the elements in the list. For example, in the function call below, the dictionary <code>{"Module 1": 23, "Module 2": 22, "Module 3": 31}</code> should be returned.&nbsp;</p><p>However, the function definition has had all of its code moved to before its definition. Rearrange the lines of code before the definition to be inside the definition, and correct their indentation. Do not add, remove, or change any of those lines.</p>
+</div>
+<pre><code>
+# Starting Code:
+for key, values in a_dictionary.items():
+new = {}
+for value in values:
+new[key] = 0
+new[key] = new[key] + value
+return new
+def sum_dictionary(a_dictionary):
+    pass
+    
+print(sum_dictionary({
+    "Module 1": [10, 5, 3, 5],
+    "Module 2": [7, 3, 4, 5, 3],
+    "Module 3": [10, 12, 4, 3, 2]
+}))
+</code></pre>
+<h2>#8 - Extract</h2>
+<div>
+Write a function <code>extract_key</code> that consumes a key and a list of dictionaries, and returns a list of just the values associated with that key. For example, in the function call below, the list <code>[18, 16, 2]</code> would be returned. Note that your function should work for any list of dictionaries, not just a list of animals like the one shown.
+</div>
+<pre><code>
+# Starting Code:
+animals = [
+    {"Name": "Klaus", "Weight": 27, "Height": 18},
+    {"Name": "Pumpkin", "Weight": 20, "Height": 16},
+    {"Name": "Wrex", "Weight": 3, "Height": 2},
+]
+print(extract_key("Height", animals))
+</code></pre>

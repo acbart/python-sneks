@@ -1,0 +1,12 @@
+<h2>#1 - Get</h2>
+<div>
+Earlier in the course, you copy and pasted <a href="https://pastebin.com/raw/V7tWn1Rj" target="_blank">an ASCII picture</a> into your source code using triple-quoted strings. Now, use the <code>requests</code> module to access that URL and print its <code>text</code> content.
+</div>
+<h2>#2 - Dracula</h2>
+<div>
+<p>Project Gutenberg has a large number of classic books available, including the complete text of <a href="http://www.gutenberg.org/cache/epub/345/pg345.txt" target="_blank">Dracula</a>. Access the URL using the <code>requests</code> module and the <code>get</code> function in order to count the number of times that <code>"Dracula"</code> appears in the story. Note that you may use the built-in <code>count</code> method of strings.</p><p>Make sure you use this URL exactly in your code: <code>'http://www.gutenberg.org/cache/epub/345/pg345.txt'</code></p>
+</div>
+<h2>#3 - Live</h2>
+<div>
+<p>Live web feeds are an exciting way to make your programs respond to the world around them. In this problem, you will print out the current temperature for Blacksburg, Virginia. This data is available from the US Geological Service's Weather Forecast data stream. The URL below (note that it is one line, with no spaces or new lines) gives you access to the current information about Blacksburg weather:</p><code>"http://forecast.weather.gov/MapClick.php?lat=37.2327&amp;lon=-80.4284&amp;unit=0&amp;lg=english&amp;FcstType=json"</code><p>Use this URL and the <code>requests</code> module to access the JSON data behind the URL. This JSON data is organized as a dictionary of dictionaries of lists. The current temperature can be found by accessing the <code>"data"</code> key, then the <code>"temperature"</code> key, and then retrieving the first element of the subsequent list. Print that first temperature value.</p><p>Repeatedly accessing a real-world website like Forecast.gov is a little rude, especially if we all do it at once. Therefore, for this problem, we have captured a snapshot of the temperature. If you want to try your code in Spyder or Thonny, however, you should be able to see the actual temperature!</p><p>Note: Do not use the <code>json</code> module; use the <code>json</code> method of the response object.</p>
+</div>

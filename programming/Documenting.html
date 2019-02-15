@@ -1,0 +1,53 @@
+<h2>#1 - Bad</h2>
+<div>
+Fix the following code so that the function is correctly documented.
+</div>
+<pre><code>
+# Starting Code:
+def force_palindrome(a_word):
+'''
+This function creates a palindrome from a phrase by adding
+the reverse of the phrase to its end.
+
+Args:
+    a_word (str): Any string of text
+Returns:
+    str: a string twice as long with the reverse
+'''
+    return a_word + a_word[::-1]
+
+print(force_palindrome('AB'))
+</code></pre>
+<h2>#2 - Bad</h2>
+<div>
+Fix the following code so that the multiline comment does not crash the code.
+</div>
+<pre><code>
+# Starting Code:
+y = 7
+x = 3
+z = 2
+
+result = y ** x + z * x    ''' This code is pretty
+                               complicated. Basically,
+                               we do some math and that
+                               gives us the answer.'''
+print(result)
+</code></pre>
+<h2>#3 - Bad</h2>
+<div>
+Comment out all the <code>print</code> functions except the last one in the code below.
+</div>
+<pre><code>
+# Starting Code:
+print("First, we'll assign some variables.")
+name = "Klaus"
+title = "Dr."
+age = 17
+print("Then, we'll join the string variables together.")
+full_name = title + " " + name
+print("Next, we can join the name and age.")
+full_message = full_name + "'s age is " + str(age)
+print("Then we will print out the result.")
+print(full_message)
+</code></pre>

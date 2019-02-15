@@ -1,0 +1,54 @@
+<h2>#1 - Lower</h2>
+<div>
+The following message was originally shouting too loudly, and the author wants to have it quieter (by making it lowercase). However, it doesn't seem to be working. Fix the code so that variable's value is correctly lowered.
+</div>
+<pre><code>
+# Starting Code:
+message = "THE RENT IS TOO HIGH!"
+message.lower()
+print(message)
+</code></pre>
+<h2>#2 - Appending</h2>
+<div>
+The following lines of code are supposed to add elements to a list, one at a time. However, they do not seem to work correctly. Fix each line so that all elements are able to be appended one at a time.
+</div>
+<pre><code>
+# Starting Code:
+things = []
+things = things.append("Dogs")
+things = things.append("Cups")
+things = things.append("Cards")
+things = things.append("Petals")
+things = print(things)
+</code></pre>
+<h2>#3 - Repeat,</h2>
+<div>
+The following function <code>make_exclamations</code> is supposed to consume a list of messages and return a new list of messages with exclamations at the end (<code>"!"</code>). The function is defined and called twice, but as you can see, it seems to be returning the wrong value on subsequent runs. Diagnose the problem and fix the function's definition so that it returns the correct value each time.
+</div>
+<pre><code>
+# Starting Code:
+exclamations = []
+def make_exclamations(messages):
+    for message in messages:
+        exclamations.append(message + "!")
+    return exclamations
+print(make_exclamations(["Hi", "I'm Klaus"]))
+print(make_exclamations(["Woah", "Count these"]))
+</code></pre>
+<h2>#4 - Wrong</h2>
+<div>
+The function <code>get_front_of_weekdays</code> consumes a string representing a day of the week, and returns <code>"weekend"</code> if it is a Sunday or Saturday, or returns the day without the <code>"day"</code> part at the end. However, it does not seem to be returning the right values. Diagnose the issue and fix the function.
+</div>
+<pre><code>
+# Starting Code:
+
+def get_front_of_weekdays(day):
+    day.lower().replace("day", "")
+    if day in ["mon", "tues", "wed", "thurs", "fri"]:
+        return day
+    else:
+        return "weekend"
+print("Monday is", get_front_of_weekdays("Monday"))
+print("Sunday is", get_front_of_weekdays("Sunday"))
+print("Friday is", get_front_of_weekdays("Friday"))
+</code></pre>
