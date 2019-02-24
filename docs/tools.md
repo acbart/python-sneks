@@ -60,7 +60,7 @@ This is a beginner-friendly Python IDE (http://thonny.org/), and I would describ
 
 This course follows a blended model, which means that there is both a physical aspect to the class and a digital environment. This section describes the requirements for these environments.
 
-**Physical Environment: **The classroom has few specific requirements:
+**Physical Environment**: The classroom has few specific requirements:
 
 * The instructor should have some place to project slides.
 
