@@ -22,9 +22,9 @@ Installing Python is ultimately necessary in the course, but will be a bit of a 
 
 ## Spyder
 
-	Students need experience with a real programming environment. BlockPy is great for small structured activities, but not sufficient for larger projects. Further, working in a real editor is important for students to develop real-world expertise. Therefore, we use Spyder, because it comes packaged with Anaconda.
+Students need experience with a real programming environment. BlockPy is great for small structured activities, but not sufficient for larger projects. Further, working in a real editor is important for students to develop real-world expertise. Therefore, we use Spyder, because it comes packaged with Anaconda.
 
-	Spyder is a professional, Data Science oriented programming environment. Besides an integrated editor and console, it also has an integrated debugger and several other useful features. It can be somewhat cumbersome, but seems to be stable enough. However, as of 2018 it is being deprecated and will not be supported. Some reasonable alternatives to Spyder could be:
+Spyder is a professional, Data Science oriented programming environment. Besides an integrated editor and console, it also has an integrated debugger and several other useful features. It can be somewhat cumbersome, but seems to be stable enough. However, as of 2018 it is being deprecated and will not be supported. Some reasonable alternatives to Spyder could be:
 
 * Pycharm (a professional programming environment for Python on par with Eclipse or IntelliJ IDEA)
 
@@ -38,13 +38,13 @@ Installing Python is ultimately necessary in the course, but will be a bit of a 
 
 ## Jupyter Notebooks
 
-	Jupyter Notebooks is a professional tool for developing reports, popular in many data science and research communities. Jupyter allows you to embed code, the results of the code, and prose into one document. Afterwards, students can download an HTML representation of their document. BlockPy has support for grading Jupyter Notebooks. 
+Jupyter Notebooks is a professional tool for developing reports, popular in many data science and research communities. Jupyter allows you to embed code, the results of the code, and prose into one document. Afterwards, students can download an HTML representation of their document. BlockPy has support for grading Jupyter Notebooks. 
 
 JupyterLabs is a modern evolution of Jupyter Notebooks that features a more full featured programming environment. It could be investigated as a potential programming environment, although its sensibilities are more for document writing than system development.
 
 ## NotePad++/Sublime
 
-	In the first semester, students were not required to install any programmer-friendly text editors. Therefore, their operating system did not have any applications registered to open .PY files (or other special data files). Students would use various pieces of software (e.g., Word) to open documents, and would also get alarmed when they could not "see" their Python files. Therefore, we now have them install a modern text editor that registers with their files. We do not mandate a specific editor, but have a whitelist of acceptables ones. Most students are recommended to use NotePad++ on Windows and Sublime on Mac.
+In the first semester, students were not required to install any programmer-friendly text editors. Therefore, their operating system did not have any applications registered to open .PY files (or other special data files). Students would use various pieces of software (e.g., Word) to open documents, and would also get alarmed when they could not "see" their Python files. Therefore, we now have them install a modern text editor that registers with their files. We do not mandate a specific editor, but have a whitelist of acceptables ones. Most students are recommended to use NotePad++ on Windows and Sublime on Mac.
 
 ## PythonTutor
 
@@ -53,6 +53,8 @@ The online PythonTutor website (http://pythontutor.com/visualize.html) is a powe
 ## Thonny
 
 This is a beginner-friendly Python IDE (http://thonny.org/), and I would describe it as on-par with Spyder in terms of features. A major advantage it has over the PythonTutor is that it can step through expressions (as opposed to statements); a disadvantage is that it doesn't do the cool memory layout that PythonTutor does. During in-class demos and office hours, I have used both Thonny and the PythonTutor to highlight certain ideas. Thonny is in active development and seems to have some strong potential - I would recommend it as a potential replacement for Spyder.
+
+* Update: The latest versions of this course use Thonny instead of Spyder
 
 # Environment
 
