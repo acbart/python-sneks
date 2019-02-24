@@ -68,7 +68,7 @@ This course follows a blended model, which means that there is both a physical a
 
 * If possible, students should have enough proximity to turn and talk to each other during the peer instruction activities.
 
-**Digital Environment**: A modern LMS should be used to:
+**Digital Environment**: A modern LMS (e.g., Canvas, which is what we used) should be used to:
 
 * Distribute video lessons
 

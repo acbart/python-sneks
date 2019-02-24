@@ -105,4 +105,4 @@ The components are divided as such:
 </table>
 
 
-Graders can refer to the Ethics Guidelines in the Canvas Pages for more information about how to interpret the components at different levels.
+Graders can refer to the Ethics Guidelines for more information about how to interpret the components at different levels.

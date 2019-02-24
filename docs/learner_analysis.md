@@ -13,7 +13,7 @@ It is currently unclear how suitable this curriculum is for high school students
 Majors
 ------
 
-The material is heavily skewed towards STEM (particularly engineering) students. Less than 5% of the students from the Fall 2017 semester were in the arts or humanities. Assignments are geared towards STEM majors rather than Arts and Humanities, but is not meant to be discriminatory to those populations.
+The material is heavily skewed towards STEM (particularly engineering) students. Less than 5% of the students from the Fall 2017 semester were in the arts or humanities. Assignments are geared towards STEM majors rather than Arts and Humanities, but is not meant to be discriminatory to those populations. These were our numbers from one instance of the course.
 
 <table>
   <tr>
@@ -59,7 +59,7 @@ The class is designed to not cater to one gender, and seeks to support diversity
 Course Interest
 ---------------
 
-Students were surveyed on why they are taking the course. They were allowed to choose more than one option. Although many students are taking the class for a requirement, they have other interests in the material.
+Students were surveyed on why they are taking the course. They were allowed to choose more than one option. Although many students are taking the class for a requirement, they have other interests in the material. Your students may vary in their interests.
 
 <table>
   <tr>

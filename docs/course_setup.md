@@ -38,6 +38,6 @@ This section breaks down precisely what must be done each semester to get a new 
 
 - [ ] Enroll TAs in Staff Mailing List (e.g., through Google Groups)
 
-## 4 - Visit Classroom
+## 3 - Visit Classroom
 
 - [ ] Check out the physical room you'll be teaching in, to make sure it will work for your purposes.
