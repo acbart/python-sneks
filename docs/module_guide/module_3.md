@@ -1,19 +1,168 @@
 # Module 4 - Using Functions
-_Quick summary description_
+
+Creating simple functions.
 
 ### Before the week begins
 
 ### Major Topics
 
+* Stategies for debugging programs
+
+* Basic syntax and idea of creating functions. 
+
+* Reading and responding to unit tests
+
+* The difference between printing and returning
+
+* Interpreting function scope
+
 ### Materials
+
+* week3_day1_Functions.pptx
+
+* week3_day2_MoreFunctions.pptx
+
 
 ### Due This Week:
 
+* Module 2 quizzes and programming problems
+
+* Project 1
+
 ### Graded This Week
+
+* Python Installation Activity
 
 ### Student Difficulty
 
-## Module 4 - Staff Meeting
+???
+
+## Module 3 - Staff Meeting
+
+Note: Most TA training materials come directly from:
+
+    Luther A. Tychonievich (2017) Training Course for Teaching Assistants in Computing, <https://www.cs.virginia.edu/luther/ta-training>. Accessed 2019-02-25
+
+* Reminders:
+
+    * Python Installation activity must be graded this week
+
+    * First project is due this week (Turtle graphics)
+
+        * Grading is binary and simple - they either completed the instructions or did not. Common issues:
+
+            * Did not draw a black border? No points.
+
+            * Uploaded code as a screenshot? No points.
+
+            * Uploaded code in a word doc? No points.
+
+            * Drew a single line and gave up? No points.
+
+    * TA Feedback Report was due on Friday
+
+* Ethics Activity
+
+    * Read the assignment description
+
+    * Read the guide
+
+    * Prompt: Net Neutrality
+
+    * Demonstration of grading assignment through Canvas.
+
+        * ASSIGN POINTS THROUGH THE RUBRIC, NOT AT RANDOM
+
+* Project 2: Magical Banking
+
+    * Context: writing an app to approve or reject loans for a magical bank
+
+    * Need to integrate weird code from a grumpy co-worker, without touching it.
+
+    * Main goal is to learn about program flow and satisfying unit tests
+
+    * Write a function that calls several other functions, and also define those functions
+
+    * Each function is individually very simple, but the combination of all of them will be challenging for some students who have not incorporated these ideas.
+
+    * Difficulty level is higher than last project, hopefully around a 2-4 hour project for most students.
+
+    * Expect many students to ignore the unit tests
+
+    * Added problem: students will be using web-cat for the first time.
+
+    * You'll need to try it out and complete it yourselves
+
+    * Monday Class:
+
+        * Room organized into color groups using construction paper
+
+        * Start with brief lecture highlighting project components
+
+        * Students are encouraged to work together on handout assignment (function tables) and the first two functions (print_introduction and input_name)
+
+        * Also have a reference sheet with info about reading output diffs
+
+        * Your role: mark down who completed the assignment (you'll have a spreadsheet of names), make sure they have completed it correctly -> simpler if they work together and you can grade multiple at the same time.
+
+        * Answer questions, but try to answer groups instead of individuals - steer people towards their peers
+
+        * Each TA will have their own color that they're responsible for (about 20-30 students each). One TA will be a Meta TA walking around helping out as needed
+
+        * Goal: get them started on the project, via fostering community
+
+* Looking forward:
+
+    * Documenting - Writing comments and multi-line comments
+
+    * Function Development - creating more complex functions, particularly by extracting repeated code
+
+    * Data Flow - seeing how values flow through a program
+
+* TA Training: Problem Students I
+
+    * "You are a Teaching assistant, not a Passing assistant".
+
+    * 3.1 Students who want the answer, not learning
+
+        * Ask questions
+
+        * Solve in a different context
+
+        * Make them do something before going on
+
+        * Look at them, not the computer
+
+        * Say "no"
+
+        * Avoid becoming an oracle
+
+        * https://www.cs.virginia.edu/luther/ta-training/students.html#students-who-want-the-answer-not-learning
+
+    * 3.2 Students whose question is answered in the assignment writeup
+
+        * Ask them "Please go to the assignment writeup. Read it aloud to me."
+
+        * https://www.cs.virginia.edu/luther/ta-training/students.html#students-whose-question-is-answered-in-the-assignment-writeup
+
+    * 3.3 Students who insist on doing it the wrong way
+
+        * Neither force nor ignore
+
+        * Give them a choice, "I can provide excellent help with a better approach, or vague help with your current approach."
+
+        * https://www.cs.virginia.edu/luther/ta-training/students.html#students-who-insist-on-doing-it-the-wrong-way
+
+    * 3.5 Students who seem not to have attended class or read the textbook
+
+        * If you have tons of time, you can teach them
+
+        * But otherwise, redirect them to the course resources (book, slides, google)
+
+        * If they refuse, then you can refuse to help them.
+
+        * https://www.cs.virginia.edu/luther/ta-training/students.html#students-who-seem-not-to-have-attended-class-or-read-the-textbook
+
 
 ## Lessons
 

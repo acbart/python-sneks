@@ -1,19 +1,82 @@
-# Module 1 - Getting Started
-_Quick summary description_
+# Module 0 - Getting Started
+
+A gentle orientation to the basic ideas of a program, plus the format of the course, help-seeking behavior, and how to be an effective learner.
 
 ### Before the week begins
 
+* Read over this document
+* Check out your classroom to make sure it fits the requirements
+
 ### Major Topics
+
+* Basics of programs, programming, programming languages, and computing in general
+
+* Basic idea of execution
+
+* How to be a good learner (working early/often, misconceptions about learning CS like learning styles)
+
+* Help-seeking behavior (i.e. how to ask for help)
+
+* Installation of Anaconda and a Text Editor locally
+
+* Trying out BlockPy
 
 ### Materials
 
+* week0_day1_Introduction.pptx
+* week0_day2_Python.pptx
+
 ### Due This Week:
+
+N/A
 
 ### Graded This Week
 
+N/A
+
 ### Student Difficulty
 
-## Module 1 - Staff Meeting
+Easy
+
+## Module 0 - Staff Meeting
+
+Agenda:
+
+* Everyone introduce (name, section, prof/GTA/UTA, year, major)
+
+    * "I'm Dr. Bart, I'm the professor of the MWF section, this is my second year teaching, and I'm a professor in Computer Science"
+
+* Resolve practical questions
+
+* Assign TA homework
+
+* Review course format (refer to the first chapter of this document)
+
+    * How modules work, how lessons work
+
+* Review course topics (refer to the first chapter of this document)
+
+* Explain TA policies (refer to policy document on Google Drive)
+
+* First activity for grading "Python Installation"
+
+Things to Resolve:
+
+* Who's attending which class
+
+Training Materials:
+
+* For now, think about what makes a good or bad TA, write some things down.
+
+* Next week, we'll start talking about Ethics in TAing.
+
+* Read over: http://www.cs.virginia.edu/luther/2910/S2017/fromTAs.html
+
+
+Grading Reminders:
+
+* N/A
+
 
 ## Lessons
 

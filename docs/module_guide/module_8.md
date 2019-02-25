@@ -1,4 +1,4 @@
-# Module 9 - Data Structures
+# Module 8 - Data Structures
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 9 - Staff Meeting
+## Module 8 - Staff Meeting
 
 ## Lessons
 

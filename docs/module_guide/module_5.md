@@ -1,4 +1,4 @@
-# Module 6 - For Loops
+# Module 5 - For Loops
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 6 - Staff Meeting
+## Module 5 - Staff Meeting
 
 ## Lessons
 

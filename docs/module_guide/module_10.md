@@ -1,4 +1,4 @@
-# Module 11 - Data Science
+# Module 10 - Data Science
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 11 - Staff Meeting
+## Module 10 - Staff Meeting
 
 ## Lessons
 

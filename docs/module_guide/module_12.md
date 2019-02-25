@@ -1,4 +1,4 @@
-# Module 13 - Review
+# Module 12 - Review
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 13 - Staff Meeting
+## Module 12 - Staff Meeting
 
 ## Lessons
 

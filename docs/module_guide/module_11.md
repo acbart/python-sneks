@@ -1,4 +1,4 @@
-# Module 12 - Project
+# Module 11 - Project
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 12 - Staff Meeting
+## Module 11 - Staff Meeting
 
 ## Lessons
 

@@ -1,4 +1,4 @@
-# Module 8 - Dictionaries
+# Module 7 - Dictionaries
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 8 - Staff Meeting
+## Module 7 - Staff Meeting
 
 ## Lessons
 

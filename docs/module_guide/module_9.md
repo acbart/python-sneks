@@ -1,4 +1,4 @@
-# Module 10 - Files
+# Module 9 - Files
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 10 - Staff Meeting
+## Module 9 - Staff Meeting
 
 ## Lessons
 

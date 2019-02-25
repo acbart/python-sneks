@@ -1,4 +1,4 @@
-# Module 7 - More Looping
+# Module 6 - More Looping
 _Quick summary description_
 
 ### Before the week begins
@@ -13,7 +13,7 @@ _Quick summary description_
 
 ### Student Difficulty
 
-## Module 7 - Staff Meeting
+## Module 6 - Staff Meeting
 
 ## Lessons
 

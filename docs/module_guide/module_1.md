@@ -1,19 +1,117 @@
-# Module 2 - Basics Primitives
-_Quick summary description_
+# Module 1 - Basics Primitives
+
+Basic ideas of types, values, arithmetic and logical operators, sequential execution, variables, and assignment statements.
 
 ### Before the week begins
 
+* Print out consent forms
+* Finalize office hours
+
 ### Major Topics
+
+* Basic values in Python (integers, floats, booleans, strings, and None)
+* Idea of types
+* Basic math operators (+, -, /, *, ** ,%)
+* Basic comparison operators (<=, >=, <, >, ==, !=)
+* Basic logic operators (and, or, not)
+* Creating/using variables
+* Statements vs. expressions
+* Tracing
 
 ### Materials
 
+* week1_day1_Values.pptx
+* week1_day2_Variables.pptx
+
 ### Due This Week:
+
+* Module 0 quizzes and programming problems
+* Survey 0
 
 ### Graded This Week
 
+N/A
+
 ### Student Difficulty
 
-## Module 2 - Staff Meeting
+* Low - few questions asked in class
+
+## Module 1 - Staff Meeting
+
+Agenda:
+
+* TA Training
+
+    * Discussion of "What not to do"
+
+    * Working on a whiteboard, make a list of "what makes a good/bad TA"
+
+* Resolve practical questions
+
+* First activity for grading "Python Installation"
+
+    * Simple binary grading: from the screenshot, do you believe that they have Spyder and a programmer-friendly editor installed?
+
+    * Your grading assignment will be released on Saturday morning
+
+    * You will have until Feb 9 to return all the grades
+
+    * Expectation: should take less than 30 minutes
+
+* Looking forward:
+
+    * Reading error messages (stack traces)
+
+    * More about strings (quoting character, multiline strings)
+
+    * String operations (indexing, subscripting)
+
+    * Calling String methods (calling methods, e.g., title, upper, strip, find)
+
+    * Calling functions (e.g., int, float, round)
+
+    * First project: Turtle Art (make a picture in turtle graphics, be familiar with the API)
+
+Things to Resolve:
+
+* In-class procedures
+
+    * Material starts relatively easy, but does escalate
+
+    * First and foremost, pay attention for student questions
+
+    * Keep talking between TAs to a reasonable minimum
+
+    * Please sit throughout the room
+
+* TA Project 1 submissions are due before the next Staff Meeting
+
+* Feedback reports are due next week
+
+Training Materials:
+
+* Equity of Access
+
+    * Only TA when on the clock
+
+    * Handling raised hands
+
+    * Equity reviews
+
+* Conflict of Interest
+
+* FERPA
+
+* Mandatory Reporting
+
+* "Some parts of TAing you learn by doing; we'll do our best to prepare you, but you won't understand the full implications until you have seen what we're talking about first-hand."
+
+* Next week: Basic Learning Sciences
+
+
+Grading Reminders:
+
+N/A
 
 ## Lessons
 
