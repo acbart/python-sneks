@@ -38,7 +38,11 @@
 
     <div class="wrapper">
       <nav>
-        <ul></ul>
+        <ul>
+          <li class="{% if "index.html" == page.url %}active{% endif %}">
+            <a href="index.html">Index</a>
+          </li>
+        </ul>
       </nav>
       <section>
         {{ content }}
