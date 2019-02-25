@@ -17,7 +17,7 @@
   <body>
 
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
 
@@ -41,7 +41,7 @@
         <ul>
           {% if page.url != "/" %}
           <li>
-            <a href="/index.html">Return to Index</a>
+            <a href="/">Return to Index</a>
           </li>
           {% endif %}
         </ul>
