@@ -39,9 +39,11 @@
     <div class="wrapper">
       <nav>
         <ul>
-          <li class="{% if "index.html" == page.url %}active{% endif %}">
-            <a href="index.html">Index</a>
+          {% if page.url != "/" %}
+          <li>
+            <a href="/index.html">Return to Index</a>
           </li>
+          {% endif %}
         </ul>
       </nav>
       <section>
