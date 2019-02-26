@@ -164,7 +164,7 @@ intervention was conducted.
 1) The instructor gave an overview of the project in a lecture hall of 200+ students.
 2) The class was divided into 8 sections using colored pieces of constrution paper, each explicitly managed by a designated TA.
 
-![Layout of students in large lecture hall](images/ssg_layout.png)
+![Layout of students in large lecture hall](sigcse/ssg_layout.png)
 
 3) Within each section, students were encouraged to organically form small groups (pairs and triples), with TAs told to help groups and not individuals.
 4) Students then worked together to answer questions on a paper worksheet about the upcoming project.
@@ -183,7 +183,7 @@ to the prior semester, but did not feel significantly
 more prepared to begin the project. There was a significant but
 moderate Spearman Rank Correlation of .41 between these metrics.
 
-![Results from Survey](images/ssg_results.png)
+![Results from Survey](sigcse/ssg_results.png)
 
 **Conclusions**: Although working with others did make a majority of
 students feel more prepared to start the project, the increased
