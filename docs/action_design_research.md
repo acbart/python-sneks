@@ -36,28 +36,27 @@ Some semi-processed results are available in a [Jupyter Notebook on our GitHub](
 
 **Problem**: Students struggle with difficult programming problems. In particular, a set of problems were selected after the first iteration of the course (Fall 2017) as particularly challenging for students. We initially sorted questions based on their completion rate, and then manually selected a sample from the semester.
 
-Theory: Worked Examples are examples of similar problems, consisting of a "problem formulation, solution steps, and the final answer itself" [25].
+**Theory**: Worked Examples are examples of similar problems, consisting of a "problem formulation, solution steps, and the final answer itself" [25]. Prior work suggests providing Worked Examples with clear subgoal labels could help students deconstruct problems and improve performance [16, 20].
 
-Prior work suggests providing Worked Examples with clear subgoal labels could help students deconstruct problems and improve performance [16, 20].
+**Hypothesis**: Providing high quality Worked Examples could help students complete more problems faster and with less stress.
 
-Hypothesis: Providing high quality Worked Examples could help students complete more problems faster and with less stress.
+**Research Questions**:
 
-Research Questions:
-(1) Do students take advantage of Worked Examples?
-(2) Do Worked Examples improve performance?
-(3) Do students find Worked Examples helpful?
+1. Do students take advantage of Worked Examples?
+2. Do Worked Examples improve performance?
+3. Do students find Worked Examples helpful?
 
-Intervention: In the second course offering, 8 problems were
+**Intervention**: In the second course offering, 8 problems were
 selected as the hardest (based on the metric that it took students
 longer than average). Worked Examples were created for each
 problem and made available to students in the problem prompt.
 
-Data Collection: Quantitative Data was collected via exercise
+**Data Collection**: Quantitative Data was collected via exercise
 completion rates and student interaction in the coding platform.
 Qualitative Data was collected via a survey on student opinion and
 usage of Worked Examples.
 
-Results: Usage of the Worked Examples varied between problems, but roughly 42% of students took advantage of them. Surprisingly, students who took advantage of Worked Examples complete
+**Results**: Usage of the Worked Examples varied between problems, but roughly 42% of students took advantage of them. Surprisingly, students who took advantage of Worked Examples complete
 problems at roughly the same rate as those who did not. Students
 who used WEs actually took significantly more time to complete
 problems; focusing on students with no prior experience, we see
@@ -65,11 +64,11 @@ those that used the WE actually took over twice the time as those
 who did not. However, almost 64% of students found the WEs to be
 helpful to their learning, with only 18% explicitly disagreeing.
 
-Conclusion: The Worked Examples seemed to have minimal
+**Conclusion**: The Worked Examples seemed to have minimal
 effect on the completion rate of problems, and possibly even negatively affected students by slowing them down, even though many
 students used them and found them helpful.
 
-Limitations:
+**Limitations**:
 
 1. All problems had high completion rates (80-90%) even before introducing Worked Examples.
 2. The nonrandom assignment of students in the treatment could hide a more positive effect size.
