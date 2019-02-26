@@ -2,6 +2,12 @@
 
 An introductory curriculum for learning Python, built following Instructional Design principles. The materials of the course are meant to be open-source and evaluated, in the hopes of establishing a baseline introductory level course. The target audience is explicitly undergraduate students in a university setting who are not computing majors, but are in STEM.
 
+# SIGCSE Links
+
+* Field Guide
+* Curriculum Materials Packaging BoF
+* Action Design Research
+
 # Field Guide Outline
 
 1. [Course Overview](guide_overview.md)
@@ -17,6 +23,7 @@ An introductory curriculum for learning Python, built following Instructional De
 
 1. [Course Explanations](course_explanations.md)
 2. [Alternative Courses](alternatives.md)
+3. [Action Design Research](action_design_research.md)
 
 # Curriculum Materials
 
