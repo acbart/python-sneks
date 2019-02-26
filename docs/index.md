@@ -5,6 +5,7 @@ An introductory curriculum for learning Python, built following Instructional De
 # SIGCSE Links
 
 * [Field Guide](#field-guide-outline)
+* [GitHub Repo of Materials](https://github.com/acbart/python-sneks)
 * [Canvas Site](https://canvas.instructure.com/courses/1380806)
 * [Presentation Slides](sigcse/sigcse19-python-sneks.pdf)
 * [Curriculum Materials Packaging BoF](https://cssplice-cm.github.io)
