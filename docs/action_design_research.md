@@ -34,9 +34,11 @@ Some semi-processed results are available in a [Jupyter Notebook on our GitHub](
 
 # Worked Examples
 
-**Problem**: Students struggle with difficult programming problems. In particular, a set of problems were selected after the first iteration of the course (Fall 2017) as particularly challenging for students. We initially sorted questions based on their completion rate, and then manually selected a sample from the semester.
+The second experiment was conducted by Michael Friend.
 
-**Theory**: Worked Examples are examples of similar problems, consisting of a "problem formulation, solution steps, and the final answer itself" [25]. Prior work suggests providing Worked Examples with clear subgoal labels could help students deconstruct problems and improve performance [16, 20].
+**Problem**: Students struggle with difficult programming problems, spending a fair amount of time/energy and requiring external help to overcome them. 
+
+**Theory**: Worked Examples are examples of similar problems, consisting of a "problem formulation, solution steps, and the final answer itself" ([Skudder and Luxton-Reilly '14](https://dl.acm.org/citation.cfm?id=2667497)). Prior work suggests providing Worked Examples with clear subgoal labels could help students deconstruct problems and improve performance ([Margulieux and Catrambone '14](https://dl.acm.org/citation.cfm?id=2567853), [Morrison et al '15](https://dl.acm.org/citation.cfm?id=2787733)).
 
 **Hypothesis**: Providing high quality Worked Examples could help students complete more problems faster and with less stress.
 
@@ -48,25 +50,75 @@ Some semi-processed results are available in a [Jupyter Notebook on our GitHub](
 
 **Intervention**: In the second course offering, 8 problems were
 selected as the hardest (based on the metric that it took students
-longer than average). Worked Examples were created for each
-problem and made available to students in the problem prompt.
+longer than average) out of the 188 that we were using that semester. Worked
+Examples were created for each problem and made available to students in
+the problem prompt.
+
+|  | Prior Experience | No Prior Experience | Total |
+|-------------|------------------|---------------------|-------|
+| Fall 2017 | 240 | 41 | 281 |
+| Spring 2018 | 197 | 43 | 240 |
+| Total | 437 | 84 |  |
+
+Students had infinite tries over two weeks for each assignment.
+They completed the problems in the BlockPy programming environment.
+Worked Examples were provided through a separate HTML page that tracked
+user behavior.
+
+**Examples**: Here are some examples of our Worked Examples.
+
+* [WE 10- Grade Lookup](https://think.cs.vt.edu/worked_examples/load?filename=10_grade_lookup.html&assignment_id=)
+* [WE 11- Heads or Tails](https://think.cs.vt.edu/worked_examples/load?filename=11HeadsOrTails.html&assignment_id=)
+* [WE 12- Check Average](https://think.cs.vt.edu/worked_examples/load?filename=12CheckAverage.html&assignment_id=)
 
 **Data Collection**: Quantitative Data was collected via exercise
 completion rates and student interaction in the coding platform.
 Qualitative Data was collected via a survey on student opinion and
 usage of Worked Examples.
 
-**Results**: Usage of the Worked Examples varied between problems, but roughly 42% of students took advantage of them. Surprisingly, students who took advantage of Worked Examples complete
-problems at roughly the same rate as those who did not. Students
-who used WEs actually took significantly more time to complete
-problems; focusing on students with no prior experience, we see
-those that used the WE actually took over twice the time as those
-who did not. However, almost 64% of students found the WEs to be
-helpful to their learning, with only 18% explicitly disagreeing.
+**Results**: 
+
+64% of students found the Worked examples helpful, with only 18% explicitly disagreeing.
+
+|  | Prior Experience | No Prior Experience | Total |
+|-------------|------------------|---------------------|-------|
+| Fall 2017 | 108 | 29 | 137 |
+| Spring 2018 | 66 | 12 | 78 |
+| Total | 174 | 41 |  |
+
+The addition of Worked Examples provided little to no gain on completion of hard problems
+
+![Completion Rates over Time](sigcse/we_completion_rate.png)
+
+Measured usage of WE varied widely by problem, with an average around 50% of students at least opening them.
+
+
+| Problem | Percent Usage |
+|---------|---------------|
+| Cube Elements | 29.4% |
+| Default Name | 54.7% |
+| Word Frequency | 59.0% |
+| Adding Up | 33.3% |
+| Plus or Minus | 60.1% |
+| Fix Names | 60.5% |
+| File Size | 41.2% |
+
+Students who used WEs actually completed the problem in more runs/time than those that didn't.
+
+|  | Used WEs? | Prior Experience? | Mean Number of Runs | StdDev | Mean Time on Task (sec.) | StdDev |
+|-----------------------|-----------|-------------------|---------------------|--------|--------------------------|--------|
+| Fall 2017 | False | False | 19.5 | 23.3 | 574 | 478 |
+|  |  | True | 13.8 | 20.1 | 415 | 393 |
+| Spring 2018 (Used WE) | False | False | 7.3 | 7.8 | 311 | 191 |
+|  |  | True | 6.6 | 8.3 | 274 | 238 |
+| Spring 2018 (No WEs) | True | False | 19.1 | 18.0 | 727 | 476 |
+|  |  | True | 17.4 | 19.5 | 707 | 501 |
+
+Focusing on the values for S18 students with no prior experience, we see those that used the WE actually took over twice the time and runs as those who didn't. 
+A Cohen's D test gives a large effect size for both measures (p=0.8, p=1.1).
 
 **Conclusion**: The Worked Examples seemed to have minimal
-effect on the completion rate of problems, and possibly even negatively affected students by slowing them down, even though many
-students used them and found them helpful.
+effect on the completion rate of problems, and possibly even negatively affected students by slowing them down, even though many students used them and found them helpful.
 
 **Limitations**:
 
@@ -75,4 +127,4 @@ students used them and found them helpful.
 3. It is possible that our WEs were more like tutorials than WEs
 4. It is possible that the benefits of the WEs would have been pronounced on subsequent attempts at related problems.
 
-Some semi-processed results are available in some [Jupyter Notebooks and a poster on our GitHub](https://github.com/acbart/python-sneks/tree/master/evaluations/michael-worked-examples).
+**Raw Data**: Some semi-processed results are available in some [Jupyter Notebooks and a poster on our GitHub](https://github.com/acbart/python-sneks/tree/master/evaluations/michael-worked-examples).
