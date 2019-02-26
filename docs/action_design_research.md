@@ -55,7 +55,10 @@ The first experiment was conducted by Michael Friend.
 selected as the hardest (based on the metric that it took students
 longer than average) out of the 188 that we were using that semester. Worked
 Examples were created for each problem and made available to students in
-the problem prompt.
+the problem prompt (via a short message and a link, to the effect of "Here is an example that may help"). 
+The Worked Examples were developed by Michael and edited by
+Dr. Bart, but no further tests or iterations were conducted on them before
+they were presented to students with only limited explanation.
 
 |  | Prior Experience | No Prior Experience | Total |
 |-------------|------------------|---------------------|-------|
