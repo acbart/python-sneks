@@ -26,6 +26,13 @@ we could fit in the original 6 pages. Due to time concerns, they were not
 described in depth in the SIGCSE presentation. Although hardly ideal, we felt
 that this was a better compromise than letting the results not be published.
 
+*Note*: Both experiments were run by undergraduate Computer Science majors completing
+Independent Studies with Dr. Bart. We hope you will take this under consideration
+when evaluating the results. We do not offer conclusive experimental results, but
+are largely sharing the experiences of conducting these interventions. Nothing is
+proven with our work, but we felt it was better to share our data as much as
+possible rather than just not report results we didn't like.
+
 # Structured Small Groups
 
 
