@@ -1,7 +1,7 @@
-# Action Design Research
+# Interventions Report
 
 In the 2019 SIGCSE paper about the Python Sneks curriculum, two experiments were
-briefly described. These experiments followed a model of Action Design Research.
+briefly described. These experiments followed a model of ~~Action Design~~ Design-Based Research\*.
 
 > Educational research is frequently confounded by the rapidly changing target
 > space and variability between semesters, frustrating efforts to control
@@ -20,6 +20,9 @@ briefly described. These experiments followed a model of Action Design Research.
 > the impact. Therefore, the interventions presented in this section
 > should be taken with the caveat that the studies are static-group
 > comparison designs, and understood for their limitations.
+
+\*Although the original paper uses the term Action Design Research, it might be
+more accurate to use the term Design-Based Research.
 
 On this page, I have attempted to describe the experiments with more depth than
 we could fit in the original 6 pages. Due to time concerns, they were not
@@ -123,8 +126,7 @@ Students who used WEs actually completed the problem in more runs/time than thos
 Focusing on the values for S18 students with no prior experience, we see those that used the WE actually took over twice the time and runs as those who didn't. 
 A Cohen's D test gives a large effect size for both measures (p=0.8, p=1.1).
 
-**Conclusion**: The Worked Examples seemed to have minimal
-effect on the completion rate of problems, and possibly even negatively affected students by slowing them down, even though many students used them and found them helpful.
+**Conclusion**: The Worked Examples did not seem to lead to improvement on completion rate, although students did report finding them helpful.
 
 **Limitations**:
 
