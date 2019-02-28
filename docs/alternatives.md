@@ -103,7 +103,7 @@ FreePythonBook
 
 Automate the Boring Stuff
 -----------------
-* Link: [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/_
+* Link: [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/)
 
 Coding Platforms
 ================
