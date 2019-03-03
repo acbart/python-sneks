@@ -101,6 +101,10 @@ FreePythonBook
 * Link: [http://webapps.western.edu/faculty/dschuster/freePythonBook/indexFPB.htm](http://webapps.western.edu/faculty/dschuster/freePythonBook/indexFPB.htm)
 * Introduction to python using game dev. They have their own library that sits on top of pygame.
 
+Automate the Boring Stuff
+-----------------
+* Link: [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/)
+
 Coding Platforms
 ================
 
