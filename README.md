@@ -41,6 +41,7 @@ A number of people have been involved and should be recognized:
 
 * Cory Bart is the project leader - he made a lot of stuff and is very tired.
 * Larry Cox is the instructional designer and has been invaluable for both curriculum development, paper writing, and project planning.
+* Eleonor Bart for her time testing, proofing, and designing curricular materials.
 * Allie Sarver was an undergraduate research assistant and did some awesome research on how we used peer learning in the course.
 * Michael Friend was an undergraduate research assistant and did some awesome research on the effect of worked examples on student learning.
 * Panagiotis Apostolellis taught with the curriculum in Spring 2018, giving both valuable feedback and BEAUTIFUL slides.
