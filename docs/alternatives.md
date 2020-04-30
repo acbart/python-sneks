@@ -4,6 +4,12 @@ This document covers alternative courses.
 CS1
 ===
 
+PythonSneks
+-----------
+
+* Link: [https://acbart.github.io/python-sneks/](https://acbart.github.io/python-sneks/)
+* Not actually an alternative, this is me!
+
 CMU 15-112
 ----------
 
